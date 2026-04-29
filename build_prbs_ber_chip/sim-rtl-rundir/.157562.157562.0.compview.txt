@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1776465108.778226756, "rt":0.28, "ut":0.08, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1776465108.262023374}
+{"VCS_COMP_START_TIME": 1776465108.262023374}
+{"VCS_COMP_END_TIME": 1776465109.119330500}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv -debug_access+all -kdb -top prbs_ber_chip_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_chip_top_tb.sv"}
+{"vcs1": {"peak_mem": 557340}}

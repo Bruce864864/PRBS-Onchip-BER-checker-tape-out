@@ -1,0 +1,3 @@
+export CADENCE_HOME="/w/apps4/Cadence"
+export CDS_LIC_FILE="5281@lm-cadence.seas.ucla.edu"
+export GENUS_BIN="/w/apps4/Cadence/GENUS211/bin/genus"

@@ -1,0 +1,21 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr  8 17:10 2026
+[129000] PASS  (prbs7_loopback_no_error): error_count=0 total_count=20
+[137000] PASS  (clear_after_prbs7): error_count=0 total_count=0
+[241000] PASS  (prbs7_one_error): error_count=1 total_count=20
+[249000] PASS  (clear_before_prbs15): error_count=0 total_count=0
+[353000] PASS  (prbs15_loopback_no_error): error_count=0 total_count=20
+[361000] PASS  (clear_after_prbs15): error_count=0 total_count=0
+[465000] PASS  (prbs15_one_error): error_count=1 total_count=20
+========================================
+TEST PASSED: all BER checker baseline checks succeeded.
+========================================
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/ber_checker_top_tb.sv", line 219.
+$finish at simulation time               465000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 465000 ps
+CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
+Wed Apr  8 17:10:15 2026

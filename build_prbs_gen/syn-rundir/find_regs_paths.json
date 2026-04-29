@@ -1,0 +1,98 @@
+[
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[0]",
+    "pin": "QN"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs7_top/u_prbs_core/\\lfsr_q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[0]",
+    "pin": "QN"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs15_top/u_prbs15_core/\\lfsr_q_reg[14]",
+    "pin": "Q"
+  }
+]

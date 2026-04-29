@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/formal-syn-rundir
+source enter
+$CONFORMAL_BIN -restart_checkpoint latest -dofile /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/formal-syn-rundir/generated-scripts/open_checkpoint.tcl

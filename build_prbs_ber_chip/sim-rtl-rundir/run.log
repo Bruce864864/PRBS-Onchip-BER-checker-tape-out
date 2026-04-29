@@ -1,0 +1,46 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr 17 17:47 2026
+[159000] PASS  (prbs7_internal_no_error_busy_after_done): got=0
+[159000] PASS  (prbs7_internal_no_error_done_after_done): got=1
+[164000] PASS  (prbs7_internal_no_error_total_count): got=20
+[172000] PASS  (prbs7_internal_no_error_error_count): got=0
+[283000] PASS  (restart_after_done_busy_after_done): got=0
+[283000] PASS  (restart_after_done_done_after_done): got=1
+[288000] PASS  (restart_after_done_total_count): got=20
+[296000] PASS  (restart_after_done_error_count): got=0
+[431000] PASS  (prbs7_internal_inject_error_busy_after_done): got=0
+[431000] PASS  (prbs7_internal_inject_error_done_after_done): got=1
+[436000] PASS  (prbs7_internal_inject_error_total_count): got=20
+[444000] PASS  (prbs7_internal_inject_error_error_count): got=20
+[579000] PASS  (prbs15_internal_no_error_busy_after_done): got=0
+[579000] PASS  (prbs15_internal_no_error_done_after_done): got=1
+[584000] PASS  (prbs15_internal_no_error_total_count): got=20
+[592000] PASS  (prbs15_internal_no_error_error_count): got=0
+[679000] PASS  (continuous_mode_busy_before_stop): got=1
+[679000] PASS  (continuous_mode_done_before_stop): got=0
+[684000] PASS  (continuous_mode_total_nonzero_before_stop): total_count=11
+[695000] PASS  (continuous_mode_busy_after_stop): got=0
+[695000] PASS  (continuous_mode_done_after_stop): got=1
+[835000] PASS  (external_input_match_ref_busy_after_done): got=0
+[835000] PASS  (external_input_match_ref_done_after_done): got=1
+[840000] PASS  (external_input_match_ref_total_count): got=20
+[848000] PASS  (external_input_match_ref_error_count): got=0
+[928000] PASS  (manual_clear_midrun_total_nonzero_before_clear): total_count=7
+[939000] PASS  (manual_clear_midrun_busy_after_stop_pre_clear): got=0
+[939000] PASS  (manual_clear_midrun_done_after_stop_pre_clear): got=1
+[960000] PASS  (manual_clear_midrun_total_count_zero): got=0
+[968000] PASS  (manual_clear_midrun_error_count_zero): got=0
+[968000] PASS  (manual_clear_midrun_busy_after_stop): got=0
+[968000] PASS  (manual_clear_midrun_done_after_stop): got=1
+========================================
+TEST PASSED: prbs_ber_chip_top extended tests passed.
+========================================
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_chip_top_tb.sv", line 417.
+$finish at simulation time               968000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 968000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Fri Apr 17 17:47:33 2026

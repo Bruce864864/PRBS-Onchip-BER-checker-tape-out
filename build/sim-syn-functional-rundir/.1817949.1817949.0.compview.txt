@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1775073142.239015459, "rt":2.12, "ut":0.77, "st":0.22}}
+{"vcselab":{"timestamp_begin":1775073144.433917983, "rt":0.45, "ut":0.21, "st":0.07}}
+{"link":{"timestamp_begin":1775073144.941480760, "rt":0.50, "ut":0.15, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1775073141.678913926}
+{"VCS_COMP_START_TIME": 1775073141.678913926}
+{"VCS_COMP_END_TIME": 1775073145.906446093}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-syn-functional-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-syn-functional-rundir/simv -debug_access+all -kdb -top prbs_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/prbs_top.mapped.v /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_top_tb.sv /w/class.1/ee/ee209b/ee209bta/TSMC180PDK/Standard_Cells_and_IO/180_G_Standard_Cell/core_cell_library/core_cell_library/7-track/tcb018gbwp7t_290a/TSMCHOME/digital/Front_End/verilog/tcb018gbwp7t_270a/tcb018gbwp7t.v +define+FUNCTIONAL +define+UNIT_DELAY +nospecify +notimingchecks"}
+{"vcs1": {"peak_mem": 557164}}
+{"vcselab": {"peak_mem": 259328}}

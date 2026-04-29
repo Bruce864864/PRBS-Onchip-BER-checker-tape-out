@@ -1,0 +1,16 @@
+{
+    "vlsi.builtins.is_complete": false,
+    "synthesis.outputs.output_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/prbs_top.mapped.v"
+    ],
+    "synthesis.inputs.input_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv"
+    ],
+    "synthesis.inputs.top_module": "prbs_top",
+    "synthesis.outputs.sdc": "/w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/prbs_top.mapped.sdc",
+    "synthesis.outputs.seq_cells": "/w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/find_regs_cells.json",
+    "synthesis.outputs.all_regs": "/w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/find_regs_paths.json",
+    "synthesis.outputs.sdf_file": "/w/home.09/home/liyuyao864/ee209/prbs_project/build/syn-rundir/prbs_top.mapped.sdf"
+}

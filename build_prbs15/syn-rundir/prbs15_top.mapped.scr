@@ -1,0 +1,356 @@
+######################################################################
+
+# Created by Genus(TM) Synthesis Solution 21.19-s055_1 on Wed Apr 01 13:49:15 PDT 2026
+
+# This file contains the Genus script for design:prbs15_top
+
+######################################################################
+
+set_db -quiet hdl_unconnected_value none
+set_db -quiet design_mode_process 230.0
+set_db -quiet phys_assume_met_fill 0.0
+set_db -quiet map_placed_for_route_early_global false
+set_db -quiet phys_use_invs_extraction true
+set_db -quiet phys_route_time_out 120.0
+set_db -quiet db_units 2000
+set_db -quiet capacitance_per_unit_length_mmmc {}
+set_db -quiet resistance_per_unit_length_mmmc {}
+set_db -quiet lp_insert_clock_gating true
+set_db -quiet runtime_by_stage {{PBS_Generic-Start 0 19 0.0 28.0} {to_generic 2 21 1 29} {first_condense 0 21 0 30} {PBS_Generic_Opt-Post 2 21 1.9746349999999993 29.974635} {{PBS_Generic-Postgen HBO Optimizations} 0 21 0.0 29.974635} {PBS_TechMap-Start 0 22 0.0 30.974635} {{PBS_TechMap-Premap HBO Optimizations} 0 23 0.0 30.974635} {second_condense 0 23 0 31} {reify 0 23 0 32} {global_incr_map 0 23 0 32} {{PBS_Techmap-Global Mapping} 0 23 0.9604880000000016 31.935123} {{PBS_TechMap-Datapath Postmap Operations} 1 24 0.9999999999999964 32.935123} {{PBS_TechMap-Postmap HBO Optimizations} 0 24 -0.000256000000000256 32.934867} {{PBS_TechMap-Postmap Clock Gating} 0 24 0.0 32.934867} {{PBS_TechMap-Postmap Cleanup} 1 25 0.999760000000002 33.934627} {PBS_Techmap-Post_MBCI 0 25 0.0 33.934627}}
+set_db -quiet timing_adjust_tns_of_complex_flops false
+set_db -quiet hdl_error_on_blackbox true
+set_db -quiet tinfo_tstamp_file .rs_liyuyao864.tstamp
+set_db -quiet metric_enable true
+set_db -quiet max_cpus_per_server 4
+set_db -quiet lp_clock_gating_prefix CLKGATE
+set_db -quiet lp_clock_gating_hierarchical true
+set_db -quiet lp_insert_clock_gating_incremental true
+set_db -quiet lp_clock_gating_register_aware true
+set_db -quiet use_area_from_lef true
+set_db -quiet flow_metrics_snapshot_uuid fb68ef52-fbb9-45c7-8e12-a8d9b3d76690
+set_db -quiet read_qrc_tech_file_rc_corner true
+set_db -quiet auto_ungroup none
+set_db -quiet use_tiehilo_for_const duplicate
+if {[vfind design:prbs15_top -mode WCCOM.setup_view] eq ""} {
+ create_mode -name WCCOM.setup_view -design design:prbs15_top 
+}
+set_db -quiet phys_use_segment_parasitics true
+set_db -quiet probabilistic_extraction true
+set_db -quiet ple_correlation_factors {1.9000 2.0000}
+set_db -quiet maximum_interval_of_vias inf
+set_db -quiet layer_aware_buffer true
+set_db -quiet ple_mode global
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GAN2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GAN2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GAOI21D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GAOI21D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GAOI22D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GBUFFD1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GBUFFD2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GBUFFD3BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GBUFFD8BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDCAP10BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDCAP2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDCAP3BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDCAP4BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDCAPBWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDFCNQD1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GDFQD1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GFILL10BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GFILL2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GFILL3BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GFILL4BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GFILLBWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GINVD1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GINVD2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GINVD3BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GINVD8BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GMUX2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GMUX2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GMUX2ND1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GMUX2ND2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GND2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GND2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GND2D3BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GND3D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GND3D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GNR2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GNR2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GNR3D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GNR3D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GOAI21D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GOAI21D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GOR2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GOR2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GSDFCNQD1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GTIEHBWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GTIELBWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GXNR2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GXNR2D2BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GXOR2D1BWP7T .avoid true
+set_db -quiet lib_cell:WCCOM.setup_set/tcb018gbwp7twc_ccs/GXOR2D2BWP7T .avoid true
+set_db -quiet library_domain:WCCOM.setup_cond .wireload_selection wireload_selection:WCCOM.setup_set/tcb018gbwp7twc_ccs/WireAreaForZero
+set_db -quiet operating_condition:WCCOM.setup_set/tcb018gbwp7twc_ccs/WCCOM .tree_type balanced_tree
+set_db -quiet operating_condition:WCCOM.setup_set/tcb018gbwp7twc_ccs/_nominal_ .tree_type balanced_tree
+set_db -quiet operating_condition:WCCOM.setup_set/tpd018nvwc/WCCOM .tree_type worst_case_tree
+set_db -quiet operating_condition:WCCOM.setup_set/tpd018nvwc/_nominal_ .tree_type balanced_tree
+# BEGIN MSV SECTION
+# END MSV SECTION
+define_clock -name clk -mode mode:prbs15_top/WCCOM.setup_view -domain domain_1 -period 10000.0 -divide_period 1 -rise 0 -divide_rise 1 -fall 1 -divide_fall 2 -remove -design design:prbs15_top port:prbs15_top/clk
+define_cost_group -design design:prbs15_top -name cg_enable_group_clk
+define_cost_group -design design:prbs15_top -name clk
+external_delay -accumulate -input {0.0 no_value 0.0 no_value} -clock clock:prbs15_top/WCCOM.setup_view/clk -name create_clock_delay_domain_1_clk_R_0 port:prbs15_top/clk
+set_db -quiet external_delay:prbs15_top/WCCOM.setup_view/create_clock_delay_domain_1_clk_R_0 .clock_network_latency_included true
+external_delay -accumulate -input {no_value 0.0 no_value 0.0} -clock clock:prbs15_top/WCCOM.setup_view/clk -edge_fall -name create_clock_delay_domain_1_clk_F_0 port:prbs15_top/clk
+set_db -quiet external_delay:prbs15_top/WCCOM.setup_view/create_clock_delay_domain_1_clk_F_0 .clock_network_latency_included true
+path_group -paths [specify_paths -lenient -mode mode:prbs15_top/WCCOM.setup_view -to clock:prbs15_top/WCCOM.setup_view/clk]  -name clk -group cost_group:prbs15_top/clk -user_priority -1047552
+path_group -paths [specify_paths -mode mode:prbs15_top/WCCOM.setup_view -through {hpin:prbs15_top/u_prbs15_core/CLKGATE_RC_CG_HIER_INST0/enable pin:prbs15_top/u_prbs15_core/CLKGATE_RC_CG_HIER_INST0/RC_CGIC_INST/E}]  -name cg_enable_group_clk -group cost_group:prbs15_top/cg_enable_group_clk
+set_clock_groups_write_script -name "clock_groups_clk_to_others" -asynchronous -group clock:prbs15_top/WCCOM.setup_view/clk -mode mode:prbs15_top/WCCOM.setup_view
+# BEGIN DFT SECTION
+set_db -quiet dft_scan_style muxed_scan
+set_db -quiet dft_scanbit_waveform_analysis false
+# END DFT SECTION
+set_db -quiet design:prbs15_top .seq_reason_deleted_internal {}
+set_db -quiet design:prbs15_top .qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 1788} {cell_count 69} {utilization  0.00} {runtime 2 21 1 29} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 1825} {cell_count 82} {utilization  0.00} {runtime 0 21 0 30} }{second_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 1825} {cell_count 82} {utilization  0.00} {runtime 0 23 0 31} }{reify {wns 8745} {tns 0} {vep 0} {area 1123} {cell_count 40} {utilization  0.00} {runtime 0 23 0 32} }{global_incr_map {wns 8745} {tns 0} {vep 0} {area 1117} {cell_count 40} {utilization  0.00} {runtime 0 23 0 32} }}
+set_db -quiet design:prbs15_top .seq_mbci_coverage 0.0
+set_db -quiet design:prbs15_top .hdl_user_name prbs15_top
+set_db -quiet design:prbs15_top .hdl_filelist {{default -sv {SYNTHESIS} {/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv} {} {}}}
+set_db -quiet design:prbs15_top .verification_directory fv/prbs15_top
+set_db -quiet design:prbs15_top .lp_clock_gating_min_flops 3
+set_db -quiet design:prbs15_top .lp_clock_gating_max_flops inf
+set_db -quiet port:prbs15_top/clk .original_name clk
+set_db -quiet port:prbs15_top/rst_n .original_name rst_n
+set_db -quiet port:prbs15_top/en .original_name en
+set_db -quiet port:prbs15_top/seed_load .original_name seed_load
+set_db -quiet {port:prbs15_top/seed_in[14]} .original_name {seed_in[14]}
+set_db -quiet {port:prbs15_top/seed_in[13]} .original_name {seed_in[13]}
+set_db -quiet {port:prbs15_top/seed_in[12]} .original_name {seed_in[12]}
+set_db -quiet {port:prbs15_top/seed_in[11]} .original_name {seed_in[11]}
+set_db -quiet {port:prbs15_top/seed_in[10]} .original_name {seed_in[10]}
+set_db -quiet {port:prbs15_top/seed_in[9]} .original_name {seed_in[9]}
+set_db -quiet {port:prbs15_top/seed_in[8]} .original_name {seed_in[8]}
+set_db -quiet {port:prbs15_top/seed_in[7]} .original_name {seed_in[7]}
+set_db -quiet {port:prbs15_top/seed_in[6]} .original_name {seed_in[6]}
+set_db -quiet {port:prbs15_top/seed_in[5]} .original_name {seed_in[5]}
+set_db -quiet {port:prbs15_top/seed_in[4]} .original_name {seed_in[4]}
+set_db -quiet {port:prbs15_top/seed_in[3]} .original_name {seed_in[3]}
+set_db -quiet {port:prbs15_top/seed_in[2]} .original_name {seed_in[2]}
+set_db -quiet {port:prbs15_top/seed_in[1]} .original_name {seed_in[1]}
+set_db -quiet {port:prbs15_top/seed_in[0]} .original_name {seed_in[0]}
+set_db -quiet port:prbs15_top/prbs_out .external_pin_cap_min 5.0
+set_db -quiet port:prbs15_top/prbs_out .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs15_top/prbs_out .external_capacitance_min 5.0
+set_db -quiet port:prbs15_top/prbs_out .external_pin_cap_min_by_mode {{mode:prbs15_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs15_top/prbs_out .external_capacitance_min_by_mode {{mode:prbs15_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs15_top/prbs_out .external_pin_cap_by_mode {{mode:prbs15_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs15_top/prbs_out .external_capacitance_max_by_mode {{mode:prbs15_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs15_top/prbs_out .original_name prbs_out
+set_db -quiet port:prbs15_top/prbs_out .external_pin_cap {5.0 5.0}
+set_db -quiet module:prbs15_top/prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped .hdl_user_name prbs15_core
+set_db -quiet module:prbs15_top/prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped .hdl_filelist {{default -sv {SYNTHESIS} {/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv} {} {}}}
+set_db -quiet module:prbs15_top/prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped .lp_clock_gating_min_flops 3
+set_db -quiet module:prbs15_top/prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped .lp_clock_gating_max_flops inf
+set_db -quiet module:prbs15_top/CLKGATE_RC_CG_MOD_mapped .logical_hier false
+set_db -quiet module:prbs15_top/CLKGATE_RC_CG_MOD_mapped .boundary_opto strict_no
+set_db -quiet module:prbs15_top/CLKGATE_RC_CG_MOD_mapped .lp_clock_gating_min_flops 3
+set_db -quiet module:prbs15_top/CLKGATE_RC_CG_MOD_mapped .lp_clock_gating_max_flops inf
+set_db -quiet inst:prbs15_top/u_prbs15_core/CLKGATE_RC_CG_HIER_INST0/RC_CGIC_INST .gint_phase_inversion false
+set_db -quiet inst:prbs15_top/u_prbs15_core/CLKGATE_RC_CG_HIER_INST0/RC_CGIC_INST .is_genus_clock_gate true
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[14]} .original_name {{u_prbs15_core/lfsr_q[14]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[14]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[14]} .single_bit_orig_name {u_prbs15_core/lfsr_q[14]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[14]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[14]/Q} .original_name {u_prbs15_core/lfsr_q[14]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[13]} .original_name {{u_prbs15_core/lfsr_q[13]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[13]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[13]} .single_bit_orig_name {u_prbs15_core/lfsr_q[13]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[13]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[13]/Q} .original_name {u_prbs15_core/lfsr_q[13]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[12]} .original_name {{u_prbs15_core/lfsr_q[12]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[12]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[12]} .single_bit_orig_name {u_prbs15_core/lfsr_q[12]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[12]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[12]/Q} .original_name {u_prbs15_core/lfsr_q[12]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[11]} .original_name {{u_prbs15_core/lfsr_q[11]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[11]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[11]} .single_bit_orig_name {u_prbs15_core/lfsr_q[11]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[11]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[11]/Q} .original_name {u_prbs15_core/lfsr_q[11]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[10]} .original_name {{u_prbs15_core/lfsr_q[10]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[10]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[10]} .single_bit_orig_name {u_prbs15_core/lfsr_q[10]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[10]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[10]/Q} .original_name {u_prbs15_core/lfsr_q[10]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[9]} .original_name {{u_prbs15_core/lfsr_q[9]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[9]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[9]} .single_bit_orig_name {u_prbs15_core/lfsr_q[9]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[9]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[9]/Q} .original_name {u_prbs15_core/lfsr_q[9]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[8]} .original_name {{u_prbs15_core/lfsr_q[8]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[8]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[8]} .single_bit_orig_name {u_prbs15_core/lfsr_q[8]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[8]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[8]/Q} .original_name {u_prbs15_core/lfsr_q[8]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[7]} .original_name {{u_prbs15_core/lfsr_q[7]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[7]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[7]} .single_bit_orig_name {u_prbs15_core/lfsr_q[7]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[7]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[7]/Q} .original_name {u_prbs15_core/lfsr_q[7]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[6]} .original_name {{u_prbs15_core/lfsr_q[6]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[6]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[6]} .single_bit_orig_name {u_prbs15_core/lfsr_q[6]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[6]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[6]/Q} .original_name {u_prbs15_core/lfsr_q[6]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[5]} .original_name {{u_prbs15_core/lfsr_q[5]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[5]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[5]} .single_bit_orig_name {u_prbs15_core/lfsr_q[5]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[5]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[5]/Q} .original_name {u_prbs15_core/lfsr_q[5]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[4]} .original_name {{u_prbs15_core/lfsr_q[4]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[4]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[4]} .single_bit_orig_name {u_prbs15_core/lfsr_q[4]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[4]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[4]/Q} .original_name {u_prbs15_core/lfsr_q[4]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[3]} .original_name {{u_prbs15_core/lfsr_q[3]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[3]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[3]} .single_bit_orig_name {u_prbs15_core/lfsr_q[3]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[3]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[3]/Q} .original_name {u_prbs15_core/lfsr_q[3]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[2]} .original_name {{u_prbs15_core/lfsr_q[2]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[2]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[2]} .single_bit_orig_name {u_prbs15_core/lfsr_q[2]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[2]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[2]/Q} .original_name {u_prbs15_core/lfsr_q[2]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[1]} .original_name {{u_prbs15_core/lfsr_q[1]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[1]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[1]} .single_bit_orig_name {u_prbs15_core/lfsr_q[1]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[1]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[1]/Q} .original_name {u_prbs15_core/lfsr_q[1]/q}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[0]} .original_name {{u_prbs15_core/lfsr_q[0]}}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[0]} .orig_hdl_instantiated false
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[0]} .single_bit_orig_name {u_prbs15_core/lfsr_q[0]}
+set_db -quiet {inst:prbs15_top/u_prbs15_core/lfsr_q_reg[0]} .gint_phase_inversion false
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[0]/Q} .original_name {u_prbs15_core/lfsr_q[0]/q}
+set_db -quiet {pin:prbs15_top/u_prbs15_core/lfsr_q_reg[0]/QN} .original_name {u_prbs15_core/lfsr_q[0]/q}
+set_db -quiet module:prbs15_top/prbs15_ctrl_LFSR_W15_DEFAULT_SEED1_mapped .hdl_user_name prbs15_ctrl
+set_db -quiet module:prbs15_top/prbs15_ctrl_LFSR_W15_DEFAULT_SEED1_mapped .hdl_filelist {{default -sv {SYNTHESIS} {/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv} {} {}}}
+set_db -quiet module:prbs15_top/prbs15_ctrl_LFSR_W15_DEFAULT_SEED1_mapped .lp_clock_gating_min_flops 3
+set_db -quiet module:prbs15_top/prbs15_ctrl_LFSR_W15_DEFAULT_SEED1_mapped .lp_clock_gating_max_flops inf
+# BEGIN PMBIST SECTION
+# END PMBIST SECTION
+# BEGIN PHYSICAL ANNOTATION SECTION
+# END PHYSICAL ANNOTATION SECTION
+set_db -quiet source_verbose true
+#############################################################
+#####   FLOW WRITE   ########################################
+##
+## Written by Genus(TM) Synthesis Solution version 21.19-s055_1
+## flowkit v21.12-s019_1
+## Written on 13:49:15 01-Apr 2026
+#############################################################
+#####   Flow Definitions   ##################################
+
+#############################################################
+#####   Step Definitions   ##################################
+
+
+#############################################################
+#####   Attribute Definitions   #############################
+
+if {[is_attribute flow_edit_end_steps -obj_type root]} {set_db flow_edit_end_steps {}}
+if {[is_attribute flow_edit_start_steps -obj_type root]} {set_db flow_edit_start_steps {}}
+if {[is_attribute flow_footer_tcl -obj_type root]} {set_db flow_footer_tcl {}}
+if {[is_attribute flow_header_tcl -obj_type root]} {set_db flow_header_tcl {}}
+if {[is_attribute flow_metadata -obj_type root]} {set_db flow_metadata {}}
+if {[is_attribute flow_setup_config -obj_type root]} {set_db flow_setup_config {HUDDLE {!!map {}}}}
+if {[is_attribute flow_step_begin_tcl -obj_type root]} {set_db flow_step_begin_tcl {}}
+if {[is_attribute flow_step_check_tcl -obj_type root]} {set_db flow_step_check_tcl {}}
+if {[is_attribute flow_step_end_tcl -obj_type root]} {set_db flow_step_end_tcl {}}
+if {[is_attribute flow_step_order -obj_type root]} {set_db flow_step_order {}}
+if {[is_attribute flow_summary_tcl -obj_type root]} {set_db flow_summary_tcl {}}
+if {[is_attribute flow_template_feature_definition -obj_type root]} {set_db flow_template_feature_definition {}}
+if {[is_attribute flow_template_type -obj_type root]} {set_db flow_template_type {}}
+if {[is_attribute flow_template_tools -obj_type root]} {set_db flow_template_tools {}}
+if {[is_attribute flow_template_version -obj_type root]} {set_db flow_template_version {}}
+if {[is_attribute flow_user_templates -obj_type root]} {set_db flow_user_templates {}}
+
+
+#############################################################
+#####   Flow History   ######################################
+
+if {[is_attribute flow_user_templates -obj_type root]} {set_db flow_user_templates {}}
+if {[is_attribute flow_plugin_steps -obj_type root]} {set_db flow_plugin_steps {}}
+if {[is_attribute flow_template_type -obj_type root]} {set_db flow_template_type {}}
+if {[is_attribute flow_template_tools -obj_type root]} {set_db flow_template_tools {}}
+if {[is_attribute flow_template_version -obj_type root]} {set_db flow_template_version {}}
+if {[is_attribute flow_template_feature_definition -obj_type root]} {set_db flow_template_feature_definition {}}
+if {[is_attribute flow_remark -obj_type root]} {set_db flow_remark {}}
+if {[is_attribute flow_features -obj_type root]} {set_db flow_features {}}
+if {[is_attribute flow_feature_values -obj_type root]} {set_db flow_feature_values {}}
+if {[is_attribute flow_write_db_args -obj_type root]} {set_db flow_write_db_args {}}
+if {[is_attribute flow_write_db_sdc -obj_type root]} {set_db flow_write_db_sdc true}
+if {[is_attribute flow_write_db_common -obj_type root]} {set_db flow_write_db_common false}
+if {[is_attribute flow_post_db_overwrite -obj_type root]} {set_db flow_post_db_overwrite {}}
+if {[is_attribute flow_step_order -obj_type root]} {set_db flow_step_order {}}
+if {[is_attribute flow_step_begin_tcl -obj_type root]} {set_db flow_step_begin_tcl {}}
+if {[is_attribute flow_step_end_tcl -obj_type root]} {set_db flow_step_end_tcl {}}
+if {[is_attribute flow_step_last -obj_type root]} {set_db flow_step_last {}}
+if {[is_attribute flow_step_current -obj_type root]} {set_db flow_step_current {}}
+if {[is_attribute flow_step_canonical_current -obj_type root]} {set_db flow_step_canonical_current {}}
+if {[is_attribute flow_step_next -obj_type root]} {set_db flow_step_next {}}
+if {[is_attribute flow_working_directory -obj_type root]} {set_db flow_working_directory .}
+if {[is_attribute flow_branch -obj_type root]} {set_db flow_branch {}}
+if {[is_attribute flow_caller_data -obj_type root]} {set_db flow_caller_data {}}
+if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_db flow_metrics_snapshot_uuid fb68ef52-fbb9-45c7-8e12-a8d9b3d76690}
+if {[is_attribute flow_starting_db -obj_type root]} {set_db flow_starting_db {}}
+if {[is_attribute flow_db_directory -obj_type root]} {set_db flow_db_directory dbs}
+if {[is_attribute flow_report_directory -obj_type root]} {set_db flow_report_directory reports}
+if {[is_attribute flow_log_directory -obj_type root]} {set_db flow_log_directory logs}
+if {[is_attribute flow_mail_to -obj_type root]} {set_db flow_mail_to {}}
+if {[is_attribute flow_exit_when_done -obj_type root]} {set_db flow_exit_when_done false}
+if {[is_attribute flow_mail_on_error -obj_type root]} {set_db flow_mail_on_error false}
+if {[is_attribute flow_summary_tcl -obj_type root]} {set_db flow_summary_tcl {}}
+if {[is_attribute flow_history -obj_type root]} {set_db flow_history {}}
+if {[is_attribute flow_step_last_status -obj_type root]} {set_db flow_step_last_status not_run}
+if {[is_attribute flow_step_last_msg -obj_type root]} {set_db flow_step_last_msg {}}
+if {[is_attribute flow_run_tag -obj_type root]} {set_db flow_run_tag {}}
+if {[is_attribute flow_current_cache -obj_type root]} {set_db flow_current_cache {}}
+if {[is_attribute flow_step_order_cache -obj_type root]} {set_db flow_step_order_cache {}}
+if {[is_attribute flow_step_results_cache -obj_type root]} {set_db flow_step_results_cache {}}
+if {[is_attribute flow_metadata -obj_type root]} {set_db flow_metadata {}}
+if {[is_attribute flow_execute_in_global -obj_type root]} {set_db flow_execute_in_global true}
+if {[is_attribute flow_overwrite_db -obj_type root]} {set_db flow_overwrite_db false}
+if {[is_attribute flow_print_run_information -obj_type root]} {set_db flow_print_run_information false}
+if {[is_attribute flow_verbose -obj_type root]} {set_db flow_verbose true}
+if {[is_attribute flow_print_run_information_full -obj_type root]} {set_db flow_print_run_information_full false}
+if {[is_attribute flow_header_tcl -obj_type root]} {set_db flow_header_tcl {}}
+if {[is_attribute flow_footer_tcl -obj_type root]} {set_db flow_footer_tcl {}}
+if {[is_attribute flow_init_header_tcl -obj_type root]} {set_db flow_init_header_tcl {}}
+if {[is_attribute flow_init_footer_tcl -obj_type root]} {set_db flow_init_footer_tcl {}}
+if {[is_attribute flow_edit_start_steps -obj_type root]} {set_db flow_edit_start_steps {}}
+if {[is_attribute flow_edit_end_steps -obj_type root]} {set_db flow_edit_end_steps {}}
+if {[is_attribute flow_step_last_number -obj_type root]} {set_db flow_step_last_number 0}
+if {[is_attribute flow_autoload_applets -obj_type root]} {set_db flow_autoload_applets false}
+if {[is_attribute flow_autoload_dir -obj_type root]} {set_db flow_autoload_dir error}
+if {[is_attribute flow_skip_auto_db_save -obj_type root]} {set_db flow_skip_auto_db_save true}
+if {[is_attribute flow_skip_auto_generate_metrics -obj_type root]} {set_db flow_skip_auto_generate_metrics false}
+if {[is_attribute flow_top -obj_type root]} {set_db flow_top {}}
+if {[is_attribute flow_hier_path -obj_type root]} {set_db flow_hier_path {}}
+if {[is_attribute flow_schedule -obj_type root]} {set_db flow_schedule {}}
+if {[is_attribute flow_step_check_tcl -obj_type root]} {set_db flow_step_check_tcl {}}
+if {[is_attribute flow_script -obj_type root]} {set_db flow_script {}}
+if {[is_attribute flow_yaml_script -obj_type root]} {set_db flow_yaml_script {}}
+if {[is_attribute flow_cla_enabled_features -obj_type root]} {set_db flow_cla_enabled_features {}}
+if {[is_attribute flow_cla_inject_tcl -obj_type root]} {set_db flow_cla_inject_tcl {}}
+if {[is_attribute flow_error_message -obj_type root]} {set_db flow_error_message {}}
+if {[is_attribute flow_error_errorinfo -obj_type root]} {set_db flow_error_errorinfo {}}
+if {[is_attribute flow_exclude_time_for_init_flow -obj_type root]} {set_db flow_exclude_time_for_init_flow false}
+if {[is_attribute flow_error_write_db -obj_type root]} {set_db flow_error_write_db true}
+if {[is_attribute flow_advanced_metric_isolation -obj_type root]} {set_db flow_advanced_metric_isolation flow}
+if {[is_attribute flow_yaml_root -obj_type root]} {set_db flow_yaml_root {}}
+if {[is_attribute flow_yaml_root_dir -obj_type root]} {set_db flow_yaml_root_dir {}}
+if {[is_attribute flow_setup_config -obj_type root]} {set_db flow_setup_config {HUDDLE {!!map {}}}}
+
+#############################################################
+#####   User Defined Attributes   ###########################
+

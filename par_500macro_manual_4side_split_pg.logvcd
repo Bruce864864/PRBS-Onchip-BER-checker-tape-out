@@ -1,0 +1,16 @@
+[04/25 15:56:16      0s] 
+[04/25 15:56:16      0s] Cadence Innovus(TM) Implementation System.
+[04/25 15:56:16      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/25 15:56:16      0s] 
+[04/25 15:56:16      0s] Version:	v21.19-s058_1, built Thu Apr 4 09:59:17 PDT 2024
+[04/25 15:56:16      0s] Options:	-stylus -no_gui -files par.tcl -log par_500macro_manual_4side_split_pg.logcd /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir 
+[04/25 15:56:16      0s] Date:		Sat Apr 25 15:56:16 2026
+[04/25 15:56:16      0s] Host:		eeapps03.labidm.seas.ucla.edu (x86_64 w/Linux 4.18.0-553.85.1.el8_10.x86_64) (8cores*32cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB)
+[04/25 15:56:16      0s] OS:		Red Hat Enterprise Linux 8.10 (Ootpa)
+[04/25 15:56:16      0s] 
+[04/25 15:56:16      0s] License:
+[04/25 15:56:16      0s] 		[15:56:16.224705] Configured Lic search path (21.01-s002): 5281@lm-cadence.seas.ucla.edu
+[04/25 15:56:16      0s] 
+[04/25 15:56:16      0s] **ERROR: (IMPLIC-68):	Unknown argument: /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir.
+[04/25 15:56:16      0s] 	Run "innovus -help" for valid option/argument.
+[04/25 15:56:16      0s] 

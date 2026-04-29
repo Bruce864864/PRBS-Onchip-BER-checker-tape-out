@@ -1,0 +1,2121 @@
+                         Chronologic VCS (TM)
+       Version V-2023.12-SP2_Full64 -- Fri Apr 24 13:50:03 2026
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.v'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_pad_top_tb.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv'
+Parsing design file '/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/Standard_Cells_and_IO/180_G_Standard_Cell/core_cell_library/core_cell_library/7-track/tcb018gbwp7t_290a/TSMCHOME/digital/Front_End/verilog/tcb018gbwp7t_270a/tcb018gbwp7t.v'
+Top Level Modules:
+       prbs_ber_pad_top_tb
+TimeScale is 1 ps / 1 ps
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf"
+   ***    Annotation scope: prbs_ber_pad_top_tb.dut
+   ***    MTM selection: "MAXIMUM"
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Fri Apr 24 13:50:05 2026
+
+
+SDF Info: +pulse_r/100, +pulse_e/100 in effect
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 184
+module: DFSNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_meta_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 184
+module: DFSNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_meta_reg"
+  SDF Warning: Cannot find timing check $removal(SDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 211
+module: DFSND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_sync_d_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 211
+module: DFSND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_sync_d_reg"
+  SDF Warning: Cannot find timing check $removal(SDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 232
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_mosi_meta_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 232
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_mosi_meta_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 253
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_mosi_sync_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 253
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_mosi_sync_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 274
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_meta_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 274
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_meta_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 295
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_sync_d_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 295
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_sync_d_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 316
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_sync_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 316
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_sclk_sync_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 337
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 337
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 358
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 358
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 379
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 379
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 400
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[3] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 400
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[3] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 421
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[4] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 421
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[4] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 442
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[5] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 442
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[5] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 463
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[6] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 463
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[6] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 484
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[7] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 484
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[7] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 505
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[8] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 505
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[8] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 526
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[9] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 526
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[9] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 547
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[10] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 547
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[10] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 568
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[11] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 568
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[11] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 589
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[12] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 589
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[12] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 610
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[13] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 610
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[13] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 631
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[14] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 631
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[14] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 652
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[15] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 652
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[15] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 673
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[16] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 673
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[16] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 694
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[17] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 694
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[17] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 715
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[18] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 715
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[18] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 736
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[19] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 736
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[19] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 757
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[20] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 757
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[20] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 778
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[21] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 778
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[21] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 799
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[22] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 799
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[22] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 820
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[23] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 820
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[23] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 841
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[24] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 841
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[24] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 862
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[25] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 862
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[25] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 883
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[26] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 883
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[26] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 904
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[27] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 904
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[27] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 925
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[28] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 925
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[28] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 946
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[29] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 946
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[29] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 967
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[30] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 967
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[30] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 988
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[31] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 988
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[31] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1009
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[34] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1009
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[34] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1030
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[35] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1030
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[35] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1051
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[36] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1051
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[36] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1078
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1078
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1105
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1105
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1132
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1132
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1159
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[3] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1159
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[3] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1186
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[4] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1186
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[4] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1213
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[5] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1213
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[5] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1240
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[6] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1240
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[6] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1267
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[7] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1267
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[7] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1294
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[8] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1294
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[8] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1321
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[9] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1321
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[9] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1348
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[10] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1348
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[10] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1375
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[11] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1375
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[11] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1402
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[12] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1402
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[12] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1429
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[13] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1429
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[13] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1456
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[14] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1456
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[14] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1483
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[15] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1483
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[15] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1510
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[16] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1510
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[16] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1537
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[17] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1537
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[17] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1564
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[18] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1564
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[18] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1591
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[19] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1591
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[19] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1618
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[20] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1618
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[20] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1645
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[21] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1645
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[21] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1672
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[22] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1672
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[22] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1699
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[23] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1699
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[23] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1726
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[24] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1726
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[24] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1753
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[25] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1753
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[25] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1780
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[26] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1780
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[26] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1807
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[27] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1807
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[27] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1834
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[28] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1834
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[28] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1861
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[29] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1861
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[29] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1888
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[30] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1888
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[30] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1915
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[31] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 1915
+module: DFCND1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rd_shift_q_reg[31] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3612
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[5] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3612
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[5] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3645
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[4] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3645
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[4] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3712
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[3] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3712
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[3] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3733
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3733
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3754
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3754
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3775
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3775
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3855
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[33] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3855
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[33] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3876
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[38] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3876
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[38] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3897
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3897
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\rx_bit_cnt_q_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3966
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3966
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3987
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 3987
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\state_q_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4066
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_we_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4066
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_we_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4087
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_re_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4087
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_re_reg"
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4108
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[32] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4108
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[32] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4143
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[37] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4143
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cmd_shift_q_reg[37] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4164
+module: DFSNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_sync_reg"
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4164
+module: DFSNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.cfg_cs_n_sync_reg"
+  SDF Warning: Cannot find timing check $removal(SDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4185
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4185
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4206
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[31] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4206
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[31] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4227
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[29] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4227
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[29] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4248
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[30] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4248
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[30] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4269
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4269
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4290
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[28] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4290
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[28] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4311
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[3] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4311
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[3] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4332
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[4] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4332
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[4] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4353
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4353
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_addr_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4374
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[24] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4374
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[24] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4395
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4395
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[0] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4416
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4416
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[1] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4437
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[2] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4437
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[2] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4458
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[20] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4458
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[20] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4479
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[3] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4479
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[3] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4500
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[4] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4500
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[4] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4521
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[5] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4521
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[5] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4542
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[6] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4542
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[6] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4563
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[7] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4563
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[7] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4596
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[9] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4596
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[9] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4617
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[10] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4617
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[10] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4638
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[11] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4638
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[11] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4659
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[12] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4659
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[12] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4680
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[13] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4680
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[13] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4701
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[14] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4701
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[14] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4722
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[15] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4722
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[15] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4743
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[16] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4743
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[16] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4764
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[17] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4764
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[17] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4785
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[18] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4785
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[18] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4806
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[19] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4806
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[19] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4827
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[21] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4827
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[21] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4848
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[22] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4848
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[22] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4869
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[23] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4869
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[23] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4890
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[25] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4890
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[25] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4911
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[26] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4911
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[26] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4932
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[27] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4932
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[27] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4977
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[8] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf, 4977
+module: DFCNQD1BWP7T, "instance: prbs_ber_pad_top_tb.dut.u_cfg_serial_if.\cfg_wdata_reg[8] "
+  SDF Warning: Cannot find timing check $removal(CDN,posedge CP,...)for RECREM
+      
+
+
+          Total errors: 0
+          Total warnings: 254
+   ***    SDF annotation completed: Fri Apr 24 13:50:05 2026
+
+
+Starting vcs inline pass...
+149 modules and 4 UDPs read.
+recompiling module CLKGATE_RC_CG_MOD_mapped
+recompiling module CLKGATE_RC_CG_MOD_1_mapped
+recompiling module CLKGATE_RC_CG_MOD_2_mapped
+recompiling module CLKGATE_RC_CG_MOD_3_mapped
+recompiling module CLKGATE_RC_CG_MOD_4_mapped
+recompiling module CLKGATE_RC_CG_MOD_5_mapped
+recompiling module cfg_serial_if_mapped
+recompiling module CLKGATE_RC_CG_MOD_6_mapped
+recompiling module CLKGATE_RC_CG_MOD_8_mapped
+recompiling module CLKGATE_RC_CG_MOD_9_mapped
+recompiling module CLKGATE_RC_CG_MOD_10_mapped
+recompiling module CLKGATE_RC_CG_MOD_11_mapped
+recompiling module CLKGATE_RC_CG_MOD_12_mapped
+recompiling module CLKGATE_RC_CG_MOD_13_mapped
+recompiling module CLKGATE_RC_CG_MOD_14_mapped
+recompiling module CLKGATE_RC_CG_MOD_15_mapped
+recompiling module CLKGATE_RC_CG_MOD_16_mapped
+recompiling module CLKGATE_RC_CG_MOD_17_mapped
+recompiling module csr_regbank_mapped
+recompiling module CLKGATE_RC_CG_MOD_18_mapped
+recompiling module measure_ctrl_mapped
+recompiling module CLKGATE_RC_CG_MOD_19_mapped
+recompiling module CLKGATE_RC_CG_MOD_20_mapped
+recompiling module CLKGATE_RC_CG_MOD_21_mapped
+recompiling module prbs_core_LFSR_W7_DEFAULT_SEED1_mapped
+recompiling module prbs_ctrl_LFSR_W7_DEFAULT_SEED1_mapped
+recompiling module prbs_top_mapped
+recompiling module CLKGATE_RC_CG_MOD_22_mapped
+recompiling module prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped
+recompiling module prbs15_ctrl_LFSR_W15_DEFAULT_SEED1_mapped
+recompiling module prbs15_top_mapped
+recompiling module prbs_gen_top_mapped
+recompiling module prbs_ber_top_mapped
+recompiling module prbs_ber_chip_top_mapped
+recompiling module prbs_ber_pad_top
+recompiling module prbs_ber_pad_top_tb
+recompiling module prbs_gen_top
+recompiling module prbs_top
+recompiling module prbs_ctrl
+recompiling module prbs_core
+recompiling module prbs15_top
+recompiling module prbs15_ctrl
+recompiling module prbs15_core
+recompiling module AN2D1BWP7T
+recompiling module AN2D2BWP7T
+recompiling module AN2XD1BWP7T
+recompiling module AN3D1BWP7T
+recompiling module AN4D0BWP7T
+recompiling module AN4D1BWP7T
+recompiling module AN4D2BWP7T
+50 of 149 modules done
+recompiling module AO211D0BWP7T
+recompiling module AO21D0BWP7T
+recompiling module AO21D1BWP7T
+recompiling module AO221D0BWP7T
+recompiling module AO22D0BWP7T
+recompiling module AO22D2BWP7T
+recompiling module AO31D1BWP7T
+recompiling module AOI211D1BWP7T
+recompiling module AOI211XD0BWP7T
+recompiling module AOI21D0BWP7T
+recompiling module AOI221D0BWP7T
+recompiling module AOI222D0BWP7T
+recompiling module AOI22D0BWP7T
+recompiling module AOI32D1BWP7T
+recompiling module BUFFD10BWP7T
+recompiling module BUFFD3BWP7T
+recompiling module CKAN2D1BWP7T
+recompiling module CKLNQD1BWP7T
+recompiling module CKMUX2D1BWP7T
+recompiling module CKND10BWP7T
+recompiling module CKND2BWP7T
+recompiling module CKND2D1BWP7T
+recompiling module CKND8BWP7T
+recompiling module CKXOR2D1BWP7T
+recompiling module DEL01BWP7T
+recompiling module DFCND1BWP7T
+recompiling module DFCNQD1BWP7T
+recompiling module DFD0BWP7T
+recompiling module DFD1BWP7T
+recompiling module DFKCND1BWP7T
+recompiling module DFKCNQD1BWP7T
+recompiling module DFKSND0BWP7T
+recompiling module DFKSND1BWP7T
+recompiling module DFQD0BWP7T
+recompiling module DFSND1BWP7T
+recompiling module DFSNQD1BWP7T
+recompiling module DFXQD1BWP7T
+recompiling module EDFKCNQD1BWP7T
+recompiling module HA1D0BWP7T
+recompiling module IAO21D0BWP7T
+recompiling module IINR4D0BWP7T
+recompiling module IND2D1BWP7T
+recompiling module IND2D2BWP7T
+recompiling module IND3D1BWP7T
+recompiling module IND4D0BWP7T
+recompiling module IND4D1BWP7T
+recompiling module INR2D1BWP7T
+recompiling module INR2D2BWP7T
+recompiling module INR2XD0BWP7T
+recompiling module INR3D0BWP7T
+100 of 149 modules done
+recompiling module INR4D0BWP7T
+recompiling module INVD0BWP7T
+recompiling module INVD1BWP7T
+recompiling module INVD1P5BWP7T
+recompiling module INVD2BWP7T
+recompiling module INVD2P5BWP7T
+recompiling module IOA21D1BWP7T
+recompiling module MAOI222D1BWP7T
+recompiling module MAOI22D0BWP7T
+recompiling module MOAI22D0BWP7T
+recompiling module MOAI22D1BWP7T
+recompiling module MUX2D1BWP7T
+recompiling module ND2D1BWP7T
+recompiling module ND2D2BWP7T
+recompiling module ND2D3BWP7T
+recompiling module ND2D5BWP7T
+recompiling module ND3D0BWP7T
+recompiling module ND4D0BWP7T
+recompiling module NR2D1BWP7T
+recompiling module NR2D2BWP7T
+recompiling module NR2D3BWP7T
+recompiling module NR2D4BWP7T
+recompiling module NR2D6BWP7T
+recompiling module NR2XD0BWP7T
+recompiling module NR2XD1BWP7T
+recompiling module NR2XD2BWP7T
+recompiling module NR2XD3BWP7T
+recompiling module NR3D0BWP7T
+recompiling module NR4D0BWP7T
+recompiling module NR4D1BWP7T
+recompiling module NR4D2BWP7T
+recompiling module OA21D0BWP7T
+recompiling module OA221D0BWP7T
+recompiling module OA221D1BWP7T
+recompiling module OAI211D1BWP7T
+recompiling module OAI21D0BWP7T
+recompiling module OAI21D1BWP7T
+recompiling module OAI22D1BWP7T
+recompiling module OAI31D0BWP7T
+recompiling module OR2D1BWP7T
+recompiling module OR2D2BWP7T
+recompiling module OR2D4BWP7T
+recompiling module OR3D1BWP7T
+recompiling module OR4XD1BWP7T
+recompiling module SDFQD0BWP7T
+recompiling module TIEHBWP7T
+recompiling module TIELBWP7T
+recompiling module XNR2D1BWP7T
+148 of 149 modules done
+	However, due to incremental compilation, only 148 modules need to be compiled. 
+make[1]: Entering directory '/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir/simv ]; then chmod a-x /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir/simv; fi
+g++  -o /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir/simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib -L/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib  -Wl,-rpath-link=./   objs/amcQw_d.o   _1494293_archive_1.so _prev_archive_1.so objs/udps/HWVx0.o objs/udps/m6zeg.o objs/udps/JvR1L.o objs/udps/df3ii.o   SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lnuma -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/vcs_save_restore_new.o /w/apps4/Synopsys/verdi/V-2023.12-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir/simv up to date
+make[1]: Leaving directory '/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/sim-syn-rundir'
+CPU time: 2.181 seconds to compile + .316 seconds to elab + .485 seconds to link
+Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)

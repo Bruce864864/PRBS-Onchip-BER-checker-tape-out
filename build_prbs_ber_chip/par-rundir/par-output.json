@@ -1,0 +1,22 @@
+{
+    "vlsi.builtins.is_complete": false,
+    "par.outputs.output_ilms": [],
+    "par.outputs.output_ilms_meta": "append",
+    "par.outputs.output_gds": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.gds",
+    "par.outputs.output_netlist": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.lvs.v",
+    "par.outputs.output_sim_netlist": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.sim.v",
+    "par.outputs.hcells_list": [],
+    "par.outputs.seq_cells": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/find_regs_cells.json",
+    "par.outputs.all_regs": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/find_regs_paths.json",
+    "par.inputs.input_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/syn-rundir/prbs_ber_chip_top.mapped.v"
+    ],
+    "par.inputs.top_module": "prbs_ber_chip_top",
+    "par.outputs.sdf_file": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.par.sdf",
+    "par.outputs.sdc_file": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.par.sdc",
+    "par.outputs.spefs": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.WCCOM.par.spef",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.BCCOM.par.spef",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/par-rundir/prbs_ber_chip_top.NCCOM.par.spef"
+    ]
+}

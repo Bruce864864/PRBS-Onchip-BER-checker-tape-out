@@ -1,0 +1,13 @@
+synthesis.inputs:
+  top_module: "prbs15_top"
+  input_files:
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv"
+
+vlsi.inputs.clocks:
+  - name: "clk"
+    period: "10ns"
+    path: "clk"
+
+vlsi.inputs.default_output_load: 0.005

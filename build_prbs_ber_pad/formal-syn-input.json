@@ -1,0 +1,120 @@
+{
+    "bsg_root": "/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/misc-data",
+    "vlsi.core.local_tool_path": "/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal",
+    "vlsi.core.max_threads": 4,
+    "vlsi.core.build_system": "make",
+    "vlsi.core.technology": "tsmc180",
+    "vlsi.core.node": 180,
+    "vlsi.core.synthesis_tool": "genus",
+    "vlsi.core.par_tool": "innovus",
+    "vlsi.core.sim_tool": "vcs",
+    "vlsi.core.drc_tool": "calibre",
+    "vlsi.core.lvs_tool": "calibre",
+    "vlsi.core.formal_tool": "conformal",
+    "vlsi.core.timing_tool": "tempus",
+    "sim.vcs.disable_fgp": true,
+    "sim.vcs.disable_force_regs": true,
+    "synthesis.genus.write_sdf_args": [
+        "-nosplit_timing_check",
+        "-timescale ns"
+    ],
+    "par.innovus.design_flow_effort": "extreme",
+    "sim.inputs.top_module": "UNSPECIFIED",
+    "sim.inputs.timescale": "1ns/1ps",
+    "sim.inputs.timing_annotated": true,
+    "sim.inputs.options": [
+        "+vcs+vcdpluson",
+        "+vcs+vcdplusmemon",
+        "+vcs+vcdplusautoflushon",
+        "-sverilog",
+        "-debug_pp",
+        "+define+FUNCTIONAL",
+        "+define+UNIT_DELAY",
+        "+warn=noSDFCOM_UHICD",
+        "+warn=noSDFCOM_ANICD"
+    ],
+    "vlsi.inputs.clocks": [
+        {
+            "name": "clk",
+            "period": "4ns",
+            "path": "clk"
+        }
+    ],
+    "vlsi.inputs.power_spec_mode": "auto",
+    "vlsi.inputs.power_spec_type": "cpf",
+    "vlsi.inputs.default_output_load": 0.005,
+    "vlsi.inputs.placement_constraints": [
+        {
+            "path": "TOP",
+            "type": "toplevel",
+            "width": 1600,
+            "height": 1600,
+            "x": 0,
+            "y": 0,
+            "margins": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+            }
+        }
+    ],
+    "vlsi.inputs.pin_mode": "generated",
+    "vlsi.inputs.pin.generate_mode": "semi_auto",
+    "vlsi.inputs.pin.assignments": [
+        {
+            "pins": "*",
+            "layers": [
+                "METAL2",
+                "METAL4"
+            ],
+            "side": "bottom"
+        }
+    ],
+    "synthesis.inputs.top_module": "prbs_ber_pad_top",
+    "synthesis.inputs.input_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/cfg_serial_if.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_pad_top.sv"
+    ],
+    "par.innovus.floorplan_mode": "manual",
+    "par.innovus.floorplan_script_contents": "# Disable simultaneous setup/hold mode during implementation/streamout.\n# This avoids Innovus IMPSYT-901 style implementation/streamout issues.\nset_db timing_enable_simultaneous_setup_hold_mode false\n\ncreate_floorplan \\\n  -site core7T \\\n  -flip f \\\n  -core_margins_by die \\\n  -die_size { 500 500 85 85 85 85 }\n",
+    "synthesis.outputs.output_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.v"
+    ],
+    "synthesis.outputs.sdc": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdc",
+    "synthesis.outputs.seq_cells": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/find_regs_cells.json",
+    "synthesis.outputs.all_regs": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/find_regs_paths.json",
+    "synthesis.outputs.sdf_file": "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdf",
+    "formal.inputs.input_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.v"
+    ],
+    "formal.inputs.input_files_meta": "append",
+    "formal.inputs.reference_files": [
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/cfg_serial_if.sv",
+        "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_pad_top.sv"
+    ],
+    "formal.inputs.reference_files_meta": "append",
+    "formal.inputs.top_module": "prbs_ber_pad_top"
+}

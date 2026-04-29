@@ -1,0 +1,81 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Notice: timing checks disabled with +notimingcheck at run-time
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr  1 11:51 2026
+Doing SDF annotation ...... Done
+[93] ERROR (seed_load_nonzero): prbs_out=x expected=1 ref_lfsr=1010110
+[123] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0101101
+[133] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1011011
+[143] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0110111
+[153] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1101111
+[163] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1011110
+[173] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0111101
+[183] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1111011
+[193] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1110110
+[203] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1101100
+[213] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1011000
+[223] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0110001
+[233] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1100011
+[243] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1000110
+[253] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0001101
+[263] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0011010
+[273] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0110100
+[283] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1101001
+[293] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1010010
+[303] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0100101
+[313] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1001011
+[323] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0010111
+[333] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0101110
+[343] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1011101
+[353] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0111011
+[363] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1110111
+[373] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1101110
+[383] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1011100
+[393] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0111001
+[403] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1110011
+[413] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1100110
+[423] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1001100
+[433] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0011001
+[443] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0110010
+[453] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1100101
+[463] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1001010
+[473] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0010101
+[483] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0101010
+[493] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1010101
+[503] ERROR (run_prbs7): prbs_out=x expected=0 ref_lfsr=0101011
+[513] ERROR (run_prbs7): prbs_out=x expected=1 ref_lfsr=1010111
+[533] ERROR (hold_when_disabled): prbs_out=x expected=1 ref_lfsr=1010111
+[543] ERROR (hold_when_disabled): prbs_out=x expected=1 ref_lfsr=1010111
+[553] ERROR (hold_when_disabled): prbs_out=x expected=1 ref_lfsr=1010111
+[563] ERROR (hold_when_disabled): prbs_out=x expected=1 ref_lfsr=1010111
+[573] ERROR (hold_when_disabled): prbs_out=x expected=1 ref_lfsr=1010111
+[593] ERROR (seed_load_zero_sanitized): prbs_out=x expected=0 ref_lfsr=0000001
+[623] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0000010
+[633] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0000100
+[643] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0001000
+[653] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0010000
+[663] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0100000
+[673] ERROR (run_after_zero_seed): prbs_out=x expected=1 ref_lfsr=1000001
+[683] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0000011
+[693] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0000110
+[703] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0001100
+[713] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0011000
+[723] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0110000
+[733] ERROR (run_after_zero_seed): prbs_out=x expected=1 ref_lfsr=1100001
+[743] ERROR (run_after_zero_seed): prbs_out=x expected=1 ref_lfsr=1000010
+[753] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0000101
+[763] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0001010
+[773] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0010100
+[783] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0101000
+[793] ERROR (run_after_zero_seed): prbs_out=x expected=1 ref_lfsr=1010001
+[803] ERROR (run_after_zero_seed): prbs_out=x expected=0 ref_lfsr=0100011
+[813] ERROR (run_after_zero_seed): prbs_out=x expected=1 ref_lfsr=1000111
+========================================
+TEST FAILED: error_count = 67
+Fatal: "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_top_tb.sv", 147: prbs_top_tb: at time 813 ps
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_top_tb.sv", line 147.
+$finish at simulation time                  813
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 813 ps

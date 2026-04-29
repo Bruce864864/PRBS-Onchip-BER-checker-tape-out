@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1775075431.195233959, "rt":0.15, "ut":0.06, "st":0.03}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1775075430.762264345}
+{"VCS_COMP_START_TIME": 1775075430.762264345}
+{"VCS_COMP_END_TIME": 1775075431.383077691}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-rtl-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-rtl-rundir/simv -debug_access+all -kdb -top prbs_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_top_tb.sv"}

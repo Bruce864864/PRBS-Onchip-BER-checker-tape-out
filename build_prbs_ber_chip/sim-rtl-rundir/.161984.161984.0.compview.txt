@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1776466878.375418993, "rt":0.65, "ut":0.25, "st":0.15}}
+{"vcselab":{"timestamp_begin":1776466879.096929560, "rt":0.38, "ut":0.21, "st":0.06}}
+{"link":{"timestamp_begin":1776466879.531386407, "rt":0.30, "ut":0.15, "st":0.09}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1776466877.836051956}
+{"VCS_COMP_START_TIME": 1776466877.836051956}
+{"VCS_COMP_END_TIME": 1776466880.040471582}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv -debug_access+all -kdb -top prbs_ber_chip_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_chip_top_tb.sv"}
+{"vcs1": {"peak_mem": 557340}}
+{"vcselab": {"peak_mem": 259132}}

@@ -1,0 +1,13 @@
+//----------------------------------------------------------------------------//
+//                               CONFORMAL (R)                                //
+//            Version 24.10-p100 (30-May-2024) (64 bit executable)            //
+//                         Temp Directory README file                         //
+//                          Tue Apr 28 14:31:43 2026                          //
+//                                                                            //
+//             Cadence Design Systems, Inc. All rights reserved.              //
+//----------------------------------------------------------------------------//
+
+This temporary directory is created for Conformal LEC.
+Do NOT alter, move or delete this directory during LEC runs.
+If process 659722 on host 'eeapps03.labidm.seas.ucla.edu' finished or is terminated,
+this directory can be safely deleted.

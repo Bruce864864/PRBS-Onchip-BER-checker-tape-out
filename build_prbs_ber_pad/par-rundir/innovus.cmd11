@@ -1,0 +1,45 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Apr 25 15:13:48 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.19-s058_1 (64bit) 04/04/2024 09:59 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.19-s058_1 NR231113-0413/21_19-UB (database version 18.20.605) {superthreading v2.17}
+#@(#)CDS: AAE 21.19-s004 (64bit) 04/04/2024 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.19-s010_1 () Mar 27 2024 01:55:37 ( )
+#@(#)CDS: SYNTECH 21.19-s002_1 () Sep  6 2023 22:17:00 ( )
+#@(#)CDS: CPE v21.19-s026
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s966 (64bit) Wed Mar 8 10:22:20 PST 2023 (Linux 3.10.0-693.el7.x86_64)
+
+#@ source /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/generated-scripts/open_chip.tcl
+#@ Begin verbose source (pre): source /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/generated-scripts/open_chip.tcl
+puts "set_db design_process_node 180" 
+set_db design_process_node 180
+puts "set_multi_cpu_usage -local_cpu 4" 
+set_multi_cpu_usage -local_cpu 4
+read_db latest
+#@ End verbose source: /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/generated-scripts/open_chip.tcl
+gui_pan -14.96550 -22.65000
+gui_select -point {-26.63350 102.74150}
+gui_select -point {-5.59100 106.84300}
+get_db ports .name
+get_db [get_db ports clk] .bbox
+get_db [get_db ports rst_n] .bbox
+get_db [get_db ports ext_serial_in] .bbox
+get_db [get_db ports busy] .bbox
+get_db [get_db ports done] .bbox
+get_db [get_db ports bit_error] .bbox
+get_db [get_db ports cfg_sclk] .bbox
+get_db [get_db ports cfg_cs_n] .bbox
+get_db [get_db ports cfg_mosi] .bbox
+get_db [get_db ports cfg_miso] .bbox
+deselect_obj -all
+select_obj [get_db nets done]
+gui_select -point {713.37100 145.09200}
+cd /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir
+#@ source ./enter
+#@ Begin verbose source (pre): source ./enter
+export CADENCE_HOME="/w/apps4/Cadence"
+#@ End verbose source ./enter

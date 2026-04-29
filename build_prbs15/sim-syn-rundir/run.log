@@ -1,0 +1,82 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr  1 13:50 2026
+Doing SDF annotation ...... Done
+[93000] PASS  (seed_load_nonzero): prbs_out=1 ref_lfsr=101011001110101
+[113000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=010110011101011
+[123000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101100111010111
+[133000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=011001110101111
+[143000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=110011101011111
+[153000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=100111010111110
+[163000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=001110101111101
+[173000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=011101011111010
+[183000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111010111110101
+[193000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=110101111101010
+[203000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101011111010100
+[213000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=010111110101001
+[223000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101111101010011
+[233000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=011111010100111
+[243000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111110101001111
+[253000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111101010011110
+[263000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111010100111100
+[273000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=110101001111000
+[283000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101010011110000
+[293000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=010100111100001
+[303000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101001111000011
+[313000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=010011110000111
+[323000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=100111100001111
+[333000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=001111000011111
+[343000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=011110000111110
+[353000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111100001111101
+[363000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111000011111010
+[373000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=110000111110100
+[383000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=100001111101000
+[393000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=000011111010001
+[403000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=000111110100010
+[413000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=001111101000100
+[423000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=011111010001000
+[433000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111110100010001
+[443000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111101000100010
+[453000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=111010001000100
+[463000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=110100010001000
+[473000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=101000100010000
+[483000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=010001000100001
+[493000] PASS  (run_prbs15): prbs_out=1 ref_lfsr=100010001000011
+[503000] PASS  (run_prbs15): prbs_out=0 ref_lfsr=000100010000111
+[513000] PASS  (hold_when_disabled): prbs_out=0 ref_lfsr=000100010000111
+[523000] PASS  (hold_when_disabled): prbs_out=0 ref_lfsr=000100010000111
+[533000] PASS  (hold_when_disabled): prbs_out=0 ref_lfsr=000100010000111
+[543000] PASS  (hold_when_disabled): prbs_out=0 ref_lfsr=000100010000111
+[553000] PASS  (hold_when_disabled): prbs_out=0 ref_lfsr=000100010000111
+[573000] PASS  (seed_load_zero_sanitized): prbs_out=0 ref_lfsr=000000000000001
+[593000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000000010
+[603000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000000100
+[613000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000001000
+[623000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000010000
+[633000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000100000
+[643000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000001000000
+[653000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000010000000
+[663000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000100000000
+[673000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000001000000000
+[683000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000010000000000
+[693000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000100000000000
+[703000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=001000000000000
+[713000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=010000000000000
+[723000] PASS  (run_after_zero_seed): prbs_out=1 ref_lfsr=100000000000001
+[733000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000000011
+[743000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000000110
+[753000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000001100
+[763000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000011000
+[773000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000000110000
+[783000] PASS  (run_after_zero_seed): prbs_out=0 ref_lfsr=000000001100000
+========================================
+TEST PASSED: all PRBS15 checks succeeded.
+========================================
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs15_top_tb.sv", line 128.
+$finish at simulation time               783000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 783000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Wed Apr  1 13:50:10 2026

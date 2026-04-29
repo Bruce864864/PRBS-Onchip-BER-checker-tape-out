@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Name     : Shielded net name
+Length   : Shielded net length
+Shield   : Total length of shielding wire
+Ratio    : Average shielding ratio
+-------------------------------------------------------------------------------
+Name          Length    Shield    Ratio   
+                                         Layer:      Length     Shield  Ratio
+-------------------------------------------------------------------------------
+u_prbs_gen_top/CTS_2:   preferred: METAL3 - METAL4
+                27.4      53.2    0.969
+                                         METAL2:        3.9        6.8  0.869
+                                         METAL3:       11.8       23.1  0.982
+                                         METAL4:       11.8       23.3  0.990
+CTS_2:   preferred: METAL3 - METAL4
+               301.8     586.7    0.972
+                                         METAL1:        0.6        0.0  0.000
+                                         METAL2:        5.0        7.8  0.778
+                                         METAL3:      269.9      526.2  0.975
+                                         METAL4:        6.7       13.4  1.000
+                                         METAL5:       19.6       39.2  1.000
+clk:   preferred: METAL3 - METAL4
+               597.8    1184.8    0.991
+                                         METAL2:        0.8        0.8  0.525
+                                         METAL3:      443.5      877.9  0.990
+                                         METAL4:      153.4      306.1  0.997
+u_prbs_gen_top/u_prbs15_top/u_prbs15_core/CTS_3:   preferred: METAL3 - METAL4
+                56.0     111.4    0.995
+                                         METAL2:        3.4        6.2  0.917
+                                         METAL3:       40.9       81.8  1.000
+                                         METAL4:       11.8       23.5  1.000
+CTS_7:   preferred: METAL3 - METAL4
+               448.0     893.2    0.997
+                                         METAL1:        0.6        0.6  0.500
+                                         METAL2:        0.6        0.6  0.500
+                                         METAL3:        1.7        1.7  0.500
+                                         METAL4:       61.0      122.1  1.000
+                                         METAL5:      384.2      768.3  1.000
+-------------------------------------------------------------------------------
+
+ Average ratio:                   0.989
+                                         METAL1:          0.2        0.1  0.250
+                                         METAL2:          2.7        4.4  0.812
+                                         METAL3:        153.6      302.1  0.984
+                                         METAL4:         48.9       97.7  0.998
+                                         METAL5:         80.8      161.5  1.000
+
+

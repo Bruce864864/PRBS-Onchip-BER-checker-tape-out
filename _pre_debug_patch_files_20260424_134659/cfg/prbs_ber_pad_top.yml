@@ -1,0 +1,32 @@
+synthesis.inputs:
+  top_module: "prbs_ber_pad_top"
+  input_files:
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/cfg_serial_if.sv"
+    - "/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_pad_top.sv"
+
+vlsi.inputs.clocks:
+  - name: "clk"
+    period: "4ns"
+    path: "clk"
+
+vlsi.inputs.default_output_load: 0.005
+
+par.innovus.floorplan_mode: "manual"
+par.innovus.floorplan_script_contents: |
+  set_db timing_enable_simultaneous_setup_hold_mode false
+  create_floorplan \
+    -site core7T \
+    -flip f \
+    -core_margins_by die \
+    -die_size { 1000 1000 370 370 370 370 }

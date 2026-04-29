@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1775068286.458421589, "rt":7.56, "ut":0.20, "st":0.17}}
+{"vcselab":{"timestamp_begin":1775068294.101516992, "rt":2.26, "ut":0.19, "st":0.09}}
+{"link":{"timestamp_begin":1775068296.422594128, "rt":1.01, "ut":0.17, "st":0.10}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1775068285.534710185}
+{"VCS_COMP_START_TIME": 1775068285.534710185}
+{"VCS_COMP_END_TIME": 1775068297.724943505}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-rtl-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build/sim-rtl-rundir/simv -debug_access+all -kdb -top prbs_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_top_tb.sv"}
+{"vcs1": {"peak_mem": 553064}}
+{"vcselab": {"peak_mem": 250864}}

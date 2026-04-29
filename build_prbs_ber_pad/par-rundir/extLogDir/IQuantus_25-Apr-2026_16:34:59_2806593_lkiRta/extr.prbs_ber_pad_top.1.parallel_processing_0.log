@@ -1,0 +1,221 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.19-s058_1, built Thu Apr 4 09:59:17 PDT 2024
+Options:	-log extLogDir/IQuantus_25-Apr-2026_16:34:59_2806593_lkiRta/extr.prbs_ber_pad_top.1.parallel_processing_0.log -noMultiCpuLicCheckout -DP -x 0001B027D7... -common_ui -edpId 0 -edpHost eeapps03.labidm.seas.ucla.edu -edpPort 35977 -nowin -nologv -init /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/.2806593_soce_slave_0 
+Date:		Sat Apr 25 16:36:19 2026
+Host:		eeapps03.labidm.seas.ucla.edu (x86_64 w/Linux 4.18.0-553.85.1.el8_10.x86_64) (8cores*32cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB)
+OS:		Red Hat Enterprise Linux 8.10 (Ootpa)
+
+License:
+		[16:36:19.224721] Configured Lic search path (21.01-s002): 5281@lm-cadence.seas.ucla.edu
+
+		Running innovus (-x) with Innovus_Impl_System capability.
+
+
+**WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+Create and set the environment variable TMPDIR to /tmp/innovus_temp_2823225_eeapps03.labidm.seas.ucla.edu_liyuyao864_AzzDgL.
+
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+
+**INFO:  MMMC transition support version v31-84 
+
+#@ Processing -files option
+@innovus 1> source /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/.2806593_soce_slave_0
+#@ Begin verbose source (pre): source /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/.2806593_soce_slave_0
+@@file 1: eval_legacy {unlogCommand eval_legacy}
+@@file 2: eval_legacy {
+catch {set ::env(AMBIT_BDF_PATH) "/w/apps4/Cadence/INNOVUS211/etc/innovus/syntechEtc/bdfc:/w/apps4/Cadence/INNOVUS211/etc/innovus/cteng/bdfc"}
+catch {set ::env(BLT_LIBRARY) "/w/apps4/Cadence/INNOVUS211/share/tcltools/icd8.6.4/lib/blt2.4"}
+catch {set ::env(CADENCE_HOME) "/w/apps4/Cadence"}
+catch {set ::env(CDS_AUTO_64BIT) "ALL"}
+catch {set ::env(CDS_LANG) "en_US.UTF-8"}
+catch {set ::env(CDS_LIC_FILE) "5281@lm-cadence.seas.ucla.edu"}
+catch {set ::env(CDS_SET_LOCALE) "C"}
+catch {set ::env(CDS_W3264_LIBPATH) "/w/apps4/Cadence/INNOVUS211/share/oa/lib/linux_rhel60_64/opt:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tcltools/icd8.6.4/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/Qt/v5//64bit/lib:/w/apps4/Cadence/INNOVUS211/tools.lnx86/pvs/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mesalib/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/inca/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mdl/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mkl/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tbb/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tcltk-8.6.8/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/fmc/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/vxe/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tensorflow/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mlpack/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/liberate/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/TPtools/boost/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/TPtools/libevent/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/zmq/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/extraction/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/lib:/w/apps4/Cadence/INNOVUS211/tools.lnx86/OrbitIO/jre/lib/server:/lib64"}
+catch {set ::env(DBUS_SESSION_BUS_ADDRESS) "unix:abstract=/tmp/dbus-zwaMb0oLSB,guid=d7f61f40cce3ad371edf028169ed46b0"}
+catch {set ::env(DISPLAY) "localhost:10.0"}
+catch {set ::env(ENCOUNTER) "/w/apps4/Cadence/INNOVUS211/tools.lnx86/innovus"}
+catch {set ::env(GDK_BACKEND) "x11"}
+catch {set ::env(HISTSIZE) "1000"}
+catch {set ::env(HOME) "/w/home.09/home/liyuyao864"}
+catch {set ::env(INNOVUS) "/w/apps4/Cadence/INNOVUS211/tools.lnx86/innovus"}
+catch {set ::env(INNOVUS_BIN) "/w/apps4/Cadence/INNOVUS211/bin/innovus"}
+catch {set ::env(INPUTRC) "/etc/inputrc"}
+catch {set ::env(JAVA_HOME) "/w/apps4/Cadence/INNOVUS211/tools.lnx86/OrbitIO/jre"}
+catch {set ::env(KDEDIRS) "/usr"}
+catch {set ::env(KRB5CCNAME) "KEYRING:persistent:1000112187"}
+catch {set ::env(LANG) "C"}
+catch {set ::env(LC_ALL) "C"}
+catch {set ::env(LD_LIBRARY_PATH) "/w/apps4/Cadence/INNOVUS211/share/oa/lib/linux_rhel60_64/opt:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tcltools/icd8.6.4/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/Qt/v5//64bit/lib:/w/apps4/Cadence/INNOVUS211/tools.lnx86/pvs/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mesalib/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/inca/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mdl/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mkl/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tbb/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tcltk-8.6.8/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/fmc/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/vxe/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/tensorflow/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/mlpack/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/liberate/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/TPtools/boost/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/TPtools/libevent/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/zmq/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/extraction/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/lib/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/lib:/w/apps4/Cadence/INNOVUS211/tools.lnx86/OrbitIO/jre/lib/server:/lib64:/w/apps4/Cadence/INNOVUS211/tools.lnx86/lib/64bit/RHEL/RHEL8"}
+catch {set ::env(LOADEDMODULES) ""}
+catch {set ::env(LOGNAME) "liyuyao864"}
+catch {set ::env(MAIL) "/var/spool/mail/liyuyao864"}
+catch {set ::env(MANPATH) "/w/apps4/Cadence/INNOVUS211/share/innovus/stylus/man:/w/apps4/Cadence/INNOVUS211/share/tcltools/man"}
+catch {set ::env(MODULEPATH) "/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles"}
+catch {set ::env(MODULEPATH_modshare) "/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2"}
+catch {set ::env(MODULESHOME) "/usr/share/Modules"}
+catch {set ::env(MODULES_CMD) "/usr/share/Modules/libexec/modulecmd.tcl"}
+catch {set ::env(MODULES_RUN_QUARANTINE) "LD_LIBRARY_PATH LD_PRELOAD"}
+catch {set ::env(OA_BIT) "64"}
+catch {set ::env(OLDPWD) "/w/home.09/home/liyuyao864/ee209/prbs_project"}
+catch {set ::env(ORBIT_HOME) "/w/apps4/Cadence/INNOVUS211/tools.lnx86/OrbitIO"}
+catch {set ::env(PATH) "/w/apps4/Cadence/INNOVUS211/bin:/w/apps4/Cadence/INNOVUS211/tools.lnx86/bin/64bit:/w/apps4/Cadence/INNOVUS211/tools.lnx86/bin:/w/apps4/Cadence/INNOVUS211/share/oa/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/X11R6/bin:/usr/local/cs/bin:/w/home.09/home/liyuyao864/bin"}
+catch {set ::env(PROD_NAME) "innovus"}
+catch {set ::env(PWD) "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir"}
+catch {set ::env(SHELL) "/bin/sh"}
+catch {set ::env(SHLVL) "3"}
+catch {set ::env(SSH_CLIENT) "128.97.85.253 65384 22"}
+catch {set ::env(SSH_CONNECTION) "128.97.85.253 65384 164.67.100.243 22"}
+catch {set ::env(SSH_TTY) "/dev/pts/0"}
+catch {set ::env(S_COLORS) "auto"}
+catch {set ::env(TCLLIBPATH) "/w/apps4/Cadence/INNOVUS211/share/lib/tcllib/1.18 "}
+catch {set ::env(TCLLIB_LIBRARY) "/w/apps4/Cadence/INNOVUS211/share/lib/tcllib/1.18"}
+catch {set ::env(TCLTK_ROOT) "/w/apps4/Cadence/INNOVUS211/share/tcltools/icd8.6.4/lib"}
+catch {set ::env(TCL_LIBRARY) "/w/apps4/Cadence/INNOVUS211/share/tcltools/icd8.6.4/lib/tcl8.6"}
+catch {set ::env(TERM) "xterm"}
+catch {set ::env(TIX_LIBRARY) "/w/apps4/Cadence/INNOVUS211/share/tcltools/icd8.6.4/lib/Tix8.4.3/library"}
+catch {set ::env(TK_LIBRARY) "/w/apps4/Cadence/INNOVUS211/share/tcltools/icd8.6.4/lib/tk8.6"}
+catch {set ::env(TOOL_TCL_LIBPATH) "/w/apps4/Cadence/INNOVUS211/tools.lnx86/tcltools/icd8.6.4/lib/64bit"}
+catch {set ::env(USER) "liyuyao864"}
+catch {set ::env(W3264_ENV) "/w/home.09/home/liyuyao864/.kshrc"}
+catch {set ::env(XDG_DATA_DIRS) "/w/home.09/home/liyuyao864/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"}
+catch {set ::env(XDG_RUNTIME_DIR) "/run/user/1000112187"}
+catch {set ::env(XDG_SESSION_ID) "45922"}
+catch {set ::env(which_declare) "declare -f"}
+catch {set ::env(PROCINFO_HOST) "eeapps03.labidm.seas.ucla.edu:36365"}
+catch {set ::env(DD_NO_TMPDIR_WARN) "true"}
+catch {set ::env(EDP_C_CODE) "1"}
+catch {set ::env(ENABLE_MMMC2_VIEW_DEFINITION_GENERATION_IN_TEMPUS_CUI) "1"}
+catch {set ::env(usefulSkewCCOpt) "1"}
+catch {set ::env(_enable_mmmc_by_default_flow) "1"}
+catch {set ::env(FE_MASTER_USER_ORIGINAL_TMPDIR) "/tmp"}
+catch {set ::env(__QUANTUS_FIX_SLOW_NFS_MINIMAL__) "YES"}
+catch {set ::env(TEMPDIR) "/tmp/innovus_temp_2806593_eeapps03.labidm.seas.ucla.edu_liyuyao864_Fo9ZZk/iqrc_tmp_2806593_ILoKFG/.qrctemp/.xrctemp_0"}
+catch {set ::env(EDP_MODE) "local"}
+catch {set ::env(__HPY_MODELING_SMALL_SEG__) "false"}
+catch {set ::env(__QRC_DBG_DISABLE_TEST_STRUCTURE_MODE__) "true"}
+catch {set ::env(__QRC_REMOVE_EROSION__) "YES"}
+catch {setLimitedAccessFeature invsHierModuleModel 1}
+catch {edp::setNodeId bad0ccd7-b33d-4ef2-99fb-2a55cf3d3562_0/4}
+startEdpSlave 0 eeapps03.labidm.seas.ucla.edu 35977 56101 0 10
+}
+**WARN: (IMPSE-524):	The feature invsHierModuleModel is now a Production feature. The use of 'set_limited_access_feature invsHierModuleModel 1' is no longer required.
+EDP: start server on eeapps03.labidm.seas.ucla.edu:39071
+Sat Apr 25 16:36:40 2026: Successfully connected to the master.
+sending server data to client eeapps03.labidm.seas.ucla.edu 39071 0 2823225 
+### Start verbose source output (echo_comments mode) for '/tmp/innovus_temp_2806593_eeapps03.labidm.seas.ucla.edu_liyuyao864_Fo9ZZk/iqrc_tmp_2806593_ILoKFG/multi_cpu_job_2806593_0.tcl' ...
+# This is an internal file generated by Innovus v21.19-s058_1 on Sat Apr 25 16:36:19 2026
+
+@qxDPInvokeSignOffExtractionCCEJob -jobid 0 -numjobs 4 \
+		2806593 2806593 1 1 \
+		"extLogDir/IQuantus_25-Apr-2026_16:34:59_2806593_lkiRta/.extr.prbs_ber_pad_top.1.parallel_proc.2806593_0.res" "xyz" "./.cce.env.2806593.LDjIlf"
+
+Started sub-activity 0 out of 4 for Extraction...
+
+INFO (EXTIQUANTUS-101) : 
+  Integrated Quantus - 64-bit Parasitic Extractor - Version 21.1.1-s966
+-------------------------------------------------------------------------
+               Copyright 2023 Cadence Design Systems, Inc.
+
+
+INFO (EXTIQUANTUS-103) : Starting at 2026-Apr-25 16:36:41 (2026-Apr-25 23:36:41 GMT).
+
+INFO (EXTIQUANTUS-159) : Loading technology data from file:
+ 
+/tmp/innovus_temp_2806593_eeapps03.labidm.seas.ucla.edu_liyuyao864_Fo9ZZk/iqrc_tmp_2806593_ILoKFG/.qrctemp/CceRCGEN0tch2823225
+
+INFO (EXTIQUANTUS-289) : Loading RCgen extraction models from file:
+ 
+/tmp/innovus_temp_2806593_eeapps03.labidm.seas.ucla.edu_liyuyao864_Fo9ZZk/iqrc_tmp_2806593_ILoKFG/.qrctemp/CceRCGEN0tch2823225
+
+INFO (EXTIQUANTUS-345) : Checking Command/Tech/License Files. 
+
+INFO (EXTIQUANTUS-383) : Summary of license(s) checkout :
+	No license checkout.
+
+INFO (EXTIQUANTUS-105) : Starting design extraction....
+
+INFO (EXTIQUANTUS-282) : Checking Command/Tech Files. 
+
+INFO (EXTIQUANTUS-277) : Manufacturing Data Information :- 
+  DEF/GDS file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does     contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does     contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+
+INFO (EXTIQUANTUS-287) : Capacitance Models Information :- 
+ ICECAPS models are not available. 
+ RCgen   models are     available. 
+ This IQuantus session uses RCgen models.
+
+INFO (EXTIQUANTUS-286) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f( density ) 
+ T/B Enlargements : ON 
+ R(w) Effects     : ON 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects     : n/a 
+Some effects indicate n/a because of non-availability of relevantinput data
+(or) requested to be off (and/or) usage of older Icecaps models.
+
+INFO (EXTHPY-103) : Extracting capacitance values.
+
+INFO (EXTHPY-267) :  
+ DESIGN                       : 
+ DEF/OA DIEAREA BBOX          : 2147483647 2147483647 -2147483648
+-2147483648
+ DEF/OA UNITS                 : 10000
+ FINAL SCALE FACTOR           : 1
+ 
+ ESTIMATED COMPRESSED DEF SIZE: 0
+ TILE SIZE                    : 83x83 squm
+ TILE COUNT                   : 36
+ CLUSTER SIZE                 : 257
+ CAPDB PARTITIONS             : 16
+
+INFO (EXTHPY-104) :    0%
+
+INFO (EXTHPY-104) :    13%
+
+INFO (EXTHPY-104) :    25%
+
+INFO (EXTHPY-104) :    38%
+
+INFO (EXTHPY-104) :    50%
+
+INFO (EXTHPY-104) :    63%
+
+INFO (EXTHPY-104) :    75%
+
+INFO (EXTHPY-104) :    88%
+
+INFO (EXTHPY-104) :    100%
+
+Ending at 2026-Apr-25 16:36:42 (2026-Apr-25 23:36:42 GMT).
+  Executed by:           liyuyao864
+  Execution host:        eeapps03.labidm.seas.ucla.edu
+  Run duration:          00:00:01 CPU time, 00:00:01 clock time
+  Memory used:           3913 Mb
+
+  Warning messages:      0
+  Error messages:        0
+  Fatal error messages:  0
+
+Exit code 0.
+IQuantus exited successfully.
+Sub-activity 0 of Extraction Successfully Completed.
+### End verbose source output for '/tmp/innovus_temp_2806593_eeapps03.labidm.seas.ucla.edu_liyuyao864_Fo9ZZk/iqrc_tmp_2806593_ILoKFG/multi_cpu_job_2806593_0.tcl'.
+
+*** Memory Usage v#1 (Current mem = 1806.125M, initial mem = 852.004M) ***
+*** Message Summary: 2 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:20.5, real=0:00:32.0, mem=1806.1M) ---

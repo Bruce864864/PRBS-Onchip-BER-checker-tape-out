@@ -1,0 +1,26 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/w/home.09/home/liyuyao864/ee209/prbs_project
+VCS_HOME=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2
+VERDI_HOME=/w/apps4/Synopsys/verdi/V-2023.12-SP2
+SystemC=FALSE
+UUM=FALSE
+KDB=TRUE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=prbs_gen_top_tb 
+OPTION=-ssv -ssy 
+ELAB_OPTION=-ssv -ssy 
+SDF=max:prbs_gen_top:/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/syn-rundir/prbs_gen_top.mapped.sdf max:prbs_gen_top:/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/syn-rundir/prbs_gen_top.mapped.sdf 
+ELAB=TRUE
+SIMV_WRAPPER=FALSE
+[vcs]
+RUN_ELABCOM=unset TURBO_LOG_DIR ;\rm -rf /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/elabcomLog ;/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/bin/elabcom -logdir /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/elabcomLog  -simvdaidir /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir  -lib /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/work  -saveLevel  -elab /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/kdb -simflow -simdir /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/kdb_libs -topfile /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/.elabcomTopFile -ssv -ssy  -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389  >& /dev/null  && echo Success >& /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/.elabcomReport || echo Fail >& /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/.elabcomReport; \rm -rf /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/work.lib++ /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_gen/sim-syn-rundir/simv.daidir/kdb_libs/ 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a
+
+[CompInfo]
+FLOW_OPTS=-kdb -ssv -ssy 

@@ -1,0 +1,91 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr 24 13:47 2026
+[1246000] PASS  (default_seed_reg): value=0x00000001
+[2454000] PASS  (default_window_reg): value=0x00000014
+[3662000] PASS  (default_sticky_status): value=0x00000000
+[5694000] PASS  (ctrl_case2_readback): value=0x00000001
+[7726000] PASS  (seed_case2_readback): value=0x00000056
+[9758000] PASS  (window_case2_readback): value=0x00000014
+[12722000] PASS  (prbs7_internal_no_error_errcnt): value=0x00000000
+[13930000] PASS  (prbs7_internal_no_error_totcnt): value=0x00000014
+[15138000] PASS  (status_after_prbs7_internal): STATUS=0x00000082
+[16346000] PASS  (dbg_after_prbs7_pass_last_errcnt): value=0x00000000
+[17554000] PASS  (dbg_after_prbs7_pass_last_totcnt): value=0x00000014
+[18762000] PASS  (dbg_after_prbs7_pass_run_count): value=0x00000001
+[19970000] PASS  (dbg_after_prbs7_pass_pass_count): value=0x00000001
+[21178000] PASS  (dbg_after_prbs7_pass_fail_count): value=0x00000000
+[22386000] PASS  (dbg_after_prbs7_pass_sticky_status): value=0x00000001
+[24434000] PASS  (manual_clear_errcnt): value=0x00000000
+[25642000] PASS  (manual_clear_totcnt): value=0x00000000
+[26850000] PASS  (dbg_after_manual_clear_last_errcnt): value=0x00000000
+[28058000] PASS  (dbg_after_manual_clear_last_totcnt): value=0x00000000
+[29266000] PASS  (dbg_after_manual_clear_run_count): value=0x00000000
+[30474000] PASS  (dbg_after_manual_clear_pass_count): value=0x00000000
+[31682000] PASS  (dbg_after_manual_clear_fail_count): value=0x00000000
+[32890000] PASS  (dbg_after_manual_clear_sticky_status): value=0x00000000
+[34922000] PASS  (ctrl_case4_readback): value=0x00000009
+[36954000] PASS  (seed_case4_readback): value=0x00000056
+[39918000] PASS  (prbs7_internal_inject_error_errcnt): value=0x00000014
+[41126000] PASS  (prbs7_internal_inject_error_totcnt): value=0x00000014
+[42334000] PASS  (prbs7_internal_inject_first_err_idx): value=0x00000000
+[43542000] PASS  (dbg_after_prbs7_fail_last_errcnt): value=0x00000014
+[44750000] PASS  (dbg_after_prbs7_fail_last_totcnt): value=0x00000014
+[45958000] PASS  (dbg_after_prbs7_fail_run_count): value=0x00000001
+[47166000] PASS  (dbg_after_prbs7_fail_pass_count): value=0x00000000
+[48374000] PASS  (dbg_after_prbs7_fail_fail_count): value=0x00000001
+[49582000] PASS  (dbg_after_prbs7_fail_sticky_status): value=0x0000000b
+[52454000] PASS  (ctrl_case6_readback): value=0x00000003
+[54486000] PASS  (seed_case6_readback): value=0x000055d5
+[56518000] PASS  (window_case6_readback): value=0x00000014
+[59482000] PASS  (prbs15_internal_no_error_errcnt): value=0x00000000
+[60690000] PASS  (prbs15_internal_no_error_totcnt): value=0x00000014
+[61898000] PASS  (dbg_after_prbs15_pass_last_errcnt): value=0x00000000
+[63106000] PASS  (dbg_after_prbs15_pass_last_totcnt): value=0x00000014
+[64314000] PASS  (dbg_after_prbs15_pass_run_count): value=0x00000001
+[65522000] PASS  (dbg_after_prbs15_pass_pass_count): value=0x00000001
+[66730000] PASS  (dbg_after_prbs15_pass_fail_count): value=0x00000000
+[67938000] PASS  (dbg_after_prbs15_pass_sticky_status): value=0x00000001
+[70810000] PASS  (ctrl_case8_readback): value=0x0000000b
+[72842000] PASS  (seed_case8_readback): value=0x000055d5
+[75806000] PASS  (prbs15_internal_inject_error_errcnt): value=0x00000014
+[77014000] PASS  (prbs15_internal_inject_error_totcnt): value=0x00000014
+[78222000] PASS  (dbg_after_prbs15_fail_last_errcnt): value=0x00000014
+[79430000] PASS  (dbg_after_prbs15_fail_last_totcnt): value=0x00000014
+[80638000] PASS  (dbg_after_prbs15_fail_run_count): value=0x00000001
+[81846000] PASS  (dbg_after_prbs15_fail_pass_count): value=0x00000000
+[83054000] PASS  (dbg_after_prbs15_fail_fail_count): value=0x00000001
+[84262000] PASS  (dbg_after_prbs15_fail_sticky_status): value=0x0000000b
+[87134000] PASS  (ctrl_case10_readback): value=0x00000005
+[89166000] PASS  (seed_case10_readback): value=0x00000056
+[91198000] PASS  (window_case10_readback): value=0x00000014
+[94162000] PASS  (external_match_errcnt): value=0x00000000
+[95370000] PASS  (external_match_totcnt): value=0x00000014
+[96578000] PASS  (dbg_after_external_match_last_errcnt): value=0x00000000
+[97786000] PASS  (dbg_after_external_match_last_totcnt): value=0x00000014
+[98994000] PASS  (dbg_after_external_match_run_count): value=0x00000001
+[100202000] PASS  (dbg_after_external_match_pass_count): value=0x00000001
+[101410000] PASS  (dbg_after_external_match_fail_count): value=0x00000000
+[102618000] PASS  (dbg_after_external_match_sticky_status): value=0x00000001
+[105490000] PASS  (ctrl_case12_readback): value=0x00000005
+[107522000] PASS  (seed_case12_readback): value=0x00000056
+[109554000] PASS  (window_case12_readback): value=0x00000014
+[112518000] PASS  (external_invert_errcnt): value=0x00000014
+[113726000] PASS  (external_invert_totcnt): value=0x00000014
+[114934000] PASS  (dbg_after_external_invert_last_errcnt): value=0x00000014
+[116142000] PASS  (dbg_after_external_invert_last_totcnt): value=0x00000014
+[117350000] PASS  (dbg_after_external_invert_run_count): value=0x00000001
+[118558000] PASS  (dbg_after_external_invert_pass_count): value=0x00000000
+[119766000] PASS  (dbg_after_external_invert_fail_count): value=0x00000001
+[120974000] PASS  (dbg_after_external_invert_sticky_status): value=0x0000000b
+========================================
+TEST PASSED: prbs_ber_pad_top checks succeeded.
+========================================
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_pad_top_tb.sv", line 560.
+$finish at simulation time            120974000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 120974000 ps
+CPU Time:      0.280 seconds;       Data structure size:   0.0Mb
+Fri Apr 24 13:47:56 2026

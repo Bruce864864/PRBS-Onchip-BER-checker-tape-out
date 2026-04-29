@@ -1,0 +1,30 @@
+[
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "u_prbs_core/\\lfsr_q_reg[0]",
+    "pin": "Q"
+  }
+]

@@ -1,0 +1,5 @@
+#!/bin/bash
+        cd /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir
+        source enter
+        $INNOVUS_BIN -common_ui -win -files /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/generated-scripts/open_chip.tcl
+                

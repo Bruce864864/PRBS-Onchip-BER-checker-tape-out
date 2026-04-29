@@ -1,0 +1,130 @@
+0
+49
++itf+/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libvirsim.so /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/liberrorinf.so /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libsnpsmalloc.so /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libvfs.so
+-Mout=/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv
+-Msaverestoreobj=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/w/apps4/Synopsys/verdi/V-2023.12-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-o /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv
+-override_timescale=1ps/1ps
+-picarchive
+-sverilog
+-top
+/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/bin/vcs1
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv
+prbs_ber_chip_top_tb
+/w/apps4/Synopsys/verdi/V-2023.12-SP2/share/PLI/VCS/LINUX64/verdi.tab
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv
+/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_chip_top_tb.sv
+54
+which_declare=declare -f
+XDG_SESSION_ID=43298
+XDG_RUNTIME_DIR=/run/user/1000112187
+XDG_DATA_DIRS=/w/home.09/home/liyuyao864/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VERDI_HOME=/w/apps4/Synopsys/verdi/V-2023.12-SP2
+VCS_PYTHON3=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/bin/Python-3.6.1/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64
+S_COLORS=auto
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=128.97.85.253 65385 164.67.100.243 22
+SSH_CLIENT=128.97.85.253 65385 22
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_PYTHON3=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/bin/Python-3.6.1/bin/python3
+SNPS_VCS_CLANG_PATH=/w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+MYPYPATH=:/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src:/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src/jsonschema:/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src/python-jsonschema-objects:/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src/hammer-tech:/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src/hammer-vlsi
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/0
+MAKE_TERMERR=/dev/pts/0
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=KEYRING:persistent:1000112187
+KDEDIRS=/usr
+INPUTRC=/etc/inputrc
+HAMMER_VLSI=/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer/src/hammer-vlsi
+HAMMER_HOME=/w/home.09/home/liyuyao864/ee209/ee209-hammer-internal/hammer
+GDK_BACKEND=x11
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-pHKOjXuiKj,guid=cd5e47a42e9c65297d4cc2a969e2b451
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ . /usr/share/Modules/init/sh;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl sh '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl sh "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+0
+0
+14
+1776471974 /w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_chip_top_tb.sv
+1776471050 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv
+1776471050 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv
+1776471050 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv
+1776471050 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv
+1775694156 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv
+1775075966 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv
+1775075966 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv
+1775075966 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv
+1774979026 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv
+1774979026 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv
+1775694156 /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv
+1716718493 /w/apps4/Synopsys/verdi/V-2023.12-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1716692775 /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/vcsdp_lite.tab
+4
+1716694259 /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libvirsim.so
+1716693608 /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/liberrorinf.so
+1716693561 /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libsnpsmalloc.so
+1716693606 /w/apps4/Synopsys/verdi/V-2023.12-SP2/platform/verdi_supp/V-2023.12-SP2/linux64/lib/libvfs.so
+1776473253 /w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_chip/sim-rtl-rundir/simv.daidir
+-1 partitionlib

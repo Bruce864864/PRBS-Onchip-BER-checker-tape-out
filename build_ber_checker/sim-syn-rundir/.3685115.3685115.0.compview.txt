@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1775693627.015372129, "rt":0.99, "ut":0.63, "st":0.13}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1775693626.331071867}
+{"VCS_COMP_START_TIME": 1775693626.331071867}
+{"VCS_COMP_END_TIME": 1775693628.102386759}
+{"VCS_USER_OPTIONS": "-full64 -override_timescale=1ps/1ps -sverilog -Mdir=/w/home.09/home/liyuyao864/ee209/prbs_project/build_ber_checker/sim-syn-rundir -o /w/home.09/home/liyuyao864/ee209/prbs_project/build_ber_checker/sim-syn-rundir/simv -debug_access+all -kdb -top ber_checker_top_tb /w/home.09/home/liyuyao864/ee209/prbs_project/build_ber_checker/syn-rundir/ber_checker_top.mapped.v /w/home.09/home/liyuyao864/ee209/prbs_project/tb/ber_checker_top_tb.sv /w/class.1/ee/ee209b/ee209bta/TSMC180PDK/Standard_Cells_and_IO/180_G_Standard_Cell/core_cell_library/core_cell_library/7-track/tcb018gbwp7t_290a/TSMCHOME/digital/Front_End/verilog/tcb018gbwp7t_270a/tcb018gbwp7t.v -sdf max:ber_checker_top:/w/home.09/home/liyuyao864/ee209/prbs_project/build_ber_checker/syn-rundir/ber_checker_top.mapped.sdf +neg_tchk +sdfverbose -negdelay +define+FUNCTIONAL +define+UNIT_DELAY +warn=noSDFCOM_UHICD +warn=noSDFCOM_ANICD"}
+{"vcs1": {"peak_mem": 556756}}

@@ -1,0 +1,37 @@
+                         Chronologic VCS (TM)
+       Version V-2023.12-SP2_Full64 -- Wed Apr  8 17:13:47 2026
+
+                    Copyright (c) 1991 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/build_ber_checker/syn-rundir/ber_checker_top.mapped.v'
+Parsing design file '/w/home.09/home/liyuyao864/ee209/prbs_project/tb/ber_checker_top_tb.sv'
+Parsing design file '/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/Standard_Cells_and_IO/180_G_Standard_Cell/core_cell_library/core_cell_library/7-track/tcb018gbwp7t_290a/TSMCHOME/digital/Front_End/verilog/tcb018gbwp7t_270a/tcb018gbwp7t.v'
+Top Level Modules:
+       ber_checker_top_tb
+
+Error-[CFCILFBI] Cannot find cell in liblist
+/w/home.09/home/liyuyao864/ee209/prbs_project/tb/ber_checker_top_tb.sv, 42
+  Cell 'prbs_gen_top' cannot be found in liblist for binding instance 
+  'ber_checker_top_tb.u_ext_gen'.
+  Liblist: work
+  Config rule: global default liblist
+  Source Info: prbs_gen_top u_ext_gen( .clk (clk),  .rst_n (rst_n),  .en (en),
+  .seed_load (seed_load),  .mode_select (mode_select),  .seed_in (seed_in),  
+  .prbs_out (ext_prb ...
+
+1 error
+CPU time: .826 seconds to compile

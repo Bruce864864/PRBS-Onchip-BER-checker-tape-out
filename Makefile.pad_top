@@ -1,0 +1,10 @@
+PROJECT_DIR := $(abspath .)
+TOP_DIR := /w/home.09/home/liyuyao864/ee209/ee209-hammer-internal
+OBJ_DIR := $(PROJECT_DIR)/build_prbs_ber_pad
+
+BASEJUMP_STL_PATH := $(TOP_DIR)/misc-data
+
+INPUT_CFGS := $(PROJECT_DIR)/cfg/prbs_ber_pad_top.yml
+TB_CFGS := $(PROJECT_DIR)/cfg/prbs_ber_pad_tb.yml
+
+include $(TOP_DIR)/module_top.mk
