@@ -64,7 +64,7 @@ set ::CPF::end_lineno {12}
 set ::CPF::evalMacroCommands {0}
 set ::CPF::exe_version {21.19-s058_1}
 set ::CPF::first_input {${::IMEX::libVar}/cpf/power_spec.cpf}
-array set ::CPF::followpin {0x7fcba63da348 {{ } { } { } { } { } { } { } { }} 0x7fcba63da210 {{  VDD } {  VSS } { } { } { } { } { } { }} 0x7fcb9cb6cce0 {{  VDD } {  VSS } { } { } { } { } { } { }} 0x7fcb8dfa6a20 {{ } { } { } { } { } { } { } { }} 0x7fcba63da158 {{ } { } { } { } { } { } { } { }} 0x7fcba63da020 {{  VDD } {  VSS } { } { } { } { } { } { }}}
+array set ::CPF::followpin {0x7f16238cece0 {{  VDD } {  VSS } { } { } { } { } { } { }} 0x7f164c8e8158 {{ } { } { } { } { } { } { } { }} 0x7f164c8e8020 {{  VDD } {  VSS } { } { } { } { } { } { }} 0x7f1637c5aa20 {{ } { } { } { } { } { } { } { }} 0x7f164c8e8348 {{ } { } { } { } { } { } { } { }} 0x7f164c8e8210 {{  VDD } {  VSS } { } { } { } { } { } { }}}
 array set ::CPF::gnd_nets {0,-nets VSS}
 array set ::CPF::gvoltageRange {AO,high 0 AO,low 0}
 set ::CPF::handleAssignForPowerMode {0}
@@ -170,8 +170,8 @@ set ::CPF::skipGNCTraceForAOB {0}
 set ::CPF::sorted_iso_rules ""
 set ::CPF::sorted_shifter_rules ""
 set ::CPF::srpgEnableNets ""
-set ::CPF::startCpuTime {62.880000}
-set ::CPF::startRealTime {32.000000}
+set ::CPF::startCpuTime {73.050000}
+set ::CPF::startRealTime {41.000000}
 set ::CPF::start_lineno {12}
 set ::CPF::strictly_honor_create_global_connection {0}
 set ::CPF::supportHierCPF {false}

@@ -2,7 +2,7 @@
 *	Innovus 21.19-s058_1 (64bit) 04/04/2024 09:59 (Linux 3.10.0-693.el7.x86_64)
 *	
 *
-* 	Date & Time:	2026-Apr-25 16:37:27 (2026-Apr-25 23:37:27 GMT)
+* 	Date & Time:	2026-May-03 12:58:53 (2026-May-03 19:58:53 GMT)
 *
 *----------------------------------------------------------------------------------------
 *
@@ -44,33 +44,33 @@
 
 Total Power 
 -----------------------------------------------------------------------------------------
-Total Internal Power:       10.83562583 	   79.9939%
-Total Switching Power:       2.70890402 	   19.9985%
-Total Leakage Power:         0.00102977 	    0.0076%
-Total Power:                13.54555963 
+Total Internal Power:       10.87229870 	   79.2426%
+Total Switching Power:       2.84694510 	   20.7499%
+Total Leakage Power:         0.00103375 	    0.0075%
+Total Power:                13.72027754 
 -----------------------------------------------------------------------------------------
 
 
 Group                           Internal   Switching     Leakage       Total  Percentage 
                                 Power      Power         Power         Power  (%)        
 -----------------------------------------------------------------------------------------
-Sequential                         8.751      0.6468   0.0005648       9.398       69.38 
+Sequential                         8.736      0.6653   0.0005652       9.402       68.52 
 Macro                                  0           0           0           0           0 
-IO                                     0           0   1.353e-13   1.353e-13   9.987e-13 
-Combinational                      1.132      0.7523   0.0004171       1.885       13.92 
-Clock (Combinational)             0.4575       1.042    2.55e-05         1.5       11.07 
-Clock (Sequential)                0.4946      0.2673   2.233e-05       0.762       5.625 
+IO                                     0           0   1.353e-13   1.353e-13    9.86e-13 
+Combinational                      1.135      0.7726   0.0004194       1.908       13.91 
+Clock (Combinational)             0.4997       1.145   2.711e-05       1.645       11.99 
+Clock (Sequential)                0.5018      0.2638    2.21e-05      0.7656        5.58 
 -----------------------------------------------------------------------------------------
-Total                              10.84       2.709     0.00103       13.55         100 
+Total                              10.87       2.847    0.001034       13.72         100 
 -----------------------------------------------------------------------------------------
 
 
 Clock                           Internal   Switching     Leakage       Total  Percentage 
                                 Power      Power         Power         Power  (%)        
 -----------------------------------------------------------------------------------------
-clk                               0.9521        1.31   4.782e-05       2.262        16.7 
+clk                                1.002       1.409   4.921e-05       2.411       17.57 
 -----------------------------------------------------------------------------------------
-Total (excluding duplicates)      0.9521        1.31   4.782e-05       2.262        16.7 
+Total (excluding duplicates)       1.002       1.409   4.921e-05       2.411       17.57 
 -----------------------------------------------------------------------------------------
 Clock: clk
 Clock Period: 0.004000 usec 
@@ -82,95 +82,95 @@ Clock Static Probability:  0.5000
 Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
                                 Power      Power         Power         Power  (%)        
 -----------------------------------------------------------------------------------------
-VDD                      1.62      10.84       2.709     0.00103       13.55         100 
+VDD                      1.62      10.87       2.847    0.001034       13.72         100 
 
 
 Total Power 
 -----------------------------------------------------------------------------------------
-Total Internal Power:       10.83562583 	   79.9939%
-Total Switching Power:       2.70890402 	   19.9985%
-Total Leakage Power:         0.00102977 	    0.0076%
-Total Power:                13.54555963 
+Total Internal Power:       10.87229870 	   79.2426%
+Total Switching Power:       2.84694510 	   20.7499%
+Total Leakage Power:         0.00103375 	    0.0075%
+Total Power:                13.72027754 
 -----------------------------------------------------------------------------------------
 
 
 Hierarchy                       Internal   Switching     Leakage       Total  Percentage 
                                 Power      Power         Power         Power  (%)        
 -----------------------------------------------------------------------------------------
-u_cfg_serial_if                    1.133      0.2639   0.0001835       1.397       10.32  
-u_prbs_ber_chip_top                9.601       2.099   0.0008369        11.7       86.38  
+u_cfg_serial_if                    1.127      0.2623   0.0001827        1.39       10.13  
+u_prbs_ber_chip_top                 9.61        2.15   0.0008407       11.76       85.72  
 u_prbs_ber_chip_top/u_csr_regbank
-                                   6.555       1.254   0.0005686       7.809       57.65  
+                                    6.57        1.32   0.0005718       7.891       57.51  
 u_prbs_ber_chip_top/u_measure_ctrl
-                                  0.3691      0.1414   7.303e-05      0.5105       3.769  
+                                  0.3717      0.1495   7.328e-05      0.5213       3.799  
 u_prbs_ber_chip_top/u_prbs_ber_top
-                                   2.637      0.5956   0.0001931       3.233       23.87  
+                                   2.646      0.6167   0.0001942       3.262       23.78  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST0
-                                  0.0165    6.67e-06   8.298e-07     0.01651      0.1219  
+                                 0.01648   6.129e-06   8.298e-07     0.01649      0.1202  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST1
-                                 0.01704   1.496e-05   1.038e-06     0.01706      0.1259  
+                                 0.01644   1.134e-05   8.298e-07     0.01645      0.1199  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST2
-                                 0.01807    0.002376   1.039e-06     0.02045      0.1509  
+                                 0.01726    0.001454     8.3e-07     0.01872      0.1364  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST3
-                                 0.01983    0.005157   1.042e-06     0.02498      0.1844  
+                                 0.01979    0.004925   1.042e-06     0.02472      0.1802  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST4
-                                 0.01845    0.003244   8.305e-07      0.0217      0.1602  
+                                 0.01844    0.002721   8.305e-07     0.02117      0.1543  
 u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST5
-                                 0.02175    0.005716   8.329e-07     0.02747      0.2028  
+                                 0.02174    0.005672   8.329e-07     0.02741      0.1998  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top
-                                  0.6059     0.09751   4.367e-05      0.7034       5.193  
+                                   0.602     0.09197   4.347e-05       0.694       5.058  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST6
-                                 0.02308     0.02022   1.052e-06     0.04329      0.3196  
+                                 0.02303     0.01657   1.052e-06      0.0396      0.2886  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST8
-                                 0.02447     0.01715   1.055e-06     0.04162      0.3073  
+                                  0.0324     0.02225   1.505e-06     0.05465      0.3983  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST9
-                                 0.02064     0.01247   8.324e-07     0.03311      0.2444  
+                                 0.02062     0.01298   8.324e-07     0.03361      0.2449  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST10
-                                 0.02106     0.01736   8.328e-07     0.03842      0.2836  
+                                 0.02099    0.006809   8.328e-07      0.0278      0.2026  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST11
-                                 0.02108     0.01603   8.328e-07     0.03711       0.274  
+                                 0.02108     0.01558   8.328e-07     0.03666      0.2672  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST12
-                                 0.02104     0.01528   8.328e-07     0.03632      0.2681  
+                                 0.02103     0.01672   8.328e-07     0.03775      0.2752  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST13
-                                 0.02894     0.02063     1.5e-06     0.04957       0.366  
+                                 0.02896     0.02296     1.5e-06     0.05193      0.3785  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST14
-                                  0.0367     0.01558    1.99e-06     0.05228      0.3859  
+                                   0.029     0.01742     1.5e-06     0.04642      0.3384  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST15
-                                 0.02306     0.01779   1.052e-06     0.04084      0.3015  
+                                 0.02303     0.01489   1.052e-06     0.03792      0.2764  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST16
-                                 0.02107     0.01518   8.328e-07     0.03625      0.2676  
+                                 0.02107     0.01363   8.328e-07     0.03471       0.253  
 u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST17
-                                 0.02304     0.01424   1.052e-06     0.03728      0.2752  
+                                 0.02302     0.01422   1.052e-06     0.03723      0.2714  
 u_prbs_ber_chip_top/u_measure_ctrl/CLKGATE_RC_CG_HIER_INST18
-                                 0.02097    0.007538   8.342e-07     0.02851      0.2105  
+                                 0.02095    0.006916   8.342e-07     0.02787      0.2031  
 u_prbs_ber_chip_top/u_prbs_ber_top/CLKGATE_RC_CG_HIER_INST19
-                                 0.02604     0.02089   1.062e-06     0.04693      0.3465  
+                                 0.02603     0.02077   1.062e-06      0.0468      0.3411  
 u_prbs_ber_chip_top/u_prbs_ber_top/CLKGATE_RC_CG_HIER_INST20
-                                 0.02599      0.0206   1.063e-06     0.04659      0.3439  
+                                 0.03822     0.02841   1.518e-06     0.06664      0.4857  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top
-                                  0.1947     0.02313   1.393e-05      0.2179       1.608  
+                                   0.195     0.02177   1.393e-05      0.2168        1.58  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top
-                                   0.405     0.05642   2.783e-05      0.4614       3.406  
+                                  0.4018      0.0532    2.76e-05       0.455       3.316  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top/u_prbs_core
-                                  0.1922     0.02212   1.336e-05      0.2144       1.583  
+                                  0.1925     0.02108   1.336e-05      0.2136       1.557  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top/u_prbs15_core
-                                     0.4     0.05543   2.687e-05      0.4554       3.362  
+                                  0.3968     0.05228   2.665e-05      0.4491       3.273  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top/u_prbs_ctrl
-                                 0.00249    0.001009   5.734e-07      0.0035     0.02584  
+                                0.002475   0.0006951   5.734e-07    0.003171     0.02311  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top/u_prbs15_ctrl
-                                0.004996   0.0009983   9.521e-07    0.005995     0.04426  
+                                0.004991   0.0009202   9.521e-07    0.005912     0.04309  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top/u_prbs_core/CLKGATE_RC_CG_HIER_INST21
-                                 0.02114     0.01389   8.331e-07     0.03503      0.2586  
+                                 0.02114     0.01329   8.331e-07     0.03443      0.2509  
 u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top/u_prbs15_core/CLKGATE_RC_CG_HIER_INST22
-                                 0.02468    0.005967   1.057e-06     0.03065      0.2263  
+                                 0.02107    0.005601   8.331e-07     0.02667      0.1944  
 
 
 -----------------------------------------------------------------------------------------
 *	Power Distribution Summary: 
-*                Highest Average Power:       CTS_ccl_a_buf_00064 (CKBD6BWP7T):          0.08801 
-*                Highest Leakage Power: u_prbs_ber_chip_top/u_csr_regbank/CLKGATE_RC_CG_HIER_INST14/RC_CGIC_INST (CKLNQD6BWP7T):         1.99e-06 
-*          Total Cap:      3.18319e-11 F
-*          Total instances in design:  1953
+*                Highest Average Power:       CTS_ccl_a_buf_00065 (CKBD6BWP7T):          0.09264 
+*                Highest Leakage Power: u_prbs_ber_chip_top/u_prbs_ber_top/CLKGATE_RC_CG_HIER_INST20/RC_CGIC_INST (CKLNQD4BWP7T):        1.518e-06 
+*          Total Cap:      3.25288e-11 F
+*          Total instances in design:  1960
 *          Total instances in design with no power:     2
 *          Total instances in design with no activity:     2
 *          Total Fillers and Decap:     0

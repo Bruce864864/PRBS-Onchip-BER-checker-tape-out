@@ -81,7 +81,7 @@ CFLAGS_O0+=$(STDLIB)
 LD_PARTIAL_LOADER=ld
 # Partial linking
 LD_PARTIAL=$(LD_PARTIAL_LOADER) -r -o
-LIBS=-lnuma -lvirsim -lerrorinf -lsnpsmalloc -lvfs 
+LIBS=-lvirsim -lerrorinf -lsnpsmalloc -lvfs 
 # Note: if make gives you errors about include, either get gmake, or
 # replace the following line with the contents of the file filelist,
 # EACH TIME IT CHANGES

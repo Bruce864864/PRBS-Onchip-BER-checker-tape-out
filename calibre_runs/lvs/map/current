@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "prbs_ber_pad_FINAL_top"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs"
+ )
+( model
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/PCLAMPAC_w_schematic/schematic" "PCLAMPAC_w_schematic" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3AC_w_bond_and_schematic/schematic" "M_PVDD3AC_w_bond_and_schematic" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3VSS2AC_w_bond_and_schematic/schematic" "M_PVDD3VSS2AC_w_bond_and_schematic" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0/schematic" "UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVSS2AC_w_bond_and_schematic/schematic" "M_PVSS2AC_w_bond_and_schematic" )
+( "209Tapeout/prbs_ber_pad_FINAL_top/schematic" "prbs_ber_pad_FINAL_top" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/M_PDB3AC_w_bond_and_schematic/schematic" "M_PDB3AC_w_bond_and_schematic" )
+( "UCLA_CEMiD_1x1_PadFrame_PCELL/PVDD3AC_w_bond_and_schematic_backside/schematic" "PVDD3AC_w_bond_and_schematic_backside" )
+ )
+( "M_PVDD3AC_w_bond_and_schematic" "ihnl/cds0/map" )
+( "M_PVDD3VSS2AC_w_bond_and_schematic" "ihnl/cds4/map" )
+( "UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0" "ihnl/cds6/map" )
+( "M_PVSS2AC_w_bond_and_schematic" "ihnl/cds3/map" )
+( "prbs_ber_pad_FINAL_top" "ihnl/cds7/map" )
+( "PVDD3AC_w_bond_and_schematic_backside" "ihnl/cds1/map" )
+( "PCLAMPAC_w_schematic" "ihnl/cds2/map" )
+( "M_PDB3AC_w_bond_and_schematic" "ihnl/cds5/map" )
+ )

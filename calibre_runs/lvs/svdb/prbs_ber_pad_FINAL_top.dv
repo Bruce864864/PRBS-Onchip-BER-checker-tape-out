@@ -1,0 +1,8 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/prbs_ber_pad_FINAL_top.dv
+dv_start notcompared                              
+dv_global
+dv_discrep 1 {Error: Unmatched statement}
+dv_discrep_line {No matching ".SUBCKT" statement for "prbs_ber_pad_top" at line 172 in file "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs/prbs_ber_pad_FINAL_top.src.net"}
+dv_discrep_line {}
+dv_end

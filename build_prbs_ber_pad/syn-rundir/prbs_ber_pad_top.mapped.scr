@@ -1,6 +1,6 @@
 ######################################################################
 
-# Created by Genus(TM) Synthesis Solution 21.19-s055_1 on Tue Apr 28 14:29:43 PDT 2026
+# Created by Genus(TM) Synthesis Solution 21.19-s055_1 on Sun May 03 12:04:29 PDT 2026
 
 # This file contains the Genus script for design:prbs_ber_pad_top
 
@@ -16,7 +16,7 @@ set_db -quiet db_units 2000
 set_db -quiet capacitance_per_unit_length_mmmc {}
 set_db -quiet resistance_per_unit_length_mmmc {}
 set_db -quiet lp_insert_clock_gating true
-set_db -quiet runtime_by_stage {{PBS_Generic-Start 0 21 0.0 30.0} {to_generic 12 33 12 42} {first_condense 4 39 6 51} {PBS_Generic_Opt-Post 19 40 19.821129 49.821129} {{PBS_Generic-Postgen HBO Optimizations} 0 40 0.0 49.821129} {PBS_TechMap-Start 0 42 0.0 50.821129} {{PBS_TechMap-Premap HBO Optimizations} 0 42 1.0 51.821129} {second_condense 2 44 4 57} {reify 8 52 13 71} {global_incr_map 2 54 1 73} {{PBS_Techmap-Global Mapping} 12 54 12.471622999999994 64.292752} {{PBS_TechMap-Datapath Postmap Operations} 2 56 1.9804129999999986 66.27316499999999} {{PBS_TechMap-Postmap HBO Optimizations} 0 56 -0.019989000000009582 66.25317599999998} {{PBS_TechMap-Postmap Clock Gating} 0 56 0.0 66.25317599999998} {{PBS_TechMap-Postmap Cleanup} 1 57 0.9750449999999944 67.22822099999998} {PBS_Techmap-Post_MBCI 0 57 0.0 67.22822099999998}}
+set_db -quiet runtime_by_stage {{PBS_Generic-Start 0 27 0.0 37.0} {to_generic 16 44 16 53} {first_condense 5 53 7 64} {PBS_Generic_Opt-Post 25 53 25.785784999999997 62.785785} {{PBS_Generic-Postgen HBO Optimizations} 0 53 0.0 62.785785} {PBS_TechMap-Start 0 55 0.0 64.785785} {{PBS_TechMap-Premap HBO Optimizations} 1 56 0.0 64.785785} {second_condense 3 59 4 72} {reify 9 68 15 87} {global_incr_map 2 70 2 90} {{PBS_Techmap-Global Mapping} 15 71 16.12007699999998 80.90586199999998} {{PBS_TechMap-Datapath Postmap Operations} 3 74 1.9801050000000089 82.885967} {{PBS_TechMap-Postmap HBO Optimizations} 0 74 -0.020182000000005473 82.86578499999999} {{PBS_TechMap-Postmap Clock Gating} 0 74 1.0 83.86578499999999} {{PBS_TechMap-Postmap Cleanup} 2 76 0.9739059999999995 84.83969099999999} {PBS_Techmap-Post_MBCI 0 76 0.0 84.83969099999999}}
 set_db -quiet timing_adjust_tns_of_complex_flops false
 set_db -quiet hdl_error_on_blackbox true
 set_db -quiet tinfo_tstamp_file .rs_liyuyao864.tstamp
@@ -27,7 +27,7 @@ set_db -quiet lp_clock_gating_hierarchical true
 set_db -quiet lp_insert_clock_gating_incremental true
 set_db -quiet lp_clock_gating_register_aware true
 set_db -quiet use_area_from_lef true
-set_db -quiet flow_metrics_snapshot_uuid 38b2d2fe-45c9-4f12-acb7-d6bc44b57384
+set_db -quiet flow_metrics_snapshot_uuid dcd73a4a-8eaf-44b0-b9de-86774fcae17d
 set_db -quiet read_qrc_tech_file_rc_corner true
 set_db -quiet auto_ungroup none
 set_db -quiet use_tiehilo_for_const duplicate
@@ -111,7 +111,7 @@ set_db -quiet dft_scan_style muxed_scan
 set_db -quiet dft_scanbit_waveform_analysis false
 # END DFT SECTION
 set_db -quiet design:prbs_ber_pad_top .seq_reason_deleted_internal {{{u_cfg_serial_if/cmd_shift_q_reg[39]} unloaded {u_cfg_serial_if/cmd_shift_q[39]}} {u_cfg_serial_if/tx_bit_cnt_q unloaded u_cfg_serial_if/tx_bit_cnt_q} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[8]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[8]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[9]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[9]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[10]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[10]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[11]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[11]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[12]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[12]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[13]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[13]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[14]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[14]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[15]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[15]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[16]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[16]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[17]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[17]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[18]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[18]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[19]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[19]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[20]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[20]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[21]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[21]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[22]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[22]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[23]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[23]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[24]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[24]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[25]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[25]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[26]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[26]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[27]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[27]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[28]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[28]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[29]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[29]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[30]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[30]}} {{u_prbs_ber_chip_top/u_csr_regbank/last_status_reg_reg[31]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/last_status_reg[31]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[8]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[8]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[9]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[9]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[10]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[10]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[11]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[11]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[12]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[12]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[13]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[13]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[14]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[14]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[15]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[15]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[16]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[16]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[17]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[17]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[18]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[18]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[19]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[19]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[20]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[20]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[21]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[21]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[22]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[22]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[23]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[23]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[24]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[24]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[25]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[25]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[26]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[26]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[27]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[27]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[28]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[28]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[29]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[29]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[30]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[30]}} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[31]} {{constant 0}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[31]}} {u_prbs_ber_chip_top/u_measure_ctrl/core_en_q_reg {{merged with u_prbs_ber_chip_top/u_measure_ctrl/busy_q_reg}} u_prbs_ber_chip_top/u_measure_ctrl/core_en_q u_prbs_ber_chip_top/u_measure_ctrl/busy_q} {{u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[3]} {{merged with u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg_reg[0]}} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[3]} {u_prbs_ber_chip_top/u_csr_regbank/snapshot0_reg[0]}}}
-set_db -quiet design:prbs_ber_pad_top .qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 60848} {cell_count 2298} {utilization  0.00} {runtime 12 33 12 42} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 67864} {cell_count 3108} {utilization  0.00} {runtime 4 39 6 51} }{second_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 67826} {cell_count 3107} {utilization  0.00} {runtime 2 44 4 57} }{reify {wns 572} {tns 0} {vep 0} {area 45161} {cell_count 1886} {utilization  0.00} {runtime 8 52 13 71} }{global_incr_map {wns 268} {tns 0} {vep 0} {area 43456} {cell_count 1855} {utilization  0.00} {runtime 2 54 1 73} }}
+set_db -quiet design:prbs_ber_pad_top .qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 60848} {cell_count 2298} {utilization  0.00} {runtime 16 44 16 53} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 67864} {cell_count 3108} {utilization  0.00} {runtime 5 53 7 64} }{second_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 67826} {cell_count 3107} {utilization  0.00} {runtime 3 59 4 72} }{reify {wns 580} {tns 0} {vep 0} {area 45232} {cell_count 1891} {utilization  0.00} {runtime 9 68 15 88} }{global_incr_map {wns 268} {tns 0} {vep 0} {area 43504} {cell_count 1858} {utilization  0.00} {runtime 2 71 2 90} }}
 set_db -quiet design:prbs_ber_pad_top .seq_mbci_coverage 0.0
 set_db -quiet design:prbs_ber_pad_top .hdl_user_name prbs_ber_pad_top
 set_db -quiet design:prbs_ber_pad_top .hdl_filelist {{default -sv {SYNTHESIS} {/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_core.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs15_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_gen_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/measure_ctrl.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/csr_regbank.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_chip_top.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/cfg_serial_if.sv /w/home.09/home/liyuyao864/ee209/prbs_project/rtl/prbs_ber_pad_top.sv} {} {}}}
@@ -170,6 +170,87 @@ set_db -quiet port:prbs_ber_pad_top/bit_error .external_pin_cap_by_mode {{mode:p
 set_db -quiet port:prbs_ber_pad_top/bit_error .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
 set_db -quiet port:prbs_ber_pad_top/bit_error .original_name bit_error
 set_db -quiet port:prbs_ber_pad_top/bit_error .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/ref_bit .original_name ref_bit
+set_db -quiet port:prbs_ber_pad_top/ref_bit .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/checker_in .original_name checker_in
+set_db -quiet port:prbs_ber_pad_top/checker_in .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .original_name checker_in_final
+set_db -quiet port:prbs_ber_pad_top/checker_in_final .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/core_en .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/core_en .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/core_en .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/core_en .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/core_en .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/core_en .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/core_en .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/core_en .original_name core_en
+set_db -quiet port:prbs_ber_pad_top/core_en .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .original_name cfg_we_dbg
+set_db -quiet port:prbs_ber_pad_top/cfg_we_dbg .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .original_name cfg_re_dbg
+set_db -quiet port:prbs_ber_pad_top/cfg_re_dbg .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .original_name mode_select_dbg
+set_db -quiet port:prbs_ber_pad_top/mode_select_dbg .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .original_name input_select_dbg
+set_db -quiet port:prbs_ber_pad_top/input_select_dbg .external_pin_cap {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_pin_cap_min 5.0
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_capacitance_max {5.0 5.0}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_capacitance_min 5.0
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_pin_cap_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_capacitance_min_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view 5.0}}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_pin_cap_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_capacitance_max_by_mode {{mode:prbs_ber_pad_top/WCCOM.setup_view {5.0 5.0}}}
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .original_name inject_error_enable_dbg
+set_db -quiet port:prbs_ber_pad_top/inject_error_enable_dbg .external_pin_cap {5.0 5.0}
 set_db -quiet module:prbs_ber_pad_top/cfg_serial_if_mapped .hdl_user_name cfg_serial_if
 set_db -quiet module:prbs_ber_pad_top/cfg_serial_if_mapped .hdl_filelist {{default -sv {SYNTHESIS} {/w/home.09/home/liyuyao864/ee209/prbs_project/rtl/cfg_serial_if.sv} {} {}}}
 set_db -quiet module:prbs_ber_pad_top/cfg_serial_if_mapped .lp_clock_gating_min_flops 3
@@ -1098,6 +1179,7 @@ set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_err
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[0]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[0]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[0]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[0]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[0]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[0]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[0]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[1]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[1]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[1]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[1]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[1]}
@@ -1123,26 +1205,31 @@ set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_err
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[5]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[5]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[5]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[5]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[5]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[5]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[5]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[6]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[6]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[6]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[6]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[6]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[7]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[7]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[7]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[7]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[7]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[8]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[8]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[8]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[8]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[8]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[9]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[9]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[9]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[9]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[9]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[10]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[10]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[10]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg_reg[10]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/first_error_index_reg[10]}
@@ -1516,6 +1603,7 @@ set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totc
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[9]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[9]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[9]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[9]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[9]/q}
+set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[9]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[9]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[10]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[10]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[10]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[10]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[10]}
@@ -1532,7 +1620,6 @@ set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totc
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[12]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[12]}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[12]} .gint_phase_inversion false
 set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[12]/Q} .original_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[12]/q}
-set_db -quiet {pin:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[12]/QN} .original_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[12]/q}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[13]} .original_name {{u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[13]}}
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[13]} .orig_hdl_instantiated false
 set_db -quiet {inst:prbs_ber_pad_top/u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg_reg[13]} .single_bit_orig_name {u_prbs_ber_chip_top/u_csr_regbank/last_totcnt_reg[13]}
@@ -3092,7 +3179,7 @@ set_db -quiet source_verbose true
 ##
 ## Written by Genus(TM) Synthesis Solution version 21.19-s055_1
 ## flowkit v21.12-s019_1
-## Written on 14:29:43 28-Apr 2026
+## Written on 12:04:30 03-May 2026
 #############################################################
 #####   Flow Definitions   ##################################
 
@@ -3147,7 +3234,7 @@ if {[is_attribute flow_step_next -obj_type root]} {set_db flow_step_next {}}
 if {[is_attribute flow_working_directory -obj_type root]} {set_db flow_working_directory .}
 if {[is_attribute flow_branch -obj_type root]} {set_db flow_branch {}}
 if {[is_attribute flow_caller_data -obj_type root]} {set_db flow_caller_data {}}
-if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_db flow_metrics_snapshot_uuid 38b2d2fe-45c9-4f12-acb7-d6bc44b57384}
+if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_db flow_metrics_snapshot_uuid dcd73a4a-8eaf-44b0-b9de-86774fcae17d}
 if {[is_attribute flow_starting_db -obj_type root]} {set_db flow_starting_db {}}
 if {[is_attribute flow_db_directory -obj_type root]} {set_db flow_db_directory dbs}
 if {[is_attribute flow_report_directory -obj_type root]} {set_db flow_report_directory reports}

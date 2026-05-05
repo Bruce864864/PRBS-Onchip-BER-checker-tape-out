@@ -13,6 +13,15 @@ add mapped point busy busy -type PO PO
 add mapped point done done -type PO PO
 add mapped point prbs_out prbs_out -type PO PO
 add mapped point bit_error bit_error -type PO PO
+add mapped point ref_bit ref_bit -type PO PO
+add mapped point checker_in checker_in -type PO PO
+add mapped point checker_in_final checker_in_final -type PO PO
+add mapped point core_en core_en -type PO PO
+add mapped point cfg_we_dbg cfg_we_dbg -type PO PO
+add mapped point cfg_re_dbg cfg_re_dbg -type PO PO
+add mapped point mode_select_dbg mode_select_dbg -type PO PO
+add mapped point input_select_dbg input_select_dbg -type PO PO
+add mapped point inject_error_enable_dbg inject_error_enable_dbg -type PO PO
 
 //inout ports
 

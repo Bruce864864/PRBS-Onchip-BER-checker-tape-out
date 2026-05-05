@@ -1,0 +1,35 @@
+//  Runset file generated on Mon May 4 17:21:12 2026
+//  by Calibre Interactive v2024.3_16.10    Tue Jul 9 11:27:29 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+lvs.rulesFile.value = "/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/Calibre/lvs/calibre.lvs"
+lvs.runDir.value = "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs"
+lvs.layout.layoutFile.value = "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs/prbs_ber_pad_FINAL_top.calibre.db"
+cmn.layout.defFiles.value = [ "prbs_ber_pad_FINAL_top.def" ]
+lvs.layout.topCellLibrary.value = "209Tapeout"
+cmn.layout.topCellLibraryFDI.value = "209Tapeout"
+lvs.layout.topCell.value = "prbs_ber_pad_FINAL_top"
+lvs.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+lvs.layout.layoutNetlist.value = "prbs_ber_pad_FINAL_top.sp"
+lvs.source2.sourceFile.value = "prbs_ber_pad_FINAL_top.sp"
+lvs.source2.topCellLibrary.value = "209Tapeout"
+lvs.source2.topCellLibraryFDI.value = "209Tapeout"
+lvs.source2.topCell.value = "prbs_ber_pad_FINAL_top"
+lvs.source2.topCellFDI.value = "prbs_ber_pad_FINAL_top"
+lvs.source.exportFromSourceViewer.value = false
+lvs.source.sourceFile.value = "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs/prbs_ber_pad_FINAL_top.with_core.spi"
+lvs.source.topCellLibrary.value = "209Tapeout"
+lvs.source.topCellLibraryFDI.value = "209Tapeout"
+lvs.source.topCell.value = "prbs_ber_pad_FINAL_top"
+lvs.source.topCellFDI.value = "prbs_ber_pad_FINAL_top"
+lvs.source.topCellView.value = "schematic"
+lvs.reports.lvsReport.value = "prbs_ber_pad_FINAL_top.lvs.report"
+lvs.ercdb.resultsFile.value = "prbs_ber_pad_FINAL_top.erc.results"
+lvs.ercSummaryReport.report.value = "prbs_ber_pad_FINAL_top.erc.summary"
+
+cmn.miscPrefs.overwriteLayoutPref.value = false
+cmn.miscPrefs.overwriteSourcePref.value = false

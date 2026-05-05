@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Mon May 4 15:00:58 2026
+//  by Calibre Interactive v2024.3_16.10    Tue Jul 9 11:27:29 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "prbs_ber_pad_FINAL_top.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "prbs_ber_pad_FINAL_top"
+
+DRC RESULTS DATABASE "prbs_ber_pad_FINAL_top.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "prbs_ber_pad_FINAL_top.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/Calibre/drc/wirebond.drc"

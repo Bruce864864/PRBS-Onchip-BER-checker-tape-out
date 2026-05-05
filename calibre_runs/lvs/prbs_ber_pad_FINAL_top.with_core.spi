@@ -1,0 +1,3 @@
+.GLOBAL VDD VSS
+.include "/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/par-rundir/prbs_ber_pad_top.spi"
+.include "prbs_ber_pad_FINAL_top.src.net"

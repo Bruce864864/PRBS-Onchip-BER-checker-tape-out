@@ -10,7 +10,7 @@ Slack (ps):                       268
   I2R (ps):                  no_value
   R2O (ps):                  no_value
   I2O (ps):                  no_value
-  CG  (ps):                       572
+  CG  (ps):                       534
 TNS (ps):                           0
   R2R (ps):                         0
   I2R (ps):                  no_value
@@ -18,10 +18,10 @@ TNS (ps):                           0
   I2O (ps):                  no_value
   CG  (ps):                         0
 Failing Paths:                      0
-Cell Area:                     44,510
-Total Cell Area:               44,510
-Leaf Instances:                 1,947
-Total Instances:                1,947
+Cell Area:                     44,585
+Total Cell Area:               44,585
+Leaf Instances:                 1,954
+Total Instances:                1,954
 Utilization (%):                 0.00
 Tot. Net Length (um):        no_value
 Avg. Net Length (um):        no_value
@@ -32,17 +32,17 @@ Norm Cong Hotspot Area:
   Max Cong:                  no_value
   Tot Cong:                  no_value
 ================================================================================
-CPU  Runtime (h:m:s):        00:01:14
-Real Runtime (h:m:s):        00:00:54
-CPU  Elapsed (h:m:s):        00:01:19
-Real Elapsed (h:m:s):        00:00:56
-Memory (MB):                  1431.34
+CPU  Runtime (h:m:s):        00:01:31
+Real Runtime (h:m:s):        00:01:10
+CPU  Elapsed (h:m:s):        00:01:37
+Real Elapsed (h:m:s):        00:01:13
+Memory (MB):                  1441.13
 ================================================================================
 ================================================================================
 Flow Settings:
 ================================================================================
-Total Runtime (h:m:s): 00:00:54
-Total Memory (MB):     1431.34
+Total Runtime (h:m:s): 00:01:10
+Total Memory (MB):     1441.13
 Executable Version:    21.19-s055_1
 ================================================================================
 Total Cell Area =  Cell Area + Physical Cell Area

@@ -16,6 +16,15 @@ module prbs_ber_pad_top_tb;
     logic done;
     logic prbs_out;
     logic bit_error;
+    logic ref_bit;
+    logic checker_in;
+    logic checker_in_final;
+    logic core_en;
+    logic cfg_we_dbg;
+    logic cfg_re_dbg;
+    logic mode_select_dbg;
+    logic input_select_dbg;
+    logic inject_error_enable_dbg;
     logic        ext_use_gen;
     logic        ext_invert;
     logic        ext_prbs_bit;
@@ -67,13 +76,23 @@ module prbs_ber_pad_top_tb;
         .busy          (busy),
         .done          (done),
         .prbs_out      (prbs_out),
-        .bit_error     (bit_error)
+        .bit_error     (bit_error),
+
+        .ref_bit                 (ref_bit),
+        .checker_in              (checker_in),
+        .checker_in_final        (checker_in_final),
+        .core_en                 (core_en),
+        .cfg_we_dbg              (cfg_we_dbg),
+        .cfg_re_dbg              (cfg_re_dbg),
+        .mode_select_dbg         (mode_select_dbg),
+        .input_select_dbg        (input_select_dbg),
+        .inject_error_enable_dbg (inject_error_enable_dbg)
     );
 
     prbs_gen_top u_ext_gen (
         .clk         (clk),
         .rst_n       (rst_n),
-        .en          (dut.u_prbs_ber_chip_top.u_measure_ctrl.core_en),
+        .en          (core_en),
         .seed_load   (dut.u_prbs_ber_chip_top.u_csr_regbank.seed_load_pulse),
         .mode_select (ext_mode_select),
         .seed_in     (ext_seed_in),

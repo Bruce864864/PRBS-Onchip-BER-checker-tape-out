@@ -1,6 +1,6 @@
 # ####################################################################
 
-#  Created by Genus(TM) Synthesis Solution 21.19-s055_1 on Tue Apr 28 14:29:44 PDT 2026
+#  Created by Genus(TM) Synthesis Solution 21.19-s055_1 on Sun May 03 12:04:30 PDT 2026
 
 # ####################################################################
 
@@ -18,6 +18,15 @@ set_load -pin_load 0.005 [get_ports busy]
 set_load -pin_load 0.005 [get_ports done]
 set_load -pin_load 0.005 [get_ports prbs_out]
 set_load -pin_load 0.005 [get_ports bit_error]
+set_load -pin_load 0.005 [get_ports ref_bit]
+set_load -pin_load 0.005 [get_ports checker_in]
+set_load -pin_load 0.005 [get_ports checker_in_final]
+set_load -pin_load 0.005 [get_ports core_en]
+set_load -pin_load 0.005 [get_ports cfg_we_dbg]
+set_load -pin_load 0.005 [get_ports cfg_re_dbg]
+set_load -pin_load 0.005 [get_ports mode_select_dbg]
+set_load -pin_load 0.005 [get_ports input_select_dbg]
+set_load -pin_load 0.005 [get_ports inject_error_enable_dbg]
 set_clock_groups -name "clock_groups_clk_to_others" -asynchronous -group [get_clocks clk]
 group_path -weight 1.000000 -name cg_enable_group_clk -through [list \
   [get_pins u_cfg_serial_if/CLKGATE_RC_CG_HIER_INST0/enable]  \

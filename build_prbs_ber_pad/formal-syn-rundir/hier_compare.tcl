@@ -54,8 +54,8 @@ set_system_mode setup
 #-------------------------------------------------------------------------------
 # MODULE cfg_serial_if (G) INSTANCE /u_cfg_serial_if (G)
 # MODULE cfg_serial_if_mapped (R) INSTANCE /u_cfg_serial_if (R)
-# Wrapper size: (G) = 2399  (R) = 1851
-# Periphery size: (G) = 2466  (R) = 1949
+# Wrapper size: (G) = 2399  (R) = 1850
+# Periphery size: (G) = 2466  (R) = 1948
 # Pins directly connected to key-points/constants: (G) = 58.44%  (R) = 58.44%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -156,7 +156,7 @@ usage
 # MODULE csr_regbank (G) INSTANCE /u_prbs_ber_chip_top/u_csr_regbank (G)
 # MODULE csr_regbank_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_csr_regbank (R)
 # Wrapper size: (G) = 513  (R) = 731
-# Periphery size: (G) = 2915  (R) = 2849
+# Periphery size: (G) = 2915  (R) = 2848
 # Pins directly connected to key-points/constants: (G) = 81.59%  (R) = 82.09%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -384,8 +384,8 @@ usage
 #-------------------------------------------------------------------------------
 # MODULE measure_ctrl (G) INSTANCE /u_prbs_ber_chip_top/u_measure_ctrl (G)
 # MODULE measure_ctrl_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_measure_ctrl (R)
-# Wrapper size: (G) = 775  (R) = 790
-# Periphery size: (G) = 986  (R) = 1087
+# Wrapper size: (G) = 775  (R) = 785
+# Periphery size: (G) = 986  (R) = 1082
 # Pins directly connected to key-points/constants: (G) = 100.00%  (R) = 100.00%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -469,8 +469,8 @@ usage
 # MODULE prbs_core_LFSR_W7_DEFAULT_SEED1 (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top/u_prbs_core (G)
 # MODULE prbs_core_LFSR_W7_DEFAULT_SEED1_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top/u_prbs_core (R)
 # Primitive count:  (G) = 37  (R) = 59
-# Wrapper size: (G) = 364  (R) = 209
-# Periphery size: (G) = 385  (R) = 253
+# Wrapper size: (G) = 364  (R) = 204
+# Periphery size: (G) = 385  (R) = 248
 # Pins directly connected to key-points/constants: (G) = 52.63%  (R) = 84.21%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -550,8 +550,8 @@ usage
 # MODULE prbs_top (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top (G)
 # MODULE prbs_top_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs7_top (R)
 # Primitive count:  (G) = 47  (R) = 73
-# Wrapper size: (G) = 356  (R) = 198
-# Periphery size: (G) = 385  (R) = 239
+# Wrapper size: (G) = 356  (R) = 193
+# Periphery size: (G) = 385  (R) = 234
 # Pins directly connected to key-points/constants: (G) = 83.33%  (R) = 83.33%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -586,8 +586,8 @@ usage
 #-------------------------------------------------------------------------------
 # MODULE prbs15_core_LFSR_W15_DEFAULT_SEED1 (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top/u_prbs15_core (G)
 # MODULE prbs15_core_LFSR_W15_DEFAULT_SEED1_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top/u_prbs15_core (R)
-# Wrapper size: (G) = 372  (R) = 219
-# Periphery size: (G) = 417  (R) = 310
+# Wrapper size: (G) = 372  (R) = 214
+# Periphery size: (G) = 417  (R) = 305
 # Pins directly connected to key-points/constants: (G) = 51.43%  (R) = 91.43%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -722,8 +722,8 @@ usage
 #-------------------------------------------------------------------------------
 # MODULE prbs15_top (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top (G)
 # MODULE prbs15_top_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top/u_prbs15_top (R)
-# Wrapper size: (G) = 356  (R) = 198
-# Periphery size: (G) = 417  (R) = 280
+# Wrapper size: (G) = 356  (R) = 193
+# Periphery size: (G) = 417  (R) = 275
 # Pins directly connected to key-points/constants: (G) = 90.00%  (R) = 90.00%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -766,8 +766,8 @@ usage
 #-------------------------------------------------------------------------------
 # MODULE prbs_gen_top (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top (G)
 # MODULE prbs_gen_top_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top/u_prbs_gen_top (R)
-# Wrapper size: (G) = 353  (R) = 194
-# Periphery size: (G) = 449  (R) = 327
+# Wrapper size: (G) = 353  (R) = 189
+# Periphery size: (G) = 449  (R) = 322
 # Pins directly connected to key-points/constants: (G) = 90.48%  (R) = 90.48%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -811,8 +811,8 @@ usage
 #-------------------------------------------------------------------------------
 # MODULE prbs_ber_top (G) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top (G)
 # MODULE prbs_ber_top_mapped (R) INSTANCE /u_prbs_ber_chip_top/u_prbs_ber_top (R)
-# Wrapper size: (G) = 856  (R) = 901
-# Periphery size: (G) = 1094  (R) = 1250
+# Wrapper size: (G) = 856  (R) = 894
+# Periphery size: (G) = 1094  (R) = 1243
 # Pins directly connected to key-points/constants: (G) = 92.47%  (R) = 93.55%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
@@ -931,13 +931,12 @@ set_system_mode setup
 add_black_box prbs_ber_top -module -hier -Golden
 add_black_box prbs_ber_top_mapped -module -hier -Revised
 usage
-# Comparing
 #-------------------------------------------------------------------------------
 # MODULE prbs_ber_chip_top (G) INSTANCE /u_prbs_ber_chip_top (G)
 # MODULE prbs_ber_chip_top_mapped (R) INSTANCE /u_prbs_ber_chip_top (R)
-# Wrapper size: (G) = 64  (R) = 95
-# Periphery size: (G) = 2560  (R) = 2295
-# Pins directly connected to key-points/constants: (G) = 58.97%  (R) = 58.97%
+# Wrapper size: (G) = 64  (R) = 99
+# Periphery size: (G) = 2560  (R) = 2302
+# Pins directly connected to key-points/constants: (G) = 63.22%  (R) = 63.22%
 #-------------------------------------------------------------------------------
 # RESOLVED Constraints
 # IN (G) clk  (KP<--)(REP)  =   (R) clk  (KP<--)(REP) (by sim and name)
@@ -1019,20 +1018,15 @@ usage
 # OUT (G) done  (KP<--)(REP)  =   (R) done  (KP<--)(REP) (by sim and name)
 # OUT (G) prbs_out  (-->KP)(REP)  =   (R) prbs_out  (-->KP)(REP) (by sim and name)
 # OUT (G) bit_error  (-->KP)(REP)  =   (R) bit_error  (-->KP)(REP) (by name)
-set_root_module prbs_ber_chip_top -Golden
-set_root_module prbs_ber_chip_top_mapped -Revised
-set_module_property -instance /u_prbs_ber_chip_top -Golden
-set_module_property -instance /u_prbs_ber_chip_top -Revised
-report_black_box -NOHidden
-set_system_mode lec
-report_design_data; report_unmapped_points -summary; report_unmapped_points -notmapped; analyze_datapath -module -verbose; eval analyze_datapath -verbose
-add_compared_points -all
-compare
-save_hier_compare_result
-set_system_mode setup
-add_black_box prbs_ber_chip_top -module -hier -Golden
-add_black_box prbs_ber_chip_top_mapped -module -hier -Revised
-usage
+# OUT (G) ref_bit  (-->KP) (EQ_REP: +prbs_out)  =   (R) ref_bit 0U(REP) (by name)
+# OUT (G) checker_in  (-->KP)(REP)  =   (R) checker_in  (-->KP)(REP) (by sim and name)
+# OUT (G) checker_in_final  (-->KP)(REP)  =   (R) checker_in_final  (-->KP)(REP) (by sim and name)
+# OUT (G) core_en  (KP<--)(REP)  =   (R) core_en 0(REP) (by name)
+# OUT (G) cfg_we_dbg  (KP<--)(REP) (IOEQ: +cfg_we)  =   (R) cfg_we_dbg 0U(REP) (by name)
+# OUT (G) cfg_re_dbg  (KP<--)(REP) (IOEQ: +cfg_re)  =   (R) cfg_re_dbg 0U(REP) (by name)
+# OUT (G) mode_select_dbg  (KP<--)(REP)  =   (R) mode_select_dbg  (KP<--)(REP) (by sim and name)
+# OUT (G) input_select_dbg  (KP<--)(REP)  =   (R) input_select_dbg  (KP<--)(REP) (by sim and name)
+# OUT (G) inject_error_enable_dbg  (KP<--)(REP)  =   (R) inject_error_enable_dbg  (KP<--)(REP) (by sim and name)
 # Root Modules
 # Comparing
 #-------------------------------------------------------------------------------
@@ -1054,10 +1048,26 @@ usage
 # OUT (G) done (REP)  =   (R) done (REP) (by name)
 # OUT (G) prbs_out (REP)  =   (R) prbs_out (REP) (by name)
 # OUT (G) bit_error (REP)  =   (R) bit_error (REP) (by name)
+# OUT (G) ref_bit  (EQ_REP: +prbs_out)  =   (R) ref_bit  (EQ_REP: +prbs_out) (by name)
+# OUT (G) checker_in (REP)  =   (R) checker_in (REP) (by name)
+# OUT (G) checker_in_final (REP)  =   (R) checker_in_final (REP) (by name)
+# OUT (G) core_en (REP)  =   (R) core_en (REP) (by name)
+# OUT (G) cfg_we_dbg (REP)  =   (R) cfg_we_dbg (REP) (by name)
+# OUT (G) cfg_re_dbg (REP)  =   (R) cfg_re_dbg (REP) (by name)
+# OUT (G) mode_select_dbg (REP)  =   (R) mode_select_dbg (REP) (by name)
+# OUT (G) input_select_dbg (REP)  =   (R) input_select_dbg (REP) (by name)
+# OUT (G) inject_error_enable_dbg (REP)  =   (R) inject_error_enable_dbg (REP) (by name)
 set_root_module prbs_ber_pad_top -Golden
 set_root_module prbs_ber_pad_top -Revised
 set_module_property -instance / -Golden
 set_module_property -instance / -Revised
+# Constraint commands 
+#add_output_equivalences prbs_out ref_bit -hier -Golden
+#add_ignored_outputs ref_bit -Golden -System
+# (EQ)
+#add_output_equivalences prbs_out ref_bit -hier -Revised
+#add_ignored_outputs ref_bit -Revised -System
+# (EQ)
 report_black_box -NOHidden
 set_system_mode lec
 report_design_data; report_unmapped_points -summary; report_unmapped_points -notmapped; analyze_datapath -module -verbose; eval analyze_datapath -verbose
@@ -1082,5 +1092,8 @@ report_hier_compare_result -Uncompared
 # Module Pair: measure_ctrl (G) and measure_ctrl_mapped (R)
 # Cause for mismatched ports is pin constants and unreachables
 # OUT (G) busy  (KP<--)(REP)  =    (R) busy 0U(REP) 
+# Module Pair: prbs_ber_chip_top (G) and prbs_ber_chip_top_mapped (R)
+# Cause for mismatched ports is pin constants and unreachables
+# OUT (G) core_en  (KP<--)(REP)  =    (R) core_en 0U(REP) 
 #-------------------------------------------------------------------------------
 # _END_OF_LEC_HIERARCHICAL_DOFILE_

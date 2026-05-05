@@ -1,0 +1,13 @@
+{
+    "PLEASE DON'T EDIT OR PARSE": "This is automatically generated file for extracting in QS",
+    "CREATION TIME": "Mon May  4 17:53:48 2026",
+    "VERSION": "1",
+    "LVS LAYOUT TOP ERRORS AND WARNINGS": {
+        "ERRS": [
+            "No matching \".SUBCKT\" statement for \"PRBS_BER_PAD_TOP\" at line 172 in file \"\/w\/home.09\/home\/liyuyao864\/ee209\/prbs_project\/calibre_runs\/lvs\/prbs_ber_pad_FINAL_top.src.net\""
+        ]
+    },
+    "LVS REPORT OPTION": [
+        "S"
+    ]
+}

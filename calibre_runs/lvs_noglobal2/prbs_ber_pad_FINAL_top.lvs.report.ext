@@ -1,0 +1,42 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         prbs_ber_pad_FINAL_top.lvs.report.ext
+LAYOUT NAME:              prbs_ber_pad_FINAL_top.calibre.db ('prbs_ber_pad_FINAL_top')
+CREATION TIME:            Mon May  4 17:39:35 2026
+CURRENT DIRECTORY:        /w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs_noglobal2
+USER NAME:                liyuyao864
+CALIBRE VERSION:          v2024.3_16.10    Tue Jul 9 11:27:25 PDT 2024
+
+
+
+Extraction Errors and Warnings for cell "prbs_ber_pad_top"
+----------------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  11
+          (1)  name  "prbs_out"  at location  (499.718,89.6)  on layer  43
+          (2)  name  "ref_bit"  at location  (499.718,169.68)  on layer  43
+          The name "prbs_out" was assigned to the net.
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  13
+          (1)  name  "busy"  at location  (0.363,290.08)  on layer  43
+          (2)  name  "core_en"  at location  (0.363,360.08)  on layer  43
+          The name "busy" was assigned to the net.
+
+
+
+WARNING: Invalid PATHCHK request "! POWER": no POWER nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "! GROUND": no GROUND nets present, operation aborted.
+

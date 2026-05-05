@@ -1,0 +1,1 @@
+/w/home.09/home/liyuyao864/ee209/prbs_project/build_prbs_ber_pad/syn-rundir/prbs_ber_pad_top.mapped.sdc

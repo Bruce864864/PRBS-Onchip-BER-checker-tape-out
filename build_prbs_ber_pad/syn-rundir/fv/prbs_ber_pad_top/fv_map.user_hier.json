@@ -165,7 +165,16 @@
 {"name":"busy","orig_name":"busy"},
 {"name":"done","orig_name":"done"},
 {"name":"prbs_out","orig_name":"prbs_out"},
-{"name":"bit_error","orig_name":"bit_error"}
+{"name":"bit_error","orig_name":"bit_error"},
+{"name":"ref_bit","orig_name":"ref_bit"},
+{"name":"checker_in","orig_name":"checker_in"},
+{"name":"checker_in_final","orig_name":"checker_in_final"},
+{"name":"core_en","orig_name":"core_en"},
+{"name":"cfg_we_dbg","orig_name":"cfg_we_dbg"},
+{"name":"cfg_re_dbg","orig_name":"cfg_re_dbg"},
+{"name":"mode_select_dbg","orig_name":"mode_select_dbg"},
+{"name":"input_select_dbg","orig_name":"input_select_dbg"},
+{"name":"inject_error_enable_dbg","orig_name":"inject_error_enable_dbg"}
 ]
 },
 {

@@ -760,6 +760,10 @@
     "pin": "Q"
   },
   {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[0]",
+    "pin": "QN"
+  },
+  {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[1]",
     "pin": "Q"
   },
@@ -780,20 +784,40 @@
     "pin": "Q"
   },
   {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[5]",
+    "pin": "QN"
+  },
+  {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[6]",
     "pin": "Q"
+  },
+  {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[6]",
+    "pin": "QN"
   },
   {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[7]",
     "pin": "Q"
   },
   {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[7]",
+    "pin": "QN"
+  },
+  {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[8]",
     "pin": "Q"
   },
   {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[8]",
+    "pin": "QN"
+  },
+  {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[9]",
     "pin": "Q"
+  },
+  {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[9]",
+    "pin": "QN"
   },
   {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\first_error_index_reg_reg[10]",
@@ -1136,6 +1160,10 @@
     "pin": "Q"
   },
   {
+    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\last_totcnt_reg_reg[9]",
+    "pin": "QN"
+  },
+  {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\last_totcnt_reg_reg[10]",
     "pin": "Q"
   },
@@ -1150,10 +1178,6 @@
   {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\last_totcnt_reg_reg[12]",
     "pin": "Q"
-  },
-  {
-    "path": "u_prbs_ber_chip_top/u_csr_regbank/\\last_totcnt_reg_reg[12]",
-    "pin": "QN"
   },
   {
     "path": "u_prbs_ber_chip_top/u_csr_regbank/\\last_totcnt_reg_reg[13]",

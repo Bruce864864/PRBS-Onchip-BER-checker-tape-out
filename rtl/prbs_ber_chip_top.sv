@@ -1,6 +1,7 @@
 module prbs_ber_chip_top (
     input  logic        clk,
     input  logic        rst_n,
+
     input  logic        ext_serial_in,
 
     input  logic        cfg_we,
@@ -12,7 +13,18 @@ module prbs_ber_chip_top (
     output logic        busy,
     output logic        done,
     output logic        prbs_out,
-    output logic        bit_error
+    output logic        bit_error,
+
+    // Bring-up / debug outputs
+    output logic        ref_bit,
+    output logic        checker_in,
+    output logic        checker_in_final,
+    output logic        core_en,
+    output logic        cfg_we_dbg,
+    output logic        cfg_re_dbg,
+    output logic        mode_select_dbg,
+    output logic        input_select_dbg,
+    output logic        inject_error_enable_dbg
 );
 
     logic        ctrl_enable;
@@ -28,30 +40,25 @@ module prbs_ber_chip_top (
     logic        stop_pulse;
     logic        manual_clear_pulse;
 
-    logic        measure_core_en;
-    logic        measure_clear_pulse;
+    logic        clear_count_pulse;
     logic        overflow;
 
-    logic        checker_in;
-    logic        checker_in_final;
-    logic        ref_bit;
     logic [31:0] error_count;
     logic [31:0] total_count;
 
-    logic        core_en;
-    logic        clear_count;
-
-    assign core_en     = ctrl_enable & measure_core_en;
-    assign clear_count = manual_clear_pulse | measure_clear_pulse;
-
+    // ------------------------------------------------------------
+    // CSR register bank
+    // ------------------------------------------------------------
     csr_regbank u_csr_regbank (
         .clk                 (clk),
         .rst_n               (rst_n),
+
         .cfg_we              (cfg_we),
         .cfg_re              (cfg_re),
         .cfg_addr            (cfg_addr),
         .cfg_wdata           (cfg_wdata),
         .cfg_rdata           (cfg_rdata),
+
         .busy                (busy),
         .done                (done),
         .overflow            (overflow),
@@ -62,6 +69,7 @@ module prbs_ber_chip_top (
         .ref_bit             (ref_bit),
         .error_count         (error_count),
         .total_count         (total_count),
+
         .ctrl_enable         (ctrl_enable),
         .mode_select         (mode_select),
         .input_select        (input_select),
@@ -69,38 +77,49 @@ module prbs_ber_chip_top (
         .continuous_mode     (continuous_mode),
         .seed_value          (seed_value),
         .window_cfg          (window_cfg),
+
         .seed_load_pulse     (seed_load_pulse),
         .start_pulse         (start_pulse),
         .stop_pulse          (stop_pulse),
         .manual_clear_pulse  (manual_clear_pulse)
     );
 
+    // ------------------------------------------------------------
+    // Measurement controller
+    // ------------------------------------------------------------
     measure_ctrl u_measure_ctrl (
         .clk               (clk),
         .rst_n             (rst_n),
+
         .start_pulse       (start_pulse),
         .stop_pulse        (stop_pulse),
         .continuous_mode   (continuous_mode),
         .window_cfg        (window_cfg),
         .total_count       (total_count),
-        .core_en           (measure_core_en),
-        .clear_count_pulse (measure_clear_pulse),
+
+        .core_en           (core_en),
+        .clear_count_pulse (clear_count_pulse),
         .busy              (busy),
         .done              (done),
         .overflow          (overflow)
     );
 
+    // ------------------------------------------------------------
+    // PRBS generator + BER checker core
+    // ------------------------------------------------------------
     prbs_ber_top u_prbs_ber_top (
         .clk                 (clk),
         .rst_n               (rst_n),
-        .en                  (core_en),
-        .clear_count         (clear_count),
+
+        .en                  (core_en & ctrl_enable),
+        .clear_count         (clear_count_pulse | manual_clear_pulse),
         .seed_load           (seed_load_pulse),
         .mode_select         (mode_select),
         .seed_in             (seed_value),
         .input_select        (input_select),
         .inject_error_enable (inject_error_enable),
         .ext_serial_in       (ext_serial_in),
+
         .prbs_out            (prbs_out),
         .checker_in          (checker_in),
         .checker_in_final    (checker_in_final),
@@ -110,5 +129,13 @@ module prbs_ber_chip_top (
         .total_count         (total_count)
     );
 
+    // ------------------------------------------------------------
+    // Bring-up / debug output assignments
+    // ------------------------------------------------------------
+    assign cfg_we_dbg                 = cfg_we;
+    assign cfg_re_dbg                 = cfg_re;
+    assign mode_select_dbg            = mode_select;
+    assign input_select_dbg           = input_select;
+    assign inject_error_enable_dbg    = inject_error_enable;
 
 endmodule

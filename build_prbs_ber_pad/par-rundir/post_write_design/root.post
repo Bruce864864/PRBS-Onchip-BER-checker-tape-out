@@ -14,7 +14,7 @@
 ::db::check_and_set_root_attr delaycal_eng_taskcompressionmode 2
 ::db::check_and_set_root_attr delaycal_ignore_net_load false
 ::db::check_and_set_root_attr design_flow_effort extreme
-::db::check_and_set_root_attr extract_design_signature 92707150
+::db::check_and_set_root_attr extract_design_signature 144404739
 ::db::check_and_set_root_attr extract_rc_coupled true
 ::db::check_and_set_root_attr extract_rc_coupling_cap_threshold 3.0
 ::db::check_and_set_root_attr extract_rc_model_file ${::IMEX::libVar}/misc/rc_model.bin

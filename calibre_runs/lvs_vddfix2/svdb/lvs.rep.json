@@ -1,0 +1,22 @@
+{
+    "PLEASE DON'T EDIT OR PARSE": "This is automatically generated file for extracting in QS",
+    "CREATION TIME": "Mon May  4 17:27:47 2026",
+    "VERSION": "1",
+    "LVS BOTTOM WARNINGS": [
+        "Unbalanced smashed mosfets were matched",
+        "Ambiguity points were found and resolved arbitrarily"
+    ],
+    "LVS BOTTOM ERRORS": [
+        "Different numbers of ports",
+        "Connectivity errors"
+    ],
+    "LVS REPORT OPTION": [
+        "S"
+    ],
+    "LVS INCORRECT CELLS": [
+        [
+            "prbs_ber_pad_FINAL_top",
+            "prbs_ber_pad_FINAL_top"
+        ]
+    ]
+}

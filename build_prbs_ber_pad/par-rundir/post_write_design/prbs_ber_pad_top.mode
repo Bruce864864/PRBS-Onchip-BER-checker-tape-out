@@ -44,7 +44,7 @@ catch {setNanoRouteMode -quiet -drouteAntennaFactor 1.000000}
 catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "auto"}
 catch {setNanoRouteMode -quiet -drouteStartIteration 0}
 catch {setNanoRouteMode -quiet -drouteUseLefPinTaperRule true}
-catch {setNanoRouteMode -quiet -extractDesignSignature 92707150}
+catch {setNanoRouteMode -quiet -extractDesignSignature 144404739}
 catch {setNanoRouteMode -quiet -extractRcModelFile "${::IMEX::libVar}/misc/rc_model.bin"}
 catch {setNanoRouteMode -quiet -extractThirdPartyCompatible false}
 catch {setNanoRouteMode -quiet -grouteExpMinimizeDetour false}

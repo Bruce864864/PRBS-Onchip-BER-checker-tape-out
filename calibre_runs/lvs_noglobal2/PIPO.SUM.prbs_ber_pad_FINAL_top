@@ -1,0 +1,542 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 05/22/2024 07:39 (cpgbld16) $
+          : sub-version  IC23.1-64b.ISR7.27 
+Started at: 04-May-2026  17:39:33
+User Name : liyuyao864
+Host Name : eeapps03.labidm.seas.ucla.edu
+Directory : /w/home.09/home/liyuyao864/tsmc180
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+209Tapeout/AN2D1BWP7T/layout    0        0       8        19     0      0         20     0             0      0     0     0       0       
+209Tapeout/AN2D2BWP7T/layout    0        0       7        25     0      0         20     0             0      0     0     0       0       
+209Tapeout/AN3D1BWP7T/layout    0        0       10       21     0      0         21     0             0      0     0     0       0       
+209Tapeout/AN4D0BWP7T/layout    0        0       11       25     0      0         22     0             0      0     0     0       0       
+209Tapeout/AN4D1BWP7T/layout    0        0       12       26     0      0         22     0             0      0     0     0       0       
+209Tapeout/AO211D0BWP7T/layout  0        0       15       17     0      0         22     0             0      0     0     0       0       
+209Tapeout/AO21D0BWP7T/layout   0        0       9        19     0      0         21     0             0      0     0     0       0       
+209Tapeout/AO221D0BWP7T/layout  0        0       14       24     0      0         23     0             0      0     0     0       0       
+209Tapeout/AO222D0BWP7T/layout  0        0       20       26     0      0         24     0             0      0     0     0       0       
+209Tapeout/AO22D0BWP7T/layout   0        0       12       25     0      0         22     0             0      0     0     0       0       
+209Tapeout/AO31D1BWP7T/layout   0        0       10       29     0      0         24     0             0      0     0     0       0       
+209Tapeout/AOI211D1BWP7T/layout 0        0       7        25     0      0         22     0             0      0     0     0       0       
+209Tapeout/AOI211XD0BWP7T/layout                                0        0       8        21     0      0         22     0             0      0     0     0       0       
+209Tapeout/AOI21D0BWP7T/layout  0        0       8        18     0      0         21     0             0      0     0     0       0       
+209Tapeout/AOI221D0BWP7T/layout 0        0       14       21     0      0         23     0             0      0     0     0       0       
+209Tapeout/AOI221D1BWP7T/layout 0        0       10       34     0      0         23     0             0      0     0     0       0       
+209Tapeout/AOI222D0BWP7T/layout 0        0       15       24     0      0         24     0             0      0     0     0       0       
+209Tapeout/AOI22D0BWP7T/layout  0        0       10       19     0      0         22     0             0      0     0     0       0       
+209Tapeout/AOI32D1BWP7T/layout  0        0       9        30     0      0         25     0             0      0     0     0       0       
+209Tapeout/BUFFD1BWP7T/layout   0        0       8        15     0      0         19     0             0      0     0     0       0       
+209Tapeout/BUFFD1P5BWP7T/layout 0        0       8        17     0      0         19     0             0      0     0     0       0       
+209Tapeout/BUFFD2BWP7T/layout   0        0       6        27     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKAN2D1BWP7T/layout  0        0       8        17     0      0         20     0             0      0     0     0       0       
+209Tapeout/CKBD1BWP7T/layout    0        0       7        16     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKBD2BWP7T/layout    0        0       10       19     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKBD3BWP7T/layout    0        0       8        30     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKBD4BWP7T/layout    0        0       9        33     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKBD6BWP7T/layout    0        0       11       47     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKLNQD1BWP7T/layout  0        0       27       39     0      0         21     0             0      0     0     0       0       
+209Tapeout/CKLNQD2BWP7T/layout  0        0       27       44     0      0         21     0             0      0     0     0       0       
+209Tapeout/CKLNQD4BWP7T/layout  0        0       32       55     0      0         21     0             0      0     0     0       0       
+209Tapeout/CKMUX2D1BWP7T/layout 0        0       16       27     0      0         21     0             0      0     0     0       0       
+209Tapeout/CKND0BWP7T/layout    0        0       4        13     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKND1BWP7T/layout    0        0       4        14     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKND2BWP7T/layout    0        0       5        17     0      0         19     0             0      0     0     0       0       
+209Tapeout/CKND2D1BWP7T/layout  0        0       6        16     0      0         20     0             0      0     0     0       0       
+209Tapeout/CKXOR2D1BWP7T/layout 0        0       13       24     0      0         20     0             0      0     0     0       0       
+209Tapeout/DEL015BWP7T/layout   0        0       8        15     0      0         19     0             0      0     0     0       0       
+209Tapeout/DEL01BWP7T/layout    0        0       6        16     0      0         19     0             0      0     0     0       0       
+209Tapeout/DEL0BWP7T/layout     0        0       14       22     0      0         19     0             0      0     0     0       0       
+209Tapeout/DEL1BWP7T/layout     0        0       12       26     0      0         19     0             0      0     0     0       0       
+209Tapeout/DFCND1BWP7T/layout   0        0       35       55     0      0         22     0             0      0     0     0       0       
+209Tapeout/DFCNQD1BWP7T/layout  0        0       31       55     0      0         21     0             0      0     0     0       0       
+209Tapeout/DFD0BWP7T/layout     0        0       30       45     0      0         21     0             0      0     0     0       0       
+209Tapeout/DFD1BWP7T/layout     0        0       30       49     0      0         21     0             0      0     0     0       0       
+209Tapeout/DFKCND1BWP7T/layout  0        0       32       53     0      0         22     0             0      0     0     0       0       
+209Tapeout/DFKCNQD1BWP7T/layout 0        0       30       47     0      0         21     0             0      0     0     0       0       
+209Tapeout/DFKSND0BWP7T/layout  0        0       34       56     0      0         22     0             0      0     0     0       0       
+209Tapeout/DFKSND1BWP7T/layout  0        0       34       60     0      0         22     0             0      0     0     0       0       
+209Tapeout/DFQD0BWP7T/layout    0        0       27       43     0      0         20     0             0      0     0     0       0       
+209Tapeout/DFSND1BWP7T/layout   0        0       34       56     0      0         22     0             0      0     0     0       0       
+209Tapeout/DFSNQD1BWP7T/layout  0        0       33       56     0      0         21     0             0      0     0     0       0       
+209Tapeout/DFXQD1BWP7T/layout   0        0       35       61     0      0         22     0             0      0     0     0       0       
+209Tapeout/EDFKCNQD1BWP7T/layout                                0        0       40       58     0      0         22     0             0      0     0     0       0       
+209Tapeout/FILL16BWP7T/layout   0        0       1        22     0      0         17     0             0      0     0     0       0       
+209Tapeout/FILL1BWP7T/layout    0        0       0        7      0      0         17     0             0      0     0     0       0       
+209Tapeout/FILL2BWP7T/layout    0        0       0        8      0      0         17     0             0      0     0     0       0       
+209Tapeout/FILL32BWP7T/layout   0        0       1        38     0      0         17     0             0      0     0     0       0       
+209Tapeout/FILL4BWP7T/layout    0        0       1        10     0      0         17     0             0      0     0     0       0       
+209Tapeout/FILL8BWP7T/layout    0        0       1        14     0      0         17     0             0      0     0     0       0       
+209Tapeout/HA1D0BWP7T/layout    0        0       20       35     0      0         21     0             0      0     0     0       0       
+209Tapeout/IAO21D0BWP7T/layout  0        0       10       17     0      0         21     0             0      0     0     0       0       
+209Tapeout/IINR4D0BWP7T/layout  0        0       17       23     0      0         22     0             0      0     0     0       0       
+209Tapeout/IND2D1BWP7T/layout   0        0       9        18     0      0         20     0             0      0     0     0       0       
+209Tapeout/IND2D2BWP7T/layout   0        0       9        25     0      0         20     0             0      0     0     0       0       
+209Tapeout/IND3D1BWP7T/layout   0        0       11       19     0      0         21     0             0      0     0     0       0       
+209Tapeout/IND4D0BWP7T/layout   0        0       11       24     0      0         22     0             0      0     0     0       0       
+209Tapeout/IND4D1BWP7T/layout   0        0       12       24     0      0         22     0             0      0     0     0       0       
+209Tapeout/INR2D1BWP7T/layout   0        0       9        18     0      0         20     0             0      0     0     0       0       
+209Tapeout/INR2XD0BWP7T/layout  0        0       9        15     0      0         20     0             0      0     0     0       0       
+209Tapeout/INR3D0BWP7T/layout   0        0       11       19     0      0         21     0             0      0     0     0       0       
+209Tapeout/INR4D0BWP7T/layout   0        0       12       21     0      0         22     0             0      0     0     0       0       
+209Tapeout/INVD0BWP7T/layout    0        0       4        12     0      0         19     0             0      0     0     0       0       
+209Tapeout/INVD1BWP7T/layout    0        0       5        14     0      0         19     0             0      0     0     0       0       
+209Tapeout/INVD2BWP7T/layout    0        0       5        19     0      0         19     0             0      0     0     0       0       
+209Tapeout/INVD2P5BWP7T/layout  0        0       7        17     0      0         19     0             0      0     0     0       0       
+209Tapeout/IOA21D1BWP7T/layout  0        0       11       20     0      0         23     0             0      0     0     0       0       
+209Tapeout/MAOI222D1BWP7T/layout                                0        0       12       21     0      0         21     0             0      0     0     0       0       
+209Tapeout/MAOI22D1BWP7T/layout 0        0       10       30     0      0         22     0             0      0     0     0       0       
+209Tapeout/MOAI22D0BWP7T/layout 0        0       14       17     0      0         22     0             0      0     0     0       0       
+209Tapeout/MUX2D1BWP7T/layout   0        0       14       24     0      0         21     0             0      0     0     0       0       
+209Tapeout/ND2D1BWP7T/layout    0        0       5        18     0      0         20     0             0      0     0     0       0       
+209Tapeout/ND2D2BWP7T/layout    0        0       8        19     0      0         20     0             0      0     0     0       0       
+209Tapeout/ND2D3BWP7T/layout    0        0       7        33     0      0         20     0             0      0     0     0       0       
+209Tapeout/ND3D0BWP7T/layout    0        0       7        17     0      0         21     0             0      0     0     0       0       
+209Tapeout/ND3D1BWP7T/layout    0        0       6        23     0      0         21     0             0      0     0     0       0       
+209Tapeout/ND3D2BWP7T/layout    0        0       12       22     0      0         21     0             0      0     0     0       0       
+209Tapeout/ND4D0BWP7T/layout    0        0       8        20     0      0         22     0             0      0     0     0       0       
+209Tapeout/NR2D1BWP7T/layout    0        0       5        19     0      0         20     0             0      0     0     0       0       
+209Tapeout/NR2D2BWP7T/layout    0        0       6        26     0      0         20     0             0      0     0     0       0       
+209Tapeout/NR2XD0BWP7T/layout   0        0       5        17     0      0         20     0             0      0     0     0       0       
+209Tapeout/NR2XD1BWP7T/layout   0        0       7        23     0      0         20     0             0      0     0     0       0       
+209Tapeout/NR3D0BWP7T/layout    0        0       7        16     0      0         21     0             0      0     0     0       0       
+209Tapeout/NR4D0BWP7T/layout    0        0       9        20     0      0         22     0             0      0     0     0       0       
+209Tapeout/NR4D1BWP7T/layout    0        0       13       24     0      0         22     0             0      0     0     0       0       
+209Tapeout/NR4D2BWP7T/layout    0        0       15       60     0      0         22     0             0      0     0     0       0       
+209Tapeout/OA21D0BWP7T/layout   0        0       10       18     0      0         21     0             0      0     0     0       0       
+209Tapeout/OA221D0BWP7T/layout  0        0       14       26     0      0         23     0             0      0     0     0       0       
+209Tapeout/OA221D1BWP7T/layout  0        0       18       32     0      0         23     0             0      0     0     0       0       
+209Tapeout/OAI211D1BWP7T/layout 0        0       7        25     0      0         22     0             0      0     0     0       0       
+209Tapeout/OAI21D0BWP7T/layout  0        0       8        18     0      0         21     0             0      0     0     0       0       
+209Tapeout/OAI21D1BWP7T/layout  0        0       8        21     0      0         21     0             0      0     0     0       0       
+209Tapeout/OAI22D0BWP7T/layout  0        0       11       18     0      0         22     0             0      0     0     0       0       
+209Tapeout/OAI31D0BWP7T/layout  0        0       8        19     0      0         24     0             0      0     0     0       0       
+209Tapeout/OR2D1BWP7T/layout    0        0       8        19     0      0         20     0             0      0     0     0       0       
+209Tapeout/OR2D2BWP7T/layout    0        0       8        23     0      0         20     0             0      0     0     0       0       
+209Tapeout/OR3D1BWP7T/layout    0        0       10       21     0      0         21     0             0      0     0     0       0       
+209Tapeout/OR4D1BWP7T/layout    0        0       12       22     0      0         22     0             0      0     0     0       0       
+209Tapeout/SDFQD0BWP7T/layout   0        0       35       54     0      0         22     0             0      0     0     0       0       
+209Tapeout/TAPCELLBWP7T/layout  0        0       4        10     0      0         17     0             0      0     0     0       0       
+209Tapeout/TIEHBWP7T/layout     0        0       4        17     0      0         18     0             0      0     0     0       0       
+209Tapeout/TIELBWP7T/layout     0        0       4        16     0      0         18     0             0      0     0     0       0       
+209Tapeout/XNR2D1BWP7T/layout   0        0       14       24     0      0         20     0             0      0     0     0       0       
+209Tapeout/XOR2D1BWP7T/layout   0        0       16       25     0      0         20     0             0      0     0     0       0       
+209Tapeout/prbs_ber_pad_FINAL_top/layout                        2        0       0        2      0      112       0      0             0      0     0     0       0       
+209Tapeout/prbs_ber_pad_top/layout                              7957     0       0        10400  21936  1         7977   0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CONNECT_CUP_U_L_U/layout                                                            0        2       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CUP_V4X4_U/layout   0        0       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CUP_V5_U_L_U/layout 0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_PADU50_U_L_U/layout 0        4       1        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_VIA_CUP_U_L_U/layout                                                                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PDB3AC_w_bond_and_schematic/layout                                                              2        0       0        3      0      0         3      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3AC_w_bond_and_schematic/layout                                                             2        0       0        2      0      0         2      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3VSS2AC_w_bond_and_schematic/layout                                                         4        0       0        2      0      0         2      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVSS2AC_w_bond_and_schematic/layout                                                             2        0       0        2      0      0         2      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PAD50LAU_TRL/layout               2        0       0        1      0      0         7      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCLAMPAC/layout                   1        0       0        3      0      0         16     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCLAMPAC_w_schematic/layout       1        0       0        2      0      0         2      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCORNERA/layout                   2        0       16       1      0      0         26     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PDB3AC/layout                     2        1       0        4      0      0         29     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER0005A/layout               0        0       0        16     0      0         14     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER05A/layout                 0        1       0        1      0      0         14     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER1A/layout                  0        11      0        16     0      0         14     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER20A/layout                 4        0       0        1      0      0         14     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER22p765A/layout             57       0       0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER22p76A/layout              56       0       0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER5A/layout                  1        0       0        1      0      0         14     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER7p765A/layout              57       0       0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PVDD3AC/layout                    4        0       0        11     0      0         34     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/PVSS2AC/layout                    4        1       0        9      0      0         34     0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_BOT_NECK_TMY849_C2/layout  0        2       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_CLA_BODY/layout            3        115     3        268    0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_CORNERA_VIA_D/layout       0        32      0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DB2_OPTION/layout          0        6       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DB3A_BODY/layout           0        17      0        33     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DIO_BODY/layout            0        9       0        5      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_FILL_BODY/layout           0        11      0        9      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_LINK_LINE1_AC/layout       0        32      0        190    0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_M3456_A/layout             0        9       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2ANA_TMY849_C2/layout                                                               0        8       2        9      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2CDG_AC/layout      0        2       0        5      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2CDG_AC_1/layout    0        2       0        5      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIO_STI/layout            0        7       3        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_PVDD2DGZ_1/layout    0        3       0        4      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_VD3AC/layout         0        4       1        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_VD3AC_1/layout       0        4       1        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NINV01X20_AC/layout        0        1       0        5      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NINV01X20_AC_1/layout      0        1       0        5      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NMOS19D4X0D18_152_TMY849_C2/layout                                                         2        8       1        8      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NMOS19D4X0D18_CLA/layout   0        8       1        8      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_N/layout                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_N_1/layout              0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_P/layout                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_P_1/layout              0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PADLINE_VDD3AC/layout      0        2       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PAD_LINE2_AC_152/layout    0        2       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PAD_LINE2_AC_152_1/layout  0        2       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PC_1_1/layout              0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PC_2/layout                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIOVSS2ANA_TMY849_C2/layout                                                               0        10      2        10     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_1/layout              0        10      2        10     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_FILLER10/layout       0        3       0        9      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_STI/layout            0        7       3        7      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PFILLER0005_BASEA/layout   0        0       0        15     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PFILLER5_BASEA/layout      0        40      3        13     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PINV04X20_AC/layout        0        1       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PINV04X20_AC_1/layout      0        1       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_R_POSTVDD2CDG_A_1/layout   0        0       15       3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_R_POSTVDD2CDG_A_2/layout   0        0       15       3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_TOCORE_NECK/layout         0        1       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V1_1/layout                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V2_1/layout                0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V2_1_2/layout              0        1       0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3/layout                  0        0       0        3      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3X4/layout                0        0       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3X4_2/layout              0        0       0        6      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4/layout                  0        0       0        1      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4X4/layout                0        0       0        1      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4X4_1/layout              0        0       0        1      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V5/layout                  0        0       0        0      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VD3AC_BODY/layout          4        46      3        54     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_BODY/layout           2        15      3        31     0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_CON1/layout           0        2       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_CON2/layout           0        2       0        2      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/UCLA_CEMiD_pad_frame_1x1_pcell/layout                                                             69       0       0        1      0      0         0      0             0      0     0     0       0       
+UCLA_CEMiD_1x1_PadFrame_PCELL/arrow/layout                      0        0       1        1      0      0         0      0             0      0     0     0       0       
+tsmc18/M1_POLY1/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M1_POLY1/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M2_M1/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M2_M1/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M2_M1/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M2_M1/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M3_M2/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M3_M2/layout             0        0       0        186    0      0         0      0             0      0     0     0       0       
+tsmc18/M3_M2/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M3_M2/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M3_M2/layout             0        0       0        186    0      0         0      0             0      0     0     0       0       
+tsmc18/M4_M3/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M4_M3/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M4_M3/layout             0        0       0        4      0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        18     0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        4      0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        18     0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        18     0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        20     0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        18     0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        227    0      0         0      0             0      0     0     0       0       
+tsmc18/M5_M4/layout             0        0       0        18     0      0         0      0             0      0     0     0       0       
+tsmc18/M6_M5/layout             0        0       0        11     0      0         0      0             0      0     0     0       0       
+tsmc18/VIAGEN12/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+--------------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   Stitch   CustVia   StdVia    CdsGenVia
+--------------------------------------------------------------------------------------------------------------------------------------------
+209Tapeout/AN2D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AN2D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AN3D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AN4D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AN4D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO211D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO21D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO221D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO222D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO22D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AO31D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI211D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI211XD0BWP7T/layout                                0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI21D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI221D0BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI221D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI222D0BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI22D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/AOI32D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/BUFFD1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/BUFFD1P5BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/BUFFD2BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKAN2D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKBD1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKBD2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKBD3BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKBD4BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKBD6BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKLNQD1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKLNQD2BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKLNQD4BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKMUX2D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKND0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKND1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKND2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKND2D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/CKXOR2D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DEL015BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DEL01BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DEL0BWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DEL1BWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFCND1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFCNQD1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFD0BWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFD1BWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFKCND1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFKCNQD1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFKSND0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFKSND1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFQD0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFSND1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFSNQD1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/DFXQD1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/EDFKCNQD1BWP7T/layout                                0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL16BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL32BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL4BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/FILL8BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/HA1D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IAO21D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IINR4D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IND2D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IND2D2BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IND3D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IND4D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IND4D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INR2D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INR2XD0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INR3D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INR4D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INVD0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INVD1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INVD2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/INVD2P5BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/IOA21D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/MAOI222D1BWP7T/layout                                0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/MAOI22D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/MOAI22D0BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/MUX2D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND2D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND2D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND2D3BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND3D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND3D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND3D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/ND4D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR2D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR2D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR2XD0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR2XD1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR3D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR4D0BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR4D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/NR4D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OA21D0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OA221D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OA221D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OAI211D1BWP7T/layout 0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OAI21D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OAI21D1BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OAI22D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OAI31D0BWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OR2D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OR2D2BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OR3D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/OR4D1BWP7T/layout    0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/SDFQD0BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/TAPCELLBWP7T/layout  0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/TIEHBWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/TIELBWP7T/layout     0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/XNR2D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/XOR2D1BWP7T/layout   0        0          0          0          0          0     0        0        0         0         0        
+209Tapeout/prbs_ber_pad_FINAL_top/layout                        0        0          0          0          0          0     0        0        0         26        0        
+209Tapeout/prbs_ber_pad_top/layout                              0        0          0          0          0          0     0        0        0         18297     0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CONNECT_CUP_U_L_U/layout                                                            0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CUP_V4X4_U/layout   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_CUP_V5_U_L_U/layout 0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_PADU50_U_L_U/layout 0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/HBX372_HBJ712_VIA_CUP_U_L_U/layout                                                                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PDB3AC_w_bond_and_schematic/layout                                                              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3AC_w_bond_and_schematic/layout                                                             0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVDD3VSS2AC_w_bond_and_schematic/layout                                                         0        0          0          0          0          0     0        0        0         2         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/M_PVSS2AC_w_bond_and_schematic/layout                                                             0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PAD50LAU_TRL/layout               0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCLAMPAC/layout                   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCLAMPAC_w_schematic/layout       0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PCORNERA/layout                   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PDB3AC/layout                     0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER0005A/layout               0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER05A/layout                 0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER1A/layout                  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER20A/layout                 0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER22p765A/layout             0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER22p76A/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER5A/layout                  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PFILLER7p765A/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PVDD3AC/layout                    0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/PVSS2AC/layout                    0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_BOT_NECK_TMY849_C2/layout  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_CLA_BODY/layout            0        0          0          0          0          0     0        0        0         17        0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_CORNERA_VIA_D/layout       0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DB2_OPTION/layout          0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DB3A_BODY/layout           0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_DIO_BODY/layout            0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_FILL_BODY/layout           0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_LINK_LINE1_AC/layout       0        0          0          0          0          0     0        0        0         15        0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_M3456_A/layout             0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2ANA_TMY849_C2/layout                                                               0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2CDG_AC/layout      0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIOVSS2CDG_AC_1/layout    0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NDIO_STI/layout            0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_PVDD2DGZ_1/layout    0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_VD3AC/layout         0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NEDGE_VD3AC_1/layout       0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NINV01X20_AC/layout        0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NINV01X20_AC_1/layout      0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NMOS19D4X0D18_152_TMY849_C2/layout                                                         0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_NMOS19D4X0D18_CLA/layout   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_N/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_N_1/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_P/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_OC_P_1/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PADLINE_VDD3AC/layout      0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PAD_LINE2_AC_152/layout    0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PAD_LINE2_AC_152_1/layout  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PC_1_1/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PC_2/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIOVSS2ANA_TMY849_C2/layout                                                               0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_1/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_FILLER10/layout       0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PDIO_STI/layout            0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PFILLER0005_BASEA/layout   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PFILLER5_BASEA/layout      0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PINV04X20_AC/layout        0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_PINV04X20_AC_1/layout      0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_R_POSTVDD2CDG_A_1/layout   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_R_POSTVDD2CDG_A_2/layout   0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_TOCORE_NECK/layout         0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V1_1/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V2_1/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V2_1_2/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3/layout                  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3X4/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V3X4_2/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4/layout                  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4X4/layout                0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V4X4_1/layout              0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_V5/layout                  0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VD3AC_BODY/layout          0        0          0          0          0          0     0        0        0         2         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_BODY/layout           0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_CON1/layout           0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/SAB258_VS3A_CON2/layout           0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/UCLA_CEMiD_pad_frame_1x1_pcell/layout                                                             0        0          0          0          0          0     0        0        0         0         0        
+UCLA_CEMiD_1x1_PadFrame_PCELL/arrow/layout                      0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M1_POLY1/layout          0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M1_POLY1/layout          0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M2_M1/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M2_M1/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M2_M1/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M2_M1/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M3_M2/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M3_M2/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M3_M2/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M3_M2/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M3_M2/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M4_M3/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M4_M3/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M4_M3/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M5_M4/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/M6_M5/layout             0        0          0          0          0          0     0        0        0         0         0        
+tsmc18/VIAGEN12/layout          0        0          0          0          0          0     0        0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+NWELL           drawing         2       0         21       106      0        0        0             0    0   0   0     0      0      
+DIFF            drawing         3       0         214      165      0        0        0             0    0   0   0     0      0      
+PDIFF           drawing         11      0         9        48       0        868      0             0    0   0   0     0      0      
+NDIFF           drawing         12      0         6        17       0        0        0             0    0   0   0     0      0      
+OD2             drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
+POLY1           drawing         13      0         578      31       0        0        0             0    0   0   0     0      0      
+PIMP            drawing         7       0         25       147      0        0        0             0    0   0   0     0      0      
+NIMP            drawing         8       0         29       107      0        0        0             0    0   0   0     0      0      
+RPO             drawing         34      0         0        2        0        0        0             0    0   0   0     0      0      
+CONT            drawing         15      0         0        2152     0        0        0             0    0   0   0     0      0      
+METAL1          drawing         16      0         605      763      3296     0        0             0    0   0   0     0      0      
+VIA12           drawing         17      0         0        6        0        0        0             0    0   0   0     0      0      
+METAL2          drawing         18      0         3        1121     11196    0        0             0    0   0   0     0      48     
+VIA23           drawing         27      0         0        372      0        0        0             0    0   0   0     0      0      
+METAL3          drawing         28      0         2        752      5897     0        0             0    0   0   0     0      15     
+VIA34           drawing         29      0         0        13       0        0        0             0    0   0   0     0      0      
+METAL4          drawing         31      0         2        605      1450     0        0             0    0   0   0     0      50     
+VIA45           drawing         32      0         0        330      0        0        0             0    0   0   0     0      0      
+METAL5          drawing         33      0         0        155      97       0        0             0    0   0   0     0      0      
+VIA56           drawing         39      0         0        13       0        0        0             0    0   0   0     0      0      
+METAL6          drawing         38      0         1        8        0        0        0             0    0   0   0     0      0      
+PAD             drawing         19      0         1        0        0        0        0             0    0   0   0     0      0      
+WBDMY           drawing         183     0         0        1        0        0        0             0    0   0   0     0      0      
+METAL1          pin             40      0         0        8        0        671      0             0    0   0   0     0      0      
+METAL2          pin             41      0         0        11       0        20       0             0    0   0   0     0      0      
+METAL3          pin             42      0         0        4        0        20       0             0    0   0   0     0      0      
+METAL4          pin             43      0         0        8        0        31       0             0    0   0   0     0      0      
+METAL6          pin             45      0         0        5        0        5        0             0    0   0   0     0      0      
+PSUB2           drawing         50      0         0        1        0        0        0             0    0   0   0     0      0      
+RPDUMMY         drawing         54      0         0        2        0        0        0             0    0   0   0     0      0      
+RMDUMMY         drawing1        69      1         0        1        0        0        0             0    0   0   0     0      0      
+RMDUMMY         drawing2        69      2         0        1        0        0        0             0    0   0   0     0      0      
+DIODUMMY        drawing         56      0         0        8        0        0        0             0    0   0   0     0      0      
+TEXT            drawing         59      0         0        7957     0        8071     0             0    0   0   0     0      0      
+prBoundary      drawing         62      0         0        126      0        0        0             0    0   0   0     0      0      
+METAL1          boundary        151     0         8        0        0        0        0             0    0   0   0     0      0      
+DMP2V           drawing         149     0         0        2        0        0        0             0    0   0   0     0      0      
+IP              drawing         63      63        0        0        0        875      0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		8240
+	Array Instances:		446
+	Polygons:			1504
+	Paths:				21936
+	Rectangles:			15050
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Stitches:			0
+	Standard Vias:			18359
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			113
+	Text:				10561
+	TextDisplay:		0
+	Cells:				221
+Design Libraries: 
+
+DEFINE tsmc18	/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18
+DEFINE UCLA_CEMiD_1x1_PadFrame_PCELL	/w/class.1/ee/ee209a/ee209ata/ee209uta_transferred/UCLA_CEMiD_1x1_PadFrame_PCELL
+DEFINE 209Tapeout	/w/home.09/home/liyuyao864/tsmc180/209Tapeout

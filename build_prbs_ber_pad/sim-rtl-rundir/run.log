@@ -2,7 +2,7 @@ Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detec
 Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
 Chronologic VCS simulator copyright 1991-2023
 Contains Synopsys proprietary information.
-Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Apr 24 13:47 2026
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  May  3 12:02 2026
 [1246000] PASS  (default_seed_reg): value=0x00000001
 [2454000] PASS  (default_window_reg): value=0x00000014
 [3662000] PASS  (default_sticky_status): value=0x00000000
@@ -83,9 +83,9 @@ Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Ap
 ========================================
 TEST PASSED: prbs_ber_pad_top checks succeeded.
 ========================================
-$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_pad_top_tb.sv", line 560.
+$finish called from file "/w/home.09/home/liyuyao864/ee209/prbs_project/tb/prbs_ber_pad_top_tb.sv", line 579.
 $finish at simulation time            120974000
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 120974000 ps
-CPU Time:      0.280 seconds;       Data structure size:   0.0Mb
-Fri Apr 24 13:47:56 2026
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Sun May  3 12:02:36 2026

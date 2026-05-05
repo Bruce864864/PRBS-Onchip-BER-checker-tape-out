@@ -1,0 +1,23 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+
+Initializing from libInit.il for library tsmc18...
+   --  pcell18v1a.cdn
+   --  tsmc18_updateCDFs.ile
+   --  tsmc18.cxt
+Loading Working place Display File '/w/home.09/home/liyuyao864/tsmc180/display.drf'
+*WARNING* (loadContext): context /grid/cic/ciccm_t1nb_018/IC23.1/ISR/lnx86/64/builds/240522-027/tools/dfII/etc/context/64bit/pCellGen.cxt already loaded
+
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+
+Loading cdf.cxt 
+WARNING (AUCDL-43): Terminal D0 appearing in CDF termOrder for 
+		component   : prbs_ber_pad_top
+		in cellview : symbol
+		of library  : 209Tapeout
+is invalid. 
+Ensure that this CDF has same terminal names as specified in this cell view.
+Nets will be printed in default terminal order for this component.
+
+End netlisting May  4 17:53:41 2026
+

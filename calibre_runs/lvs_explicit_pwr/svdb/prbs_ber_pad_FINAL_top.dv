@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/prbs_ber_pad_FINAL_top.dv
+dv_start matched                                  
+dv_cell {prbs_ber_pad_FINAL_top} {prbs_ber_pad_FINAL_top} matched
+dv_obj_count -transformed_nets {7584 7584} -transformed_inst {11460 11460} -transformed_port {0 0}
+dv_end

@@ -1,0 +1,163 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Mon May  4 15:01:14 2026
+Calibre Version:           v2024.3_16.10    Tue Jul 9 11:27:25 PDT 2024
+Rule File Pathname:        _wirebond.drc_
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            prbs_ber_pad_FINAL_top.calibre.db
+Layout Primary Cell:       prbs_ber_pad_FINAL_top
+Current Directory:         /w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/drc_wirebond
+User Name:                 liyuyao864
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      prbs_ber_pad_FINAL_top.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       prbs_ber_pad_FINAL_top.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = YES  NONSIMPLE PATH = YES
+Excluded Cells:           
+CheckText Mapping:         ALL TEXT
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+Layer 16 contains unmapped objects and is the source layer of LAYER MAP == 16 DATATYPE == 1.
+Layer 16 contains unmapped objects and is the source layer of LAYER MAP == 16 DATATYPE == 2.
+Layer 18 contains unmapped objects and is the source layer of LAYER MAP == 18 DATATYPE == 1.
+Layer 18 contains unmapped objects and is the source layer of LAYER MAP == 18 DATATYPE == 2.
+Layer 28 contains unmapped objects and is the source layer of LAYER MAP == 28 DATATYPE == 1.
+Layer 28 contains unmapped objects and is the source layer of LAYER MAP == 28 DATATYPE == 2.
+Layer 31 contains unmapped objects and is the source layer of LAYER MAP == 31 DATATYPE == 1.
+Layer 31 contains unmapped objects and is the source layer of LAYER MAP == 31 DATATYPE == 2.
+Layer 33 contains unmapped objects and is the source layer of LAYER MAP == 33 DATATYPE == 1.
+Layer 33 contains unmapped objects and is the source layer of LAYER MAP == 33 DATATYPE == 2.
+Layer 38 contains unmapped objects and is the source layer of LAYER MAP == 38 DATATYPE == 1.
+Layer 38 contains unmapped objects and is the source layer of LAYER MAP == 38 DATATYPE == 2.
+ACUTE angle on layer M1i at location (84.215,126.475) in cell PCORNERA.
+ACUTE angle on layer M2i at location (84.215,126.475) in cell PCORNERA.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER CBi ....... TOTAL Original Geometry Count = 1     (32)
+LAYER FWi ....... TOTAL Original Geometry Count = 0     (0)
+LAYER LMARKi .... TOTAL Original Geometry Count = 0     (0)
+LAYER EXCL ...... TOTAL Original Geometry Count = 0     (0)
+LAYER M1SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M1DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M1i ....... TOTAL Original Geometry Count = 49130 (1121602)
+LAYER M2SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M2DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M2i ....... TOTAL Original Geometry Count = 42441 (806487)
+LAYER M3SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M3DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M3i ....... TOTAL Original Geometry Count = 22711 (456614)
+LAYER M4SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M4DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M4i ....... TOTAL Original Geometry Count = 11287 (199283)
+LAYER M5SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M5DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M5i ....... TOTAL Original Geometry Count = 3062  (11607)
+LAYER M6SLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER M6DMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER M6i ....... TOTAL Original Geometry Count = 137   (4374)
+LAYER MDSLOT .... TOTAL Original Geometry Count = 0     (0)
+LAYER MDDMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER MDi ....... TOTAL Original Geometry Count = 0     (0)
+LAYER VIA1i ..... TOTAL Original Geometry Count = 18134 (436554)
+LAYER VIA2i ..... TOTAL Original Geometry Count = 12317 (349009)
+LAYER VIA3i ..... TOTAL Original Geometry Count = 11342 (327361)
+LAYER VIA4i ..... TOTAL Original Geometry Count = 5519  (27992)
+LAYER VIA5i ..... TOTAL Original Geometry Count = 498   (17241)
+LAYER PMDMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER PLMIDEi ... TOTAL Original Geometry Count = 0     (0)
+LAYER EMPTY1 .... TOTAL Original Geometry Count = 0     (0)
+LAYER EMPTY2 .... TOTAL Original Geometry Count = 0     (0)
+LAYER EMPTY3 .... TOTAL Original Geometry Count = 0     (0)
+LAYER WBDMY ..... TOTAL Original Geometry Count = 1     (32)
+LAYER UBM ....... TOTAL Original Geometry Count = 0     (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK CB.W.1.P50.SI .......... TOTAL Result Count = 0 (0)
+RULECHECK CB.W.2.P50.SI .......... TOTAL Result Count = 0 (0)
+RULECHECK CB.S.1.P50.SI .......... TOTAL Result Count = 0 (0)
+RULECHECK CB.R.1 ................. TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M1.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M2.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M3.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M4.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M5.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.EN.1.M6.P50.SI ...... TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M1 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M2 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M3 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M4 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M5 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.2.M6 .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.S.3 ................. TOTAL Result Count = 0 (0)
+RULECHECK PM.W.1 ................. TOTAL Result Count = 0 (0)
+RULECHECK PM.W.2 ................. TOTAL Result Count = 0 (0)
+RULECHECK PM.S.1 ................. TOTAL Result Count = 0 (0)
+RULECHECK PM.EN.1 ................ TOTAL Result Count = 0 (0)
+RULECHECK PM.R.3 ................. TOTAL Result Count = 0 (0)
+RULECHECK CB.R.2a.SI ............. TOTAL Result Count = 0 (0)
+RULECHECK CB.R.3.SI .............. TOTAL Result Count = 0 (0)
+RULECHECK CB.R.2a.TR ............. TOTAL Result Count = 0 (0)
+RULECHECK CB.R.3.TR .............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA1.EN.1a ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA2.EN.1a ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA3.EN.1a ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA4.EN.1a ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA5.EN.1a ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA1.EN.1b ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA2.EN.1b ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA3.EN.1b ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA4.EN.1b ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA5.EN.1b ........... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA1.W.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA2.W.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA3.W.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA4.W.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA1.S.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA2.S.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA3.S.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA4.S.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA12.S.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK CBVIA23.S.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK CBVIA34.S.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK CBVIAT.W.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIAT.S.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIAT.S.2 ............. TOTAL Result Count = 0 (0)
+RULECHECK CBVIA1.R.1.OUTER.P50 ... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA2.R.1.OUTER.P50 ... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA3.R.1.OUTER.P50 ... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA4.R.1.OUTER.P50 ... TOTAL Result Count = 0 (0)
+RULECHECK CBVIA5.R.1.OUTER.P50 ... TOTAL Result Count = 0 (0)
+RULECHECK CUPCB.EN.1 ............. TOTAL Result Count = 0 (0)
+RULECHECK CUPCB.R.1 .............. TOTAL Result Count = 0 (0)
+RULECHECK CUPVIAT.EN.1 ........... TOTAL Result Count = 0 (0)
+RULECHECK CUPVIAT.W.1 ............ TOTAL Result Count = 0 (0)
+RULECHECK CUPVIAT.S.1 ............ TOTAL Result Count = 0 (0)
+RULECHECK CUPVIAT.S.2 ............ TOTAL Result Count = 0 (0)
+RULECHECK CUPVIAT.DN.1 ........... TOTAL Result Count = 0 (0)
+RULECHECK CUPCB.R.3 .............. TOTAL Result Count = 0 (0)
+RULECHECK TRL.R.1a ............... TOTAL Result Count = 0 (0)
+RULECHECK TRL.R.2 ................ TOTAL Result Count = 0 (0)
+RULECHECK MD.R.2 ................. TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  1
+TOTAL REAL Time:                 1
+TOTAL Original Layer Geometries: 176580 (3758188)
+TOTAL DRC RuleChecks Executed:   66
+TOTAL DRC Results Generated:     0 (0)

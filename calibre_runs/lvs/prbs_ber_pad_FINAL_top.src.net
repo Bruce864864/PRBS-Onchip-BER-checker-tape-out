@@ -1,0 +1,178 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  209Tapeout
+* Top Cell Name: prbs_ber_pad_FINAL_top
+* View Name:     schematic
+* Netlisted on:  May  4 17:53:41 2026
+************************************************************************
+
+.INCLUDE  /w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    M_PVDD3AC_w_bond_and_schematic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT M_PVDD3AC_w_bond_and_schematic AVDD VSS
+*.PININFO AVDD:B VSS:B
+MM5 AVDD net2 VSS VSS N l=180.0n w=31.0u m=56
+MM3 net2 net7 AVDD AVDD PD l=400n w=112.000000u m=1
+MM15 VSS net7 VSS VSS ND l=3.3u w=64.26u m=1
+MM13 net2 net7 VSS VSS ND l=400n w=28.0u m=1
+RR1 AVDD net4 142.232u m=1 $.MODEL=M1
+RR2 AVDD net4 142.232u m=1 $.MODEL=M2
+RR3 AVDD net7 2.79552M m=1 $.MODEL=PR
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    PVDD3AC_w_bond_and_schematic_backside
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT PVDD3AC_w_bond_and_schematic_backside AVDD AVDD_2 VSS
+*.PININFO AVDD:B AVDD_2:B VSS:B
+MM5 AVDD net2 VSS VSS N l=180.0n w=31.0u m=56
+MM3 net2 net7 AVDD AVDD PD l=400n w=112.000000u m=1
+MM15 VSS net7 VSS VSS ND l=3.3u w=64.26u m=1
+MM13 net2 net7 VSS VSS ND l=400n w=28.0u m=1
+RR1 AVDD AVDD_2 142.232u m=1 $.MODEL=M1
+RR2 AVDD AVDD_2 142.232u m=1 $.MODEL=M2
+RR3 AVDD net7 2.79552M m=1 $.MODEL=PR
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    PCLAMPAC_w_schematic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT PCLAMPAC_w_schematic AVDD AVSS
+*.PININFO AVDD:B AVSS:B
+MM1 AVSS net5 AVSS AVSS ND l=3.3u w=64.26u m=1
+MM13 net3 net5 AVSS AVSS ND l=400n w=28.0u m=1
+RR3 AVDD net5 2.79552M m=1 $.MODEL=PR
+MM3 net3 net5 AVDD AVDD PD l=400n w=112.000000u m=1
+MM5 AVDD net3 AVSS AVSS N l=180.0n w=31.0u m=56
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    M_PVSS2AC_w_bond_and_schematic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT M_PVSS2AC_w_bond_and_schematic TACVDD VSS
+*.PININFO TACVDD:B VSS:B
+DD2 VSS TACVDD DP area=9.31028e-11 m=11
+DD4 VSS VSS DP area=4.66088e-11 m=11
+DD0 VSS VSS DN area=4.66088e-11 m=11
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    M_PVDD3VSS2AC_w_bond_and_schematic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT M_PVDD3VSS2AC_w_bond_and_schematic AVDD VSS
+*.PININFO AVDD:B VSS:B
+XI3 AVDD CLAMP_VDD VSS / PVDD3AC_w_bond_and_schematic_backside
+XI2 CLAMP_VDD VSS / PCLAMPAC_w_schematic
+XI5 AVDD VSS / M_PVSS2AC_w_bond_and_schematic
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    M_PDB3AC_w_bond_and_schematic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT M_PDB3AC_w_bond_and_schematic AIO TACVDD VSS
+*.PININFO AIO:B TACVDD:B VSS:B
+DD15 VSS VSS DN area=2e-11 m=2
+DD12 VSS VSS DN area=2e-11 m=2
+DD11 VSS AIO DN area=2e-11 m=1
+DD8 VSS AIO DN area=2e-11 m=1
+DD7 VSS AIO DN area=2e-11 m=1
+DD5 VSS AIO DN area=2e-11 m=1
+DD1 VSS AIO DN area=2e-11 m=1
+DD0 VSS AIO DN area=2e-11 m=1
+DD14 TACVDD TACVDD DP area=2e-11 m=1
+DD13 TACVDD TACVDD DP area=2e-11 m=1
+DD10 AIO TACVDD DP area=2e-11 m=1
+DD9 AIO TACVDD DP area=2e-11 m=1
+DD6 AIO TACVDD DP area=2e-11 m=1
+DD4 AIO TACVDD DP area=2e-11 m=1
+DD3 AIO TACVDD DP area=2e-11 m=1
+DD2 AIO TACVDD DP area=2e-11 m=1
+.ENDS
+
+************************************************************************
+* Library Name: UCLA_CEMiD_1x1_PadFrame_PCELL
+* Cell Name:    UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0 P<1> P<2> P<3> P<4> P<5> P<6> 
++ P<7> P<8> P<9> P<10> P<11> P<12> P<13> P<14> P<15> P<16> P<17> P<18> P<19> 
++ P<20> P<21> P<22> P<23> P<24> P<25> P<26> VDD VSS
+*.PININFO P<1>:B P<2>:B P<3>:B P<4>:B P<5>:B P<6>:B P<7>:B P<8>:B P<9>:B 
+*.PININFO P<10>:B P<11>:B P<12>:B P<13>:B P<14>:B P<15>:B P<16>:B P<17>:B 
+*.PININFO P<18>:B P<19>:B P<20>:B P<21>:B P<22>:B P<23>:B P<24>:B P<25>:B 
+*.PININFO P<26>:B VDD:B VSS:B
+XI2 VDD VSS / M_PVDD3AC_w_bond_and_schematic
+XI0 VDD VSS / M_PVDD3AC_w_bond_and_schematic
+XI3 VDD VSS / M_PVDD3VSS2AC_w_bond_and_schematic
+XI1 VDD VSS / M_PVDD3VSS2AC_w_bond_and_schematic
+XI29 P<26> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI28 P<25> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI27 P<24> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI26 P<23> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI25 P<22> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI24 P<21> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI23 P<20> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI22 P<19> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI21 P<18> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI20 P<17> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI19 P<16> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI18 P<15> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI17 P<14> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI16 P<13> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI15 P<12> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI14 P<11> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI13 P<10> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI12 P<9> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI11 P<8> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI10 P<7> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI9 P<6> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI8 P<5> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI7 P<4> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI6 P<3> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI5 P<2> VDD VSS / M_PDB3AC_w_bond_and_schematic
+XI4 P<1> VDD VSS / M_PDB3AC_w_bond_and_schematic
+.ENDS
+
+************************************************************************
+* Library Name: 209Tapeout
+* Cell Name:    prbs_ber_pad_FINAL_top
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT prbs_ber_pad_FINAL_top
+*.PININFO
+XI0 VDD VSS net12 net14 net4 net2 net3 net18 net5 net15 net16 net20 net8 net17 
++ net9 net6 net22 net21 net19 net1 net13 net7 / prbs_ber_pad_top
+XI1 net23 net5 net4 net3 net2 net15 net18 net30 net1 net13 net16 net20 net12 
++ net36 net37 net38 net22 net21 net19 net42 net9 net17 net14 net6 net7 net8 
++ VDD VSS / UCLA_CEMiD_pad_frame_1x1_pcell_pcell_0
+.ENDS
+

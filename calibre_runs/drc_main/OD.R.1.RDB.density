@@ -1,0 +1,22 @@
+prbs_ber_pad_FINAL_top 1000
+OD.R.1::X
+1 1 7 May  4 14:54:41 2026                      
+OD.R.1::X = DENSITY OD.R.1::A ODx CHIP OD.R.1::N OD.R.1::D < 0.2 INSIDE OF LAYER CHIPx WINDOW 500 STEP 250 BACKUP [~(AREA(OD.R.1::A)-62500)*!!(AREA(OD.R.1::A)-62500)+AREA(OD.R.1::N)/AREA(OD.R.1::D)+!~(AREA(ODx)/AREA(CHIP)-0.2)+!(AREA(ODx)/AREA(CHIP)-0.2)]
+{OD or DOD} local density (minimum) over window 500 um x 500 um stepping OD_R_Sum >= 0.2
+For OD.R.1, the following regions can be excluded:
+a.(CB sizing 2) for high speed/RF products
+b.ODBLK /RWDMY/FW/LMARK/LOGO/INDDMY as default
+c.Chip corner stress relief area if seal-ring & stress relief pattern added by TSMC
+This rule is applied while the area (checking window - the above excluded region) >= 1/4 checking window area
+p 1 4
+DV 0.14294598
+DA 250000
+DA A 250000
+DA ODx 35736.5
+DA CHIP 250000
+DA N 35736.5
+DA D 250000
+267560 267560
+767560 267560
+767560 767560
+267560 767560

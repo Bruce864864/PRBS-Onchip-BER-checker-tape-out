@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Mon May 4 17:37:49 2026
+//  by Calibre Interactive v2024.3_16.10    Tue Jul 9 11:27:29 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "prbs_ber_pad_FINAL_top.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "prbs_ber_pad_FINAL_top"
+
+SOURCE PATH "/w/home.09/home/liyuyao864/ee209/prbs_project/calibre_runs/lvs/prbs_ber_pad_FINAL_top.with_core_noglobal2.spi"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "prbs_ber_pad_FINAL_top"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "prbs_ber_pad_FINAL_top.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "prbs_ber_pad_FINAL_top.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/Calibre/lvs/calibre.lvs"

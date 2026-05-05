@@ -133,24 +133,33 @@ ln -sfn pre_place_pins latest
 puts "set_db assign_pins_edit_in_batch true"
 set_db assign_pins_edit_in_batch true
 
-puts "manual left-side input pins"
-edit_pin -fixed_pin -pin clk           -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 130}
-edit_pin -fixed_pin -pin rst_n         -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 240}
-edit_pin -fixed_pin -pin ext_serial_in -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 350}
+puts "manual left-side system/status pins"
+edit_pin -fixed_pin -pin clk           -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 80}
+edit_pin -fixed_pin -pin rst_n         -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 150}
+edit_pin -fixed_pin -pin ext_serial_in -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 220}
+edit_pin -fixed_pin -pin busy          -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 290}
+edit_pin -fixed_pin -pin core_en       -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 360}
+edit_pin -fixed_pin -pin done          -hinst prbs_ber_pad_top -layer METAL4 -side left  -assign {0 430}
 
 puts "manual bottom-side cfg pins"
-edit_pin -fixed_pin -pin cfg_sclk      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {110 0}
-edit_pin -fixed_pin -pin cfg_cs_n      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {190 0}
-edit_pin -fixed_pin -pin cfg_mosi      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {270 0}
-edit_pin -fixed_pin -pin cfg_miso      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {350 0}
+edit_pin -fixed_pin -pin cfg_sclk      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {70 0}
+edit_pin -fixed_pin -pin cfg_cs_n      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {140 0}
+edit_pin -fixed_pin -pin cfg_mosi      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {210 0}
+edit_pin -fixed_pin -pin cfg_miso      -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {280 0}
+edit_pin -fixed_pin -pin cfg_we_dbg    -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {350 0}
+edit_pin -fixed_pin -pin cfg_re_dbg    -hinst prbs_ber_pad_top -layer METAL2 -side bottom -assign {420 0}
 
-puts "manual right-side status pins"
-edit_pin -fixed_pin -pin busy          -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 160}
-edit_pin -fixed_pin -pin done          -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 280}
-edit_pin -fixed_pin -pin bit_error     -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 400}
+puts "manual right-side PRBS/BER pins"
+edit_pin -fixed_pin -pin prbs_out         -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 90}
+edit_pin -fixed_pin -pin ref_bit          -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 170}
+edit_pin -fixed_pin -pin checker_in       -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 250}
+edit_pin -fixed_pin -pin checker_in_final -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 330}
+edit_pin -fixed_pin -pin bit_error        -hinst prbs_ber_pad_top -layer METAL4 -side right -assign {500 410}
 
-puts "manual top-side output pin"
-edit_pin -fixed_pin -pin prbs_out      -hinst prbs_ber_pad_top -layer METAL2 -side top   -assign {250 500}
+puts "manual top-side mode debug pins"
+edit_pin -fixed_pin -pin mode_select_dbg         -hinst prbs_ber_pad_top -layer METAL2 -side top -assign {150 500}
+edit_pin -fixed_pin -pin input_select_dbg        -hinst prbs_ber_pad_top -layer METAL2 -side top -assign {250 500}
+edit_pin -fixed_pin -pin inject_error_enable_dbg -hinst prbs_ber_pad_top -layer METAL2 -side top -assign {350 500}
 
 
 puts "set_db assign_pins_edit_in_batch false"
